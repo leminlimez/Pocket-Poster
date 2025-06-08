@@ -149,6 +149,9 @@ struct ContentView: View {
                                             PosterBoardManager.shared.selectedTendies.removeAll()
                                             SymHandler.cleanup() // just to be extra sure
                                             try? FileManager.default.removeItem(at: PosterBoardManager.shared.getTendiesStoreURL())
+                                            if let videoURL = videoURL {
+                                                try? FileManager.default.removeItem(at: videoURL)
+                                            }
                                             Haptic.shared.notify(.success)
                                             UIApplication.shared.dismissAlert(animated: false)
                                             UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
