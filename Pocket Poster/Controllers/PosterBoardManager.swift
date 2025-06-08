@@ -161,9 +161,18 @@ class PosterBoardManager: ObservableObject {
         }
     }
     
-    func applyTendies(appHash: String) throws {
+    func applyTendies(appHash: String, videoURL: URL?) throws {
         // organize the descriptors into their respective extensions
         var extList: [String: [URL]] = [:]
+        // create the video first
+        if let videoURL = videoURL {
+            do {
+                let newVideo = try VideoHandler.createCaml(from: videoURL, autoReverses: false)
+                extList["com.apple.WallpaperKit.CollectionsPoster"] = [newVideo]
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
         for url in selectedTendies {
             let unzippedDir = try unzipFile(at: url)
             guard let descriptors = try getDescriptorsFromTendie(unzippedDir) else { continue } // TODO: Add error handling
