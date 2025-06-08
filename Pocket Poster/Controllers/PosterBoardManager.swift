@@ -9,13 +9,17 @@ import Foundation
 import ZIPFoundation
 import UIKit
 
-class PosterBoardManager {
+class PosterBoardManager: ObservableObject {
     static let ShortcutURL = "https://www.icloud.com/shortcuts/a28d2c02ca11453cb5b8f91c12cfa692"
     static let WallpapersURL = "https://cowabun.ga/wallpapers"
     
     static let MaxTendies = 10
     
-    static func getTendiesStoreURL() -> URL {
+    static let shared = PosterBoardManager()
+    
+    @Published var selectedTendies: [URL] = []
+    
+    func getTendiesStoreURL() -> URL {
         let tendiesStoreURL = SymHandler.getDocumentsDirectory().appendingPathComponent("KFC Bucket", conformingTo: .directory)
         // create it if it doesn't exist
         if !FileManager.default.fileExists(atPath: tendiesStoreURL.path()) {
@@ -24,7 +28,7 @@ class PosterBoardManager {
         return tendiesStoreURL
     }
     
-    static func openPosterBoard() -> Bool {
+    func openPosterBoard() -> Bool {
         guard let obj = objc_getClass("LSApplicationWorkspace") as? NSObject else { return false }
         let workspace = obj.perform(Selector(("defaultWorkspace")))?.takeUnretainedValue() as? NSObject
         
@@ -35,7 +39,7 @@ class PosterBoardManager {
         return false
     }
     
-    private static func unzipFile(at url: URL) throws -> URL {
+    private func unzipFile(at url: URL) throws -> URL {
         let fileName = url.deletingPathExtension().lastPathComponent
         let fileData = try Data(contentsOf: url)
         let fileManager = FileManager()
@@ -68,13 +72,13 @@ class PosterBoardManager {
         return destinationURL
     }
     
-    static func runShortcut(named name: String) {
+    func runShortcut(named name: String) {
         guard let urlEncodedName = name.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
               let url = URL(string: "shortcuts://run-shortcut?name=\(name)") else { return }
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     
-    static func getDescriptorsFromTendie(_ url: URL) throws -> [String: [URL]]? {
+    func getDescriptorsFromTendie(_ url: URL) throws -> [String: [URL]]? {
         for dir in try FileManager.default.contentsOfDirectory(at: url, includingPropertiesForKeys: nil, options: .skipsHiddenFiles) {
             let fileName = dir.lastPathComponent
             if fileName.lowercased() == "container" {
@@ -99,7 +103,7 @@ class PosterBoardManager {
         return nil
     }
     
-    static func randomizeWallpaperId(url: URL) throws {
+    func randomizeWallpaperId(url: URL) throws {
         let randomizedID = Int.random(in: 9999...99999)
         var files = [URL]()
         if let enumerator = FileManager.default.enumerator(at: url, includingPropertiesForKeys: [.isRegularFileKey], options: [.skipsHiddenFiles, .skipsPackageDescendants]) {
@@ -157,10 +161,10 @@ class PosterBoardManager {
         }
     }
     
-    static func applyTendies(_ urls: [URL], appHash: String) throws {
+    func applyTendies(appHash: String) throws {
         // organize the descriptors into their respective extensions
         var extList: [String: [URL]] = [:]
-        for url in urls {
+        for url in selectedTendies {
             let unzippedDir = try unzipFile(at: url)
             guard let descriptors = try getDescriptorsFromTendie(unzippedDir) else { continue } // TODO: Add error handling
             extList.merge(descriptors) { (first, second) in first + second }
@@ -188,7 +192,7 @@ class PosterBoardManager {
         }
         
         // clean up all possible files
-        for url in urls {
+        for url in selectedTendies {
             try? FileManager.default.removeItem(at: SymHandler.getDocumentsDirectory().appendingPathComponent("UnzipItems", conformingTo: .directory))
             try? FileManager.default.removeItem(at: SymHandler.getDocumentsDirectory().appendingPathComponent(url.lastPathComponent))
             try? FileManager.default.removeItem(at: SymHandler.getDocumentsDirectory().appendingPathComponent(url.deletingPathExtension().lastPathComponent))

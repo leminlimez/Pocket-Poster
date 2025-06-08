@@ -21,7 +21,6 @@ struct ContentView: View {
     private let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
     
     @State var showTendiesImporter: Bool = false
-    var selectedTendies: Binding<[URL]>
     
     @State var showErrorAlert = false
     @State var lastError: String?
@@ -47,9 +46,9 @@ struct ContentView: View {
                 .listRowInsets(EdgeInsets())
                 .padding(7)
                 
-                if !selectedTendies.wrappedValue.isEmpty {
+                if !PosterBoardManager.shared.selectedTendies.isEmpty {
                     Section {
-                        ForEach(selectedTendies.wrappedValue, id: \.self) { tendie in
+                        ForEach(PosterBoardManager.shared.selectedTendies, id: \.self) { tendie in
                             Text(tendie.deletingPathExtension().lastPathComponent)
                         }
                         .onDelete(perform: delete)
@@ -63,23 +62,23 @@ struct ContentView: View {
                         Text("Enter your PosterBoard app hash in Settings.")
                     } else {
                         VStack {
-                            if !selectedTendies.wrappedValue.isEmpty {
+                            if !PosterBoardManager.shared.selectedTendies.isEmpty {
                                 Button(action: {
                                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                                     UIApplication.shared.alert(title: NSLocalizedString("Applying Tendies...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
 
                                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                                         do {
-                                            try PosterBoardManager.applyTendies(selectedTendies.wrappedValue, appHash: pbHash)
-                                            selectedTendies.wrappedValue.removeAll()
+                                            try PosterBoardManager.shared.applyTendies(appHash: pbHash)
+                                            PosterBoardManager.shared.selectedTendies.removeAll()
                                             SymHandler.cleanup() // just to be extra sure
-                                            try? FileManager.default.removeItem(at: PosterBoardManager.getTendiesStoreURL())
+                                            try? FileManager.default.removeItem(at: PosterBoardManager.shared.getTendiesStoreURL())
                                             Haptic.shared.notify(.success)
                                             UIApplication.shared.dismissAlert(animated: false)
                                             UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
-                                                if !PosterBoardManager.openPosterBoard() {
+                                                if !PosterBoardManager.shared.openPosterBoard() {
                                                     UIApplication.shared.confirmAlert(title: "Falling Back to Shortcut", body: "PosterBoard failed to open directly. The fallback shortcut will now be opened.", onOK: {
-                                                        PosterBoardManager.runShortcut(named: "PosterBoard")
+                                                        PosterBoardManager.shared.runShortcut(named: "PosterBoard")
                                                     }, noCancel: true)
                                                 }
                                             }, noCancel: true)
@@ -130,10 +129,10 @@ struct ContentView: View {
         .fileImporter(isPresented: $showTendiesImporter, allowedContentTypes: [UTType(filenameExtension: "tendies", conformingTo: .data)!], allowsMultipleSelection: true, onCompletion: { result in
             switch result {
             case .success(let url):
-                if selectedTendies.wrappedValue.count + url.count > PosterBoardManager.MaxTendies {
+                if PosterBoardManager.shared.selectedTendies.count + url.count > PosterBoardManager.MaxTendies {
                     UIApplication.shared.alert(title: "Max Tendies Reached", body: "You can only apply \(PosterBoardManager.MaxTendies) descriptors.")
                 } else {
-                    selectedTendies.wrappedValue.append(contentsOf: url)
+                    PosterBoardManager.shared.selectedTendies.append(contentsOf: url)
                 }
             case .failure(let error):
                 lastError = error.localizedDescription
@@ -154,11 +153,10 @@ struct ContentView: View {
     }
     
     func delete(at offsets: IndexSet) {
-        selectedTendies.wrappedValue.remove(atOffsets: offsets)
+        PosterBoardManager.shared.selectedTendies.remove(atOffsets: offsets)
     }
     
-    init(selectedTendies: Binding<[URL]>) {
-        self.selectedTendies = selectedTendies
+    init() {
         // Fix file picker
         let fixMethod = class_getInstanceMethod(UIDocumentPickerViewController.self, #selector(UIDocumentPickerViewController.fix_init(forOpeningContentTypes:asCopy:)))!
         let origMethod = class_getInstanceMethod(UIDocumentPickerViewController.self, #selector(UIDocumentPickerViewController.init(forOpeningContentTypes:asCopy:)))!
