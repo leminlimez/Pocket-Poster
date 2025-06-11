@@ -190,6 +190,7 @@ class PosterBoardManager: ObservableObject {
                 print(error.localizedDescription)
             }
         }
+        UIApplication.shared.change(title: "Applying Wallpapers...", body: "Extracting tendies...")
         for url in selectedTendies {
             let unzippedDir = try unzipFile(at: url)
             guard let descriptors = try getDescriptorsFromTendie(unzippedDir) else { continue } // TODO: Add error handling

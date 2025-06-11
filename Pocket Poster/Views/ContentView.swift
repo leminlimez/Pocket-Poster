@@ -136,9 +136,9 @@ struct ContentView: View {
                             if !pbManager.selectedTendies.isEmpty || selectedVideo != nil {
                                 Button(action: {
                                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
-                                    UIApplication.shared.alert(title: NSLocalizedString("Applying Tendies...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
+                                    UIApplication.shared.alert(title: NSLocalizedString("Applying Wallpapers...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
 
-                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                                    DispatchQueue.global(qos: .userInitiated).async {
                                         do {
                                             var videoURL: URL? = nil
                                             switch loadState {
@@ -148,26 +148,30 @@ struct ContentView: View {
                                                 videoURL = nil
                                             }
                                             try pbManager.applyTendies(appHash: pbHash, videoURL: videoURL)
-                                            pbManager.selectedTendies.removeAll()
                                             SymHandler.cleanup() // just to be extra sure
                                             try? FileManager.default.removeItem(at: pbManager.getTendiesStoreURL())
                                             if let videoURL = videoURL {
                                                 try? FileManager.default.removeItem(at: videoURL)
                                             }
                                             Haptic.shared.notify(.success)
-                                            UIApplication.shared.dismissAlert(animated: true)
-                                            UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
-                                                if !pbManager.openPosterBoard() {
-                                                    UIApplication.shared.confirmAlert(title: "Falling Back to Shortcut", body: "PosterBoard failed to open directly. The fallback shortcut will now be opened.", onOK: {
-                                                        pbManager.runShortcut(named: "PosterBoard")
-                                                    }, noCancel: true)
-                                                }
-                                            }, noCancel: true)
+                                            UIApplication.shared.dismissAlert(animated: false)
+                                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
+                                                pbManager.selectedTendies.removeAll()
+                                                UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
+                                                    if !pbManager.openPosterBoard() {
+                                                        UIApplication.shared.confirmAlert(title: "Falling Back to Shortcut", body: "PosterBoard failed to open directly. The fallback shortcut will now be opened.", onOK: {
+                                                            pbManager.runShortcut(named: "PosterBoard")
+                                                        }, noCancel: true)
+                                                    }
+                                                }, noCancel: true)
+                                            })
                                         } catch {
                                             Haptic.shared.notify(.error)
                                             SymHandler.cleanup()
-                                            UIApplication.shared.dismissAlert(animated: true)
-                                            UIApplication.shared.alert(body: error.localizedDescription)
+                                            UIApplication.shared.dismissAlert(animated: false)
+                                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
+                                                UIApplication.shared.alert(body: error.localizedDescription)
+                                            })
                                         }
                                     }
                                 }) {

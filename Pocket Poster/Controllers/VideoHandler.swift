@@ -91,11 +91,12 @@ class VideoHandler {
 
             while let sampleBuffer = readerOutput.copyNextSampleBuffer(),
                   let imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) {
+                let name = "\(frameCount).jpg"
+                UIApplication.shared.change(title: "Generating Video...", body: "Creating assets/\(name)...")
 
                 let ciImage = CIImage(cvPixelBuffer: imageBuffer)
                 let context = CIContext()
                 if let cgImage = context.createCGImage(ciImage, from: ciImage.extent) {
-                    let name = "\(frameCount).jpg"
                     if let img = cgImage.jpg {
                         try img.write(to: assetsFolder.appendingPathComponent(name))
                         camlData += "\t\t\t<CGImage src=\"assets/\(name)\"/>\n"
@@ -107,6 +108,7 @@ class VideoHandler {
         } catch {
             print("Error reading asset: \(error)")
         }
+        UIApplication.shared.change(title: "Generating Video...", body: "Creating CAML data...")
         
         camlData += """
         </values>
