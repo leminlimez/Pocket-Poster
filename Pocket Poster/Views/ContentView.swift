@@ -174,7 +174,17 @@ struct ContentView: View {
                                 .buttonStyle(TintedButton(color: .blue, fullwidth: true))
                             }
                             Button(action: {
-                                hideResetHelp = false
+                                guard let lang = UserDefaults.standard.stringArray(forKey: "AppleLanguages")?.first else {
+                                    hideResetHelp = false // fallback to tutorial
+                                    return
+                                }
+                                UIApplication.shared.confirmAlert(title: "Reset Collections", body: "Do you want to reset collections?", onOK: {
+                                    if PosterBoardManager.shared.setSystemLanguage(to: lang) {
+                                        UIApplication.shared.alert(title: "Collections Successfully Reset!", body: "Your PosterBoard will refresh automatically.")
+                                    } else {
+                                        UIApplication.shared.alert(body: "The API failed to call correctly.\nSystem Locale Code: \(lang)")
+                                    }
+                                }, noCancel: false)
                             }) {
                                 Text("Reset Collections")
                             }

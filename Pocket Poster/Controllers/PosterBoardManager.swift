@@ -28,6 +28,23 @@ class PosterBoardManager: ObservableObject {
         return tendiesStoreURL
     }
     
+    func setSystemLanguage(to new_lang: String) -> Bool {
+        var langManager: NSObject = NSObject()
+        if #available(iOS 18.0, *) {
+            guard let obj = objc_getClass("IPSettingsUtilities") as? NSObject else { return false }
+            langManager = obj
+        } else {
+            guard let obj = objc_getClass("PSLanguageSelector") as? NSObject else { return false }
+            langManager = obj
+        }
+        
+        if let success = langManager.perform(Selector(("setLanguage:")), with: new_lang) {
+            return success != nil
+        }
+        
+        return false
+    }
+    
     func openPosterBoard() -> Bool {
         guard let obj = objc_getClass("LSApplicationWorkspace") as? NSObject else { return false }
         let workspace = obj.perform(Selector(("defaultWorkspace")))?.takeUnretainedValue() as? NSObject
