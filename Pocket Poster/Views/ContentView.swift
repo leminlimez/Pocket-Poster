@@ -38,6 +38,8 @@ struct ContentView: View {
     // Prefs
     @AppStorage("pbHash") var pbHash: String = ""
     
+    @ObservedObject var pbManager = PosterBoardManager.shared
+    
     private let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
     
     @State var showTendiesImporter: Bool = false
@@ -115,9 +117,9 @@ struct ContentView: View {
                 .listRowInsets(EdgeInsets())
                 .padding(7)
                 
-                if !PosterBoardManager.shared.selectedTendies.isEmpty {
+                if !pbManager.selectedTendies.isEmpty {
                     Section {
-                        ForEach(PosterBoardManager.shared.selectedTendies, id: \.self) { tendie in
+                        ForEach(pbManager.selectedTendies, id: \.self) { tendie in
                             Text(tendie.deletingPathExtension().lastPathComponent)
                         }
                         .onDelete(perform: delete)
@@ -131,7 +133,7 @@ struct ContentView: View {
                         Text("Enter your PosterBoard app hash in Settings.")
                     } else {
                         VStack {
-                            if !PosterBoardManager.shared.selectedTendies.isEmpty || selectedVideo != nil {
+                            if !pbManager.selectedTendies.isEmpty || selectedVideo != nil {
                                 Button(action: {
                                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                                     UIApplication.shared.alert(title: NSLocalizedString("Applying Tendies...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
@@ -145,26 +147,24 @@ struct ContentView: View {
                                             default:
                                                 videoURL = nil
                                             }
-                                            try PosterBoardManager.shared.applyTendies(appHash: pbHash, videoURL: videoURL)
-                                            PosterBoardManager.shared.selectedTendies.removeAll()
+                                            try pbManager.applyTendies(appHash: pbHash, videoURL: videoURL)
+                                            pbManager.selectedTendies.removeAll()
                                             SymHandler.cleanup() // just to be extra sure
-                                            try? FileManager.default.removeItem(at: PosterBoardManager.shared.getTendiesStoreURL())
+                                            try? FileManager.default.removeItem(at: pbManager.getTendiesStoreURL())
                                             if let videoURL = videoURL {
                                                 try? FileManager.default.removeItem(at: videoURL)
                                             }
                                             Haptic.shared.notify(.success)
-                                            UIApplication.shared.dismissAlert(animated: false)
                                             UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
-                                                if !PosterBoardManager.shared.openPosterBoard() {
+                                                if !pbManager.openPosterBoard() {
                                                     UIApplication.shared.confirmAlert(title: "Falling Back to Shortcut", body: "PosterBoard failed to open directly. The fallback shortcut will now be opened.", onOK: {
-                                                        PosterBoardManager.shared.runShortcut(named: "PosterBoard")
+                                                        pbManager.runShortcut(named: "PosterBoard")
                                                     }, noCancel: true)
                                                 }
                                             }, noCancel: true)
                                         } catch {
                                             Haptic.shared.notify(.error)
                                             SymHandler.cleanup()
-                                            UIApplication.shared.dismissAlert(animated: false)
                                             UIApplication.shared.alert(body: error.localizedDescription)
                                         }
                                     }
@@ -179,7 +179,7 @@ struct ContentView: View {
                                     return
                                 }
                                 UIApplication.shared.confirmAlert(title: "Reset Collections", body: "Do you want to reset collections?", onOK: {
-                                    if PosterBoardManager.shared.setSystemLanguage(to: lang) {
+                                    if pbManager.setSystemLanguage(to: lang) {
                                         UIApplication.shared.alert(title: "Collections Successfully Reset!", body: "Your PosterBoard will refresh automatically.")
                                     } else {
                                         UIApplication.shared.alert(body: "The API failed to call correctly.\nSystem Locale Code: \(lang)")
@@ -218,10 +218,10 @@ struct ContentView: View {
         .fileImporter(isPresented: $showTendiesImporter, allowedContentTypes: [UTType(filenameExtension: "tendies", conformingTo: .data)!], allowsMultipleSelection: true, onCompletion: { result in
             switch result {
             case .success(let url):
-                if PosterBoardManager.shared.selectedTendies.count + url.count > PosterBoardManager.MaxTendies {
+                if pbManager.selectedTendies.count + url.count > PosterBoardManager.MaxTendies {
                     UIApplication.shared.alert(title: "Max Tendies Reached", body: "You can only apply \(PosterBoardManager.MaxTendies) descriptors.")
                 } else {
-                    PosterBoardManager.shared.selectedTendies.append(contentsOf: url)
+                    pbManager.selectedTendies.append(contentsOf: url)
                 }
             case .failure(let error):
                 lastError = error.localizedDescription
@@ -242,7 +242,7 @@ struct ContentView: View {
     }
     
     func delete(at offsets: IndexSet) {
-        PosterBoardManager.shared.selectedTendies.remove(atOffsets: offsets)
+        pbManager.selectedTendies.remove(atOffsets: offsets)
     }
     
     init() {
