@@ -155,6 +155,7 @@ struct ContentView: View {
                                                 try? FileManager.default.removeItem(at: videoURL)
                                             }
                                             Haptic.shared.notify(.success)
+                                            UIApplication.shared.dismissAlert(animated: true)
                                             UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
                                                 if !pbManager.openPosterBoard() {
                                                     UIApplication.shared.confirmAlert(title: "Falling Back to Shortcut", body: "PosterBoard failed to open directly. The fallback shortcut will now be opened.", onOK: {
@@ -165,6 +166,7 @@ struct ContentView: View {
                                         } catch {
                                             Haptic.shared.notify(.error)
                                             SymHandler.cleanup()
+                                            UIApplication.shared.dismissAlert(animated: true)
                                             UIApplication.shared.alert(body: error.localizedDescription)
                                         }
                                     }
