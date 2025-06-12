@@ -51,7 +51,7 @@ struct VideoView: View {
                     .onDelete(perform: removeVideo)
                     
                     // MARK: Select Photo Option
-                    if selectedVideo == nil {
+                    if selectedVideo == nil && pbManager.videos.count < 5 {
                         ZStack {
                             PhotosPicker(selection: $selectedVideo, matching: .videos, label: {
                                 ZStack {
