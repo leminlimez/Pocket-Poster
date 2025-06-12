@@ -43,6 +43,7 @@ struct LoadInfo: Identifiable, Equatable {
     }
     
     var id = UUID()
+    var autoReverses: Bool = false
     var loadState: LoadState
 }
 
@@ -226,7 +227,7 @@ class PosterBoardManager: ObservableObject {
                 switch video.loadState {
                 case .loaded(let movie):
                     do {
-                        let newVideo = try VideoHandler.createCaml(from: movie.url, autoReverses: false)
+                        let newVideo = try VideoHandler.createCaml(from: movie.url, autoReverses: video.autoReverses)
                         extList["com.apple.WallpaperKit.CollectionsPoster"]?.append(newVideo)
                     } catch {
                         print(error.localizedDescription)

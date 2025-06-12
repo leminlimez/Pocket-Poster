@@ -47,6 +47,23 @@ struct VideoView: View {
                             DeleteButton(video: vid, onDelete: removeVideo),
                             alignment: .topLeading
                         )
+                        .overlay(
+                            // Loops Button
+                            Button(action: {
+                                if let index = pbManager.videos.firstIndex(of: vid) {
+                                    pbManager.videos[index].autoReverses = !vid.autoReverses
+                                }
+                            }) {
+                                Image(systemName: "arrow.left.arrow.right.circle")
+                                    .font(.title)
+                                    .foregroundStyle(.black)
+                                    .background {
+                                        Circle()
+                                            .foregroundStyle(vid.autoReverses ? .blue : .white)
+                                    }
+                            }.offset(x: 8, y: -8),
+                            alignment: .topTrailing
+                        )
                     }
                     .onDelete(perform: removeVideo)
                     
