@@ -42,7 +42,13 @@ struct VideoView: View {
                             RoundedRectangle(cornerRadius: 24)
                                 .stroke(.gray, lineWidth: 4)
                         }
+                        .overlay(
+                            // Delete Button
+                            DeleteButton(video: vid, onDelete: removeVideo),
+                            alignment: .topLeading
+                        )
                     }
+                    .onDelete(perform: removeVideo)
                     
                     // MARK: Select Photo Option
                     if selectedVideo == nil {
@@ -97,6 +103,39 @@ struct VideoView: View {
                 }
                 .tabViewStyle(.page)
             }
+        }
+    }
+    
+    func removeVideo(at offsets: IndexSet) {
+        withAnimation {
+            pbManager.videos.remove(atOffsets: offsets)
+        }
+    }
+}
+
+struct DeleteButton: View {
+    @Environment(\.editMode) var editMode
+
+    let video: LoadInfo
+    @ObservedObject var pbManager = PosterBoardManager.shared
+    let onDelete: (IndexSet) -> ()
+
+    var body: some View {
+        VStack {
+            Button(action: {
+                if let index = pbManager.videos.firstIndex(of: video) {
+                    self.onDelete(IndexSet(integer: index))
+                }
+            }) {
+                Image(systemName: "minus.circle")
+                    .foregroundStyle(.black)
+                    .font(.title2)
+                    .background {
+                        Circle()
+                            .foregroundStyle(.white)
+                    }
+            }
+            .offset(x: -8, y: -8)
         }
     }
 }

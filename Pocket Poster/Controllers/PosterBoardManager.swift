@@ -37,7 +37,11 @@ enum LoadState {
     case unknown, loading, loaded(Movie), failed
 }
 
-struct LoadInfo: Identifiable {
+struct LoadInfo: Identifiable, Equatable {
+    static func == (lhs: LoadInfo, rhs: LoadInfo) -> Bool {
+        lhs.id == rhs.id
+    }
+    
     var id = UUID()
     var loadState: LoadState
 }
