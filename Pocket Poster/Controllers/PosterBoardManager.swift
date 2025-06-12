@@ -8,6 +8,39 @@
 import Foundation
 import ZIPFoundation
 import UIKit
+import CoreTransferable
+
+struct Movie: Transferable {
+    let url: URL
+
+    static var transferRepresentation: some TransferRepresentation {
+        FileRepresentation(contentType: .movie) { movie in
+            SentTransferredFile(movie.url)
+        } importing: { received in
+            let videoFolder = SymHandler.getDocumentsDirectory().appendingPathComponent("Videos", conformingTo: .directory)
+            if !FileManager.default.fileExists(atPath: videoFolder.path()) {
+                try? FileManager.default.createDirectory(at: videoFolder, withIntermediateDirectories: true)
+            }
+            let copy = videoFolder.appending(path: "\(UUID()).mp4")
+
+            if FileManager.default.fileExists(atPath: copy.path()) {
+                try FileManager.default.removeItem(at: copy)
+            }
+
+            try FileManager.default.copyItem(at: received.file, to: copy)
+            return Self.init(url: copy)
+        }
+    }
+}
+
+enum LoadState {
+    case unknown, loading, loaded(Movie), failed
+}
+
+struct LoadInfo: Identifiable {
+    var id = UUID()
+    var loadState: LoadState
+}
 
 class PosterBoardManager: ObservableObject {
     static let ShortcutURL = "https://www.icloud.com/shortcuts/a28d2c02ca11453cb5b8f91c12cfa692"
@@ -18,6 +51,7 @@ class PosterBoardManager: ObservableObject {
     static let shared = PosterBoardManager()
     
     @Published var selectedTendies: [URL] = []
+    @Published var videos: [LoadInfo] = []
     
     func getTendiesStoreURL() -> URL {
         let tendiesStoreURL = SymHandler.getDocumentsDirectory().appendingPathComponent("KFC Bucket", conformingTo: .directory)
@@ -178,16 +212,24 @@ class PosterBoardManager: ObservableObject {
         }
     }
     
-    func applyTendies(appHash: String, videoURL: URL?) throws {
+    func applyTendies(appHash: String) throws {
         // organize the descriptors into their respective extensions
         var extList: [String: [URL]] = [:]
         // create the video first
-        if let videoURL = videoURL {
-            do {
-                let newVideo = try VideoHandler.createCaml(from: videoURL, autoReverses: false)
-                extList["com.apple.WallpaperKit.CollectionsPoster"] = [newVideo]
-            } catch {
-                print(error.localizedDescription)
+        if videos.count > 0 {
+            extList["com.apple.WallpaperKit.CollectionsPoster"] = []
+            for video in videos {
+                switch video.loadState {
+                case .loaded(let movie):
+                    do {
+                        let newVideo = try VideoHandler.createCaml(from: movie.url, autoReverses: false)
+                        extList["com.apple.WallpaperKit.CollectionsPoster"]?.append(newVideo)
+                    } catch {
+                        print(error.localizedDescription)
+                    }
+                default:
+                    print("Video not loaded!")
+                }
             }
         }
         UIApplication.shared.change(title: "Applying Wallpapers...", body: "Extracting tendies...")

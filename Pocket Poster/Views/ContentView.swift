@@ -15,25 +15,6 @@ extension UIDocumentPickerViewController {
     }
 }
 
-struct Movie: Transferable {
-    let url: URL
-
-    static var transferRepresentation: some TransferRepresentation {
-        FileRepresentation(contentType: .movie) { movie in
-            SentTransferredFile(movie.url)
-        } importing: { received in
-            let copy = URL.documentsDirectory.appending(path: "movie.mp4")
-
-            if FileManager.default.fileExists(atPath: copy.path()) {
-                try FileManager.default.removeItem(at: copy)
-            }
-
-            try FileManager.default.copyItem(at: received.file, to: copy)
-            return Self.init(url: copy)
-        }
-    }
-}
-
 struct ContentView: View {
     // Prefs
     @AppStorage("pbHash") var pbHash: String = ""
@@ -43,12 +24,6 @@ struct ContentView: View {
     private let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
     
     @State var showTendiesImporter: Bool = false
-    
-    enum LoadState {
-        case unknown, loading, loaded(Movie), failed
-    }
-    @State var selectedVideo: PhotosPickerItem?
-    @State private var loadState = LoadState.unknown
     
     @State var showErrorAlert = false
     @State var lastError: String?
@@ -63,49 +38,6 @@ struct ContentView: View {
                 }
                 
                 Section {
-                    VStack {
-                        switch loadState {
-                        case .unknown:
-                            EmptyView()
-                        case .loading:
-                            ProgressView()
-                        case .loaded(let movie):
-                            Text("Video imported")
-                        case .failed:
-                            Text("Import failed")
-                        }
-                        
-                        switch loadState {
-                        case .loaded(let movie):
-                            Button(action: {
-                                selectedVideo = nil
-                                try? FileManager.default.removeItem(at: movie.url)
-                                loadState = .unknown
-                            }) {
-                                Text("Remove Selected Video")
-                            }
-                            .buttonStyle(TintedButton(color: .red, fullwidth: true))
-                        default:
-                            PhotosPicker("Select Video", selection: $selectedVideo, matching: .videos)
-                                .buttonStyle(TintedButton(color: .yellow, fullwidth: true))
-                                .onChange(of: selectedVideo) { _ in
-                                    Task {
-                                        do {
-                                            loadState = .loading
-                                            
-                                            if let movie = try await selectedVideo?.loadTransferable(type: Movie.self) {
-                                                loadState = .loaded(movie)
-                                            } else {
-                                                loadState = .failed
-                                            }
-                                        } catch {
-                                            loadState = .failed
-                                        }
-                                    }
-                                }
-                        }
-                    }
-                    
                     Button(action: {
                         UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                         showTendiesImporter.toggle()
@@ -133,26 +65,16 @@ struct ContentView: View {
                         Text("Enter your PosterBoard app hash in Settings.")
                     } else {
                         VStack {
-                            if !pbManager.selectedTendies.isEmpty || selectedVideo != nil {
+                            if !pbManager.selectedTendies.isEmpty || !pbManager.videos.isEmpty {
                                 Button(action: {
                                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                                     UIApplication.shared.alert(title: NSLocalizedString("Applying Wallpapers...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
 
                                     DispatchQueue.global(qos: .userInitiated).async {
                                         do {
-                                            var videoURL: URL? = nil
-                                            switch loadState {
-                                            case .loaded(let movie):
-                                                videoURL = movie.url
-                                            default:
-                                                videoURL = nil
-                                            }
-                                            try pbManager.applyTendies(appHash: pbHash, videoURL: videoURL)
+                                            try pbManager.applyTendies(appHash: pbHash)
                                             SymHandler.cleanup() // just to be extra sure
                                             try? FileManager.default.removeItem(at: pbManager.getTendiesStoreURL())
-                                            if let videoURL = videoURL {
-                                                try? FileManager.default.removeItem(at: videoURL)
-                                            }
                                             Haptic.shared.notify(.success)
                                             UIApplication.shared.dismissAlert(animated: false)
                                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {

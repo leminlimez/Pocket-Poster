@@ -1,0 +1,102 @@
+//
+//  VideoView.swift
+//  Pocket Poster
+//
+//  Created by lemin on 6/11/25.
+//
+
+import SwiftUI
+import PhotosUI
+import AVKit
+
+struct VideoView: View {
+    @ObservedObject var pbManager = PosterBoardManager.shared
+    
+    @State var selectedVideo: PhotosPickerItem?
+    
+    var body: some View {
+        VStack {
+            GeometryReader { geom in
+                TabView {
+                    ForEach(pbManager.videos) { vid in
+                        ZStack {
+                            switch vid.loadState {
+                            case .unknown:
+                                EmptyView()
+                            case .loading:
+                                ProgressView()
+                            case .loaded(let movie):
+                                PlayerView(videoURL: movie.url)
+                                    .scaledToFill()
+                                    .frame(width: geom.size.width * 0.7, height: geom.size.height * 0.8)
+                                    .clipped()
+                            case .failed:
+                                Text("Failed")
+                            }
+                        }
+                        .frame(width: geom.size.width * 0.7, height: geom.size.height * 0.8)
+                        .shadow(radius: 5)
+                        .background(Color.black.opacity(0.6))
+                        .cornerRadius(24)
+                        .overlay {
+                            RoundedRectangle(cornerRadius: 24)
+                                .stroke(.gray, lineWidth: 4)
+                        }
+                    }
+                    
+                    // MARK: Select Photo Option
+                    if selectedVideo == nil {
+                        ZStack {
+                            PhotosPicker(selection: $selectedVideo, matching: .videos, label: {
+                                ZStack {
+                                    RoundedRectangle(cornerRadius: 24)
+                                        .fill(.gray.opacity(0.4))
+                                    
+                                    Circle()
+                                        .frame(width: 40, height: 40)
+                                        .foregroundStyle(.blue)
+                                    
+                                    Image(systemName: "plus")
+                                        .font(.title)
+                                        .foregroundStyle(.white)
+                                }
+                            })
+                        }
+                        .frame(width: geom.size.width * 0.7, height: geom.size.height * 0.8)
+                        .shadow(radius: 5)
+                        .background(Color.black.opacity(0.6))
+                        .cornerRadius(24)
+                        .overlay {
+                            RoundedRectangle(cornerRadius: 24)
+                                .stroke(.gray, lineWidth: 4)
+                        }
+                    }
+                }
+                .onChange(of: selectedVideo) { _ in
+                    if selectedVideo == nil { return }
+                    let id = pbManager.videos.count
+                    pbManager.videos.append(.init(loadState: .loading))
+                    Task {
+                        do {
+                            if let movie = try await selectedVideo?.loadTransferable(type: Movie.self) {
+                                await MainActor.run {
+                                    pbManager.videos[id].loadState = .loaded(movie)
+                                }
+                            } else {
+                                await MainActor.run {
+                                    pbManager.videos[id].loadState = .failed
+                                }
+                            }
+                        } catch {
+                            await MainActor.run {
+                                pbManager.videos[id].loadState = .failed
+                            }
+                        }
+                        selectedVideo = nil
+                    }
+                }
+                .tabViewStyle(.page)
+            }
+        }
+    }
+}

@@ -20,7 +20,7 @@ struct Pocket_PosterApp: App {
         WindowGroup {
             Group {
                 if finishedTutorial {
-                    ContentView()
+                    RootView()
                 } else {
                     OnBoardingView(cards: onBoardingCards, isFinished: $finishedTutorial)
                 }
