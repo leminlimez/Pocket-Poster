@@ -54,8 +54,8 @@ class VideoHandler {
             throw AVError(.decodeFailed)
         }
         let size = track.naturalSize.applying(track.preferredTransform)
-        let width = Int(size.width)
-        let height = Int(size.height)
+        let width = Int(abs(size.width))
+        let height = Int(abs(size.height))
         let fps = track.nominalFrameRate
         let duration = CMTimeGetSeconds(asset.duration)
         let totalFrames = Int(fps * Float(duration))
