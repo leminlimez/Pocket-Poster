@@ -24,9 +24,6 @@ struct ContentView: View {
     private let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
     
     @State var showTendiesImporter: Bool = false
-    
-    @State var showErrorAlert = false
-    @State var lastError: String?
     @State var hideResetHelp: Bool = true
     
     var body: some View {
@@ -42,7 +39,7 @@ struct ContentView: View {
                         UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                         showTendiesImporter.toggle()
                     }) {
-                        Text("Select Tendies")
+                        Label("Select Tendies", systemImage: "document.circle")
                     }
                     .buttonStyle(TintedButton(color: .green, fullwidth: true))
                 }
@@ -92,11 +89,12 @@ struct ContentView: View {
                                         } catch CocoaError.fileWriteFileExists {
                                             presentError(ApplyError.collectionsNeedsReset)
                                         } catch {
+                                            print(error.localizedDescription)
                                             presentError(ApplyError.unexpected(info: error.localizedDescription))
                                         }
                                     }
                                 }) {
-                                    Text("Apply")
+                                    Label("Apply", systemImage: "checkmark.circle")
                                 }
                                 .buttonStyle(TintedButton(color: .blue, fullwidth: true))
                             }
@@ -113,7 +111,7 @@ struct ContentView: View {
                                     }
                                 }, noCancel: false)
                             }) {
-                                Text("Reset Collections")
+                                Label("Reset Collections", systemImage: "arrow.clockwise.circle")
                             }
                             .buttonStyle(TintedButton(color: .red, fullwidth: true))
                         }
@@ -151,15 +149,10 @@ struct ContentView: View {
                     pbManager.selectedTendies.append(contentsOf: url)
                 }
             case .failure(let error):
-                lastError = error.localizedDescription
-                showErrorAlert.toggle()
+                Haptic.shared.notify(.error)
+                UIApplication.shared.alert(body: error.localizedDescription)
             }
         })
-        .alert("Error", isPresented: $showErrorAlert) {
-            Button("OK") {}
-        } message: {
-            Text(lastError ?? "???")
-        }
         .overlay {
             OnBoardingView(cards: resetCollectionsInfo, isFinished: $hideResetHelp)
                 .opacity(hideResetHelp ? 0.0 : 1.0)
@@ -176,9 +169,8 @@ struct ContentView: View {
         SymHandler.cleanup()
         UIApplication.shared.dismissAlert(animated: false)
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
-            lastError = error.localizedDescription
             Haptic.shared.notify(.error)
-            showErrorAlert = true
+            UIApplication.shared.alert(body: error.localizedDescription)
         })
     }
     

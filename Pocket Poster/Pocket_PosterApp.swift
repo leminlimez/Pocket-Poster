@@ -14,7 +14,6 @@ struct Pocket_PosterApp: App {
     @AppStorage("pbHash") var pbHash: String = ""
     
     @State var downloadURL: String? = nil
-    @State var showDownloadAlert = false
     
     var body: some Scene {
         WindowGroup {
@@ -27,14 +26,6 @@ struct Pocket_PosterApp: App {
             }
             .transition(.opacity)
             .animation(.easeOut(duration: 0.5), value: finishedTutorial)
-            .alert("Download Tendies File", isPresented: $showDownloadAlert) {
-                Button("OK") {
-                    downloadWallpaper()
-                }
-                Button("Cancel", role: .cancel) {}
-            } message: {
-                Text("Would you like to download the file \(DownloadManager.getWallpaperNameFromURL(string: downloadURL ?? "/Unknown"))?")
-            }
             .onOpenURL(perform: { url in
                 // Download URL
                 if url.absoluteString.starts(with: "pocketposter://download") {
@@ -45,7 +36,9 @@ struct Pocket_PosterApp: App {
                         UIApplication.shared.alert(title: "Max Tendies Reached", body: "You can only apply \(PosterBoardManager.MaxTendies) descriptors.")
                     } else {
                         downloadURL = url.absoluteString.replacingOccurrences(of: "pocketposter://download?url=", with: "")
-                        showDownloadAlert = true
+                        UIApplication.shared.confirmAlert(title: "Download Tendies File", body: "Would you like to download the file \(DownloadManager.getWallpaperNameFromURL(string: downloadURL ?? "/Unknown"))?", onOK: {
+                            downloadWallpaper()
+                        }, noCancel: false)
                     }
                 }
                 // App Hash URL

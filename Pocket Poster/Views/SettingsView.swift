@@ -14,10 +14,6 @@ struct SettingsView: View {
     @State var checkingForHash: Bool = false
     @State var hashCheckTask: Task<Void, any Error>? = nil
     
-    @State var showErrorAlert = false
-    @State var errorAlertTitle: String?
-    @State var errorAlertDescr: String?
-    
     var body: some View {
         List {
             Section {
@@ -54,7 +50,7 @@ struct SettingsView: View {
                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                     UserDefaults.standard.set(false, forKey: "finishedTutorial")
                 }) {
-                    Text("Replay Tutorial")
+                    Label("Replay Tutorial", systemImage: "questionmark.circle")
                 }
                 
                 Button(action: {
@@ -62,17 +58,13 @@ struct SettingsView: View {
                     do {
                         try PosterBoardManager.clearCache()
                         Haptic.shared.notify(.success)
-                        errorAlertTitle = "App Cache Successfully Cleared!"
-                        errorAlertDescr = ""
-                        showErrorAlert = true
+                        UIApplication.shared.alert(title: "App Cache Successfully Cleared!", body: "")
                     } catch {
                         Haptic.shared.notify(.error)
-                        errorAlertTitle = "Error"
-                        errorAlertDescr = error.localizedDescription
-                        showErrorAlert = true
+                        UIApplication.shared.alert(body: error.localizedDescription)
                     }
                 }) {
-                    Text("Clear App Cache")
+                    Label("Clear App Cache", systemImage: "trash.circle")
                 }
                 .foregroundStyle(.red)
             } header: {
@@ -125,11 +117,6 @@ struct SettingsView: View {
             } header: {
                 Label("Credits", systemImage: "wrench.and.screwdriver")
             }
-        }
-        .alert(errorAlertTitle ?? "Error", isPresented: $showErrorAlert) {
-            Button("OK") {}
-        } message: {
-            Text(errorAlertDescr ?? "???")
         }
     }
     

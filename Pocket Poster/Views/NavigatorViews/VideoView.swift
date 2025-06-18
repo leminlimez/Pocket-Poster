@@ -145,8 +145,8 @@ struct DeleteButton: View {
                 }
             }) {
                 Image(systemName: "minus.circle")
-                    .foregroundStyle(.black)
-                    .font(.title2)
+                    .foregroundStyle(.red)
+                    .font(.title)
                     .background {
                         Circle()
                             .foregroundStyle(.white)
