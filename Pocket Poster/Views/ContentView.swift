@@ -75,8 +75,8 @@ struct ContentView: View {
                                             try pbManager.applyTendies(appHash: pbHash)
                                             SymHandler.cleanup() // just to be extra sure
                                             try? FileManager.default.removeItem(at: pbManager.getTendiesStoreURL())
-                                            Haptic.shared.notify(.success)
                                             UIApplication.shared.dismissAlert(animated: false)
+                                            Haptic.shared.notify(.success)
                                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
                                                 pbManager.selectedTendies.removeAll()
                                                 UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
@@ -87,13 +87,12 @@ struct ContentView: View {
                                                     }
                                                 }, noCancel: true)
                                             })
+                                        } catch CocoaError.fileWriteUnknown {
+                                            presentError(ApplyError.wrongAppHash)
+                                        } catch CocoaError.fileWriteFileExists {
+                                            presentError(ApplyError.collectionsNeedsReset)
                                         } catch {
-                                            Haptic.shared.notify(.error)
-                                            SymHandler.cleanup()
-                                            UIApplication.shared.dismissAlert(animated: false)
-                                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
-                                                UIApplication.shared.alert(body: error.localizedDescription)
-                                            })
+                                            presentError(ApplyError.unexpected(info: error.localizedDescription))
                                         }
                                     }
                                 }) {
@@ -171,6 +170,16 @@ struct ContentView: View {
     
     func delete(at offsets: IndexSet) {
         pbManager.selectedTendies.remove(atOffsets: offsets)
+    }
+    
+    func presentError(_ error: ApplyError) {
+        SymHandler.cleanup()
+        UIApplication.shared.dismissAlert(animated: false)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
+            lastError = error.localizedDescription
+            Haptic.shared.notify(.error)
+            showErrorAlert = true
+        })
     }
     
     init() {
