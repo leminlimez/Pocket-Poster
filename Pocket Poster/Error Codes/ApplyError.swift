@@ -20,9 +20,9 @@ enum ApplyError: LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .wrongAppHash:
-            return "Your app hash is incorrect. Please set it again."
+            return NSLocalizedString("Your app hash is incorrect. Please set it again.", comment: "")
         case .collectionsNeedsReset:
-            return "The folder is improperly set up. Please tap \"Reset Collections\" and try again."
+            return NSLocalizedString("The folder is improperly set up. Please tap \"Reset Collections\" and try again.", comment: "")
         case .unexpected(let info):
             return info
         }

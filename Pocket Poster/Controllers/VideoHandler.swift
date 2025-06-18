@@ -92,7 +92,8 @@ class VideoHandler {
             while let sampleBuffer = readerOutput.copyNextSampleBuffer(),
                   let imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) {
                 let name = "\(frameCount).jpg"
-                UIApplication.shared.change(title: "Generating Video...", body: "Creating assets/\(name)...")
+                let filePathName = "assets/\(name)"
+                UIApplication.shared.change(title: NSLocalizedString("Generating Video...", comment: ""), body: String(format: NSLocalizedString("Creating %@...", comment: "the message for the current image that is being generated"), filePathName))
 
                 let ciImage = CIImage(cvPixelBuffer: imageBuffer)
                 let context = CIContext()
@@ -108,7 +109,7 @@ class VideoHandler {
         } catch {
             print("Error reading asset: \(error)")
         }
-        UIApplication.shared.change(title: "Generating Video...", body: "Creating CAML data...")
+        UIApplication.shared.change(title: NSLocalizedString("Generating Video...", comment: ""), body: NSLocalizedString("Creating CAML data...", comment: "translate this however you see fits"))
         
         camlData += """
         </values>

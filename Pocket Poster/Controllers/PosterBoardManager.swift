@@ -237,7 +237,7 @@ class PosterBoardManager: ObservableObject {
                 }
             }
         }
-        UIApplication.shared.change(title: "Applying Wallpapers...", body: "Extracting tendies...")
+        UIApplication.shared.change(title: NSLocalizedString("Applying Wallpapers...", comment: ""), body: NSLocalizedString("Extracting tendies...", comment: "happens when unzipping the files"))
         for url in selectedTendies {
             let unzippedDir = try unzipFile(at: url)
             guard let descriptors = try getDescriptorsFromTendie(unzippedDir) else { continue } // TODO: Add error handling

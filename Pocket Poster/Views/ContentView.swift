@@ -76,9 +76,9 @@ struct ContentView: View {
                                             Haptic.shared.notify(.success)
                                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
                                                 pbManager.selectedTendies.removeAll()
-                                                UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
+                                                UIApplication.shared.confirmAlert(title: NSLocalizedString("Success!", comment: ""), body: NSLocalizedString("The PosterBoard app will now open. Please close it from the app switcher.", comment: ""), onOK: {
                                                     if !pbManager.openPosterBoard() {
-                                                        UIApplication.shared.confirmAlert(title: "Falling Back to Shortcut", body: "PosterBoard failed to open directly. The fallback shortcut will now be opened.", onOK: {
+                                                        UIApplication.shared.confirmAlert(title: NSLocalizedString("Falling Back to Shortcut", comment: ""), body: NSLocalizedString("PosterBoard failed to open directly. The fallback shortcut will now be opened.", comment: ""), onOK: {
                                                             pbManager.runShortcut(named: "PosterBoard")
                                                         }, noCancel: true)
                                                     }
@@ -103,11 +103,11 @@ struct ContentView: View {
                                     hideResetHelp = false // fallback to tutorial
                                     return
                                 }
-                                UIApplication.shared.confirmAlert(title: "Reset Collections", body: "Do you want to reset collections?", onOK: {
+                                UIApplication.shared.confirmAlert(title: NSLocalizedString("Reset Collections", comment: ""), body: NSLocalizedString("Do you want to reset collections?", comment: ""), onOK: {
                                     if pbManager.setSystemLanguage(to: lang) {
-                                        UIApplication.shared.alert(title: "Collections Successfully Reset!", body: "Your PosterBoard will refresh automatically.")
+                                        UIApplication.shared.alert(title: NSLocalizedString("Collections Successfully Reset!", comment: ""), body: NSLocalizedString("Your PosterBoard will refresh automatically.", comment: ""))
                                     } else {
-                                        UIApplication.shared.alert(body: "The API failed to call correctly.\nSystem Locale Code: \(lang)")
+                                        UIApplication.shared.alert(body: NSLocalizedString("The API failed to call correctly.\nSystem Locale Code: ", comment: "") + lang)
                                     }
                                 }, noCancel: false)
                             }) {
@@ -144,7 +144,7 @@ struct ContentView: View {
             switch result {
             case .success(let url):
                 if pbManager.selectedTendies.count + url.count > PosterBoardManager.MaxTendies {
-                    UIApplication.shared.alert(title: "Max Tendies Reached", body: "You can only apply \(PosterBoardManager.MaxTendies) descriptors.")
+                    UIApplication.shared.alert(title: NSLocalizedString("Max Tendies Reached", comment: ""), body: String(format: NSLocalizedString("You can only apply %@ descriptors.", comment: ""), "\(PosterBoardManager.MaxTendies)"))
                 } else {
                     pbManager.selectedTendies.append(contentsOf: url)
                 }

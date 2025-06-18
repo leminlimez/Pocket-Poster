@@ -32,7 +32,7 @@ extension UIApplication {
                 let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
                 let appBuild = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
                 let systemVersion = device.systemVersion
-                body += "\n\(device.systemName) \(systemVersion), version \(appVersion) build \(appBuild)"
+                body += "\n\(device.systemName) \(systemVersion), v\(appVersion) build \(appBuild)"
             }
             
             currentUIAlertController = UIAlertController(title: title, message: body, preferredStyle: .alert)

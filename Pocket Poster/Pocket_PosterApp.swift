@@ -31,12 +31,12 @@ struct Pocket_PosterApp: App {
                 if url.absoluteString.starts(with: "pocketposter://download") {
                     // prohibit to only tendies files
                     if !url.absoluteString.hasSuffix(".tendies") {
-                        UIApplication.shared.alert(body: "Only .tendies files can be downloaded!")
+                        UIApplication.shared.alert(body: NSLocalizedString("Only .tendies files can be downloaded!", comment: ""))
                     } else if PosterBoardManager.shared.selectedTendies.count >= PosterBoardManager.MaxTendies {
-                        UIApplication.shared.alert(title: "Max Tendies Reached", body: "You can only apply \(PosterBoardManager.MaxTendies) descriptors.")
+                        UIApplication.shared.alert(title: NSLocalizedString("Max Tendies Reached", comment: ""), body: String(format: NSLocalizedString("You can only apply %@ descriptors.", comment: ""), "\(PosterBoardManager.MaxTendies)"))
                     } else {
                         downloadURL = url.absoluteString.replacingOccurrences(of: "pocketposter://download?url=", with: "")
-                        UIApplication.shared.confirmAlert(title: "Download Tendies File", body: "Would you like to download the file \(DownloadManager.getWallpaperNameFromURL(string: downloadURL ?? "/Unknown"))?", onOK: {
+                        UIApplication.shared.confirmAlert(title: NSLocalizedString("Download Tendies File", comment: ""), body: String(format: NSLocalizedString("Would you like to download the file %@?", comment: ""), "\(DownloadManager.getWallpaperNameFromURL(string: downloadURL ?? "/Unknown"))"), onOK: {
                             downloadWallpaper()
                         }, noCancel: false)
                     }
@@ -47,17 +47,17 @@ struct Pocket_PosterApp: App {
                 }
                 else if url.pathExtension == "tendies" {
                     if PosterBoardManager.shared.selectedTendies.count >= PosterBoardManager.MaxTendies {
-                        UIApplication.shared.alert(title: "Max Tendies Reached", body: "You can only apply \(PosterBoardManager.MaxTendies) descriptors.")
+                        UIApplication.shared.alert(title: NSLocalizedString("Max Tendies Reached", comment: ""), body: String(format: NSLocalizedString("You can only apply %@ descriptors.", comment: ""), "\(PosterBoardManager.MaxTendies)"))
                     } else {
                         // copy it over to the KFC bucket
                         do {
                             let newURL = try DownloadManager.copyTendies(from: url)
                             PosterBoardManager.shared.selectedTendies.append(newURL)
                             Haptic.shared.notify(.success)
-                            UIApplication.shared.alert(title: "Successfully imported \(url.lastPathComponent)", body: "")
+                            UIApplication.shared.alert(title: String(format: NSLocalizedString("Successfully imported %@", comment: ""), "\(url.lastPathComponent)"), body: "")
                         } catch {
                             Haptic.shared.notify(.error)
-                            UIApplication.shared.alert(title: "Failed to import tendies", body: error.localizedDescription)
+                            UIApplication.shared.alert(title: NSLocalizedString("Failed to import tendies", comment: ""), body: error.localizedDescription)
                         }
                     }
                 }

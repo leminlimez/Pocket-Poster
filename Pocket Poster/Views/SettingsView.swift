@@ -58,7 +58,7 @@ struct SettingsView: View {
                     do {
                         try PosterBoardManager.clearCache()
                         Haptic.shared.notify(.success)
-                        UIApplication.shared.alert(title: "App Cache Successfully Cleared!", body: "")
+                        UIApplication.shared.alert(title: NSLocalizedString("App Cache Successfully Cleared!", comment: ""), body: "")
                     } catch {
                         Haptic.shared.notify(.error)
                         UIApplication.shared.alert(body: error.localizedDescription)
@@ -110,10 +110,10 @@ struct SettingsView: View {
             // MARK: Credits
             Section {
                 LinkCell(imageName: "leminlimez", url: "https://github.com/leminlimez", title: "LeminLimez", contribution: NSLocalizedString("Main Developer", comment: "leminlimez's contribution"), circle: true)
-                LinkCell(imageName: "serstars", url: "https://github.com/SerStars", title: "SerStars", contribution: "Website Designer", circle: true)
-                LinkCell(imageName: "Nathan", url: "https://github.com/verygenericname", title: "Nathan", contribution: "Exploit", circle: true)
-                LinkCell(imageName: "duy", url: "https://github.com/khanhduytran0", title: "DuyKhanhTran", contribution: "Exploit", circle: true)
-                LinkCell(imageName: "sky", url: "https://bsky.app/profile/did:plc:xykfeb7ieeo335g3aly6vev4", title: "dootskyre", contribution: "Fallback Shortcut Creator", circle: true)
+                LinkCell(imageName: "serstars", url: "https://github.com/SerStars", title: "SerStars", contribution: NSLocalizedString("Website Designer", comment: ""), circle: true)
+                LinkCell(imageName: "Nathan", url: "https://github.com/verygenericname", title: "Nathan", contribution: NSLocalizedString("Exploit", comment: ""), circle: true)
+                LinkCell(imageName: "duy", url: "https://github.com/khanhduytran0", title: "DuyKhanhTran", contribution: NSLocalizedString("Exploit", comment: ""), circle: true)
+                LinkCell(imageName: "sky", url: "https://bsky.app/profile/did:plc:xykfeb7ieeo335g3aly6vev4", title: "dootskyre", contribution: NSLocalizedString("Fallback Shortcut Creator", comment: ""), circle: true)
             } header: {
                 Label("Credits", systemImage: "wrench.and.screwdriver")
             }
