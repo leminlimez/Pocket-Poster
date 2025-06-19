@@ -24,6 +24,7 @@ struct CarPlayView: View {
     @State var showDark: Bool = false
     
     @AppStorage("cpHash") var cpHash: String = ""
+    @State var activeWallpapers: [String] = []
     @ObservedObject var pbManager = PosterBoardManager.shared
     
     var body: some View {
@@ -34,7 +35,18 @@ struct CarPlayView: View {
                 } else {
                     LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 250))]) {
                         ForEach($wallpapers) { wallpaper in
-                            WallpaperView(wallpaper: wallpaper, didChange: $didChange, showDark: $showDark)
+                            ZStack {
+                                WallpaperView(wallpaper: wallpaper, didChange: $didChange, showDark: $showDark)
+                                    .disabled(activeWallpapers.contains(wallpaper.name.wrappedValue))
+                                // The checkmark
+                                if activeWallpapers.contains(wallpaper.name.wrappedValue) {
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .foregroundStyle(.black.opacity(0.4))
+                                    Image(systemName: "checkmark.circle.fill")
+                                        .font(.title)
+                                        .foregroundStyle(.green)
+                                }
+                            }
                         }
                     }
                     .padding()
@@ -52,18 +64,11 @@ struct CarPlayView: View {
                             do {
                                 try pbManager.applyCarPlay(appHash: cpHash, wallpapers: wallpapers)
                                 SymHandler.cleanup() // just to be extra sure
-                                try? FileManager.default.removeItem(at: pbManager.getTendiesStoreURL())
                                 UIApplication.shared.dismissAlert(animated: false)
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
-                                    pbManager.selectedTendies.removeAll()
+                                    activeWallpapers = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
                                     Haptic.shared.notify(.success)
-                                    UIApplication.shared.confirmAlert(title: NSLocalizedString("Success!", comment: ""), body: NSLocalizedString("The PosterBoard app will now open. Please close it from the app switcher.", comment: ""), onOK: {
-                                        if !pbManager.openPosterBoard() {
-                                            UIApplication.shared.confirmAlert(title: NSLocalizedString("Falling Back to Shortcut", comment: ""), body: NSLocalizedString("PosterBoard failed to open directly. The fallback shortcut will now be opened.", comment: ""), onOK: {
-                                                pbManager.runShortcut(named: "PosterBoard")
-                                            }, noCancel: true)
-                                        }
-                                    }, noCancel: true)
+                                    UIApplication.shared.alert(title: NSLocalizedString("Success!", comment: ""), body: NSLocalizedString("You can now choose your wallpapers in the CarPlay settings in your car.", comment: ""))
                                 })
                             } catch CocoaError.fileWriteUnknown {
                                 presentError(ApplyError.wrongAppHash)
@@ -96,6 +101,8 @@ struct CarPlayView: View {
         }
         .onAppear {
             if wallpapers.isEmpty {
+                // load active wallpapers from user defaults
+                activeWallpapers = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
                 // load the wallpapers
                 let frameworkPath = "/System/Library/PrivateFrameworks/CarPlayUIServices.framework"
                 do {
@@ -183,7 +190,7 @@ struct WallpaperImageView: View {
     var body: some View {
         Image(uiImage: img)
             .resizable()
-            .aspectRatio(1.25, contentMode: .fill)
+            .aspectRatio(1.35, contentMode: .fill)
             .cornerRadius(8)
             .clipped()
     }

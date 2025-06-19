@@ -276,16 +276,23 @@ class PosterBoardManager: ObservableObject {
     func applyCarPlay(appHash: String, wallpapers: [CarPlayWallpaper]) throws {
         // write the image
         var toRemove: [URL] = []
+        var activeWP: [String] = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
         for wallpaper in wallpapers {
             if let data = wallpaper.selectedImageDataLight, let img = UIImage(data: data) {
                 let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Light-11.cpbitmap")
                 img.writeToCPBitmapFile(to: imgURL.path() as NSString)
                 toRemove.append(imgURL)
+                if !activeWP.contains(wallpaper.name) {
+                    activeWP.append(wallpaper.name)
+                }
             }
             if let data = wallpaper.selectedImageDataDark, let img = UIImage(data: data) {
                 let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Dark-11.cpbitmap")
                 img.writeToCPBitmapFile(to: imgURL.path() as NSString)
                 toRemove.append(imgURL)
+                if !activeWP.contains(wallpaper.name) {
+                    activeWP.append(wallpaper.name)
+                }
             }
         }
         
@@ -297,6 +304,7 @@ class PosterBoardManager: ObservableObject {
         for imgURL in toRemove {
             try FileManager.default.trashItem(at: imgURL, resultingItemURL: nil)
         }
+        UserDefaults.standard.set(activeWP, forKey: "ActiveCarPlayWallpapers")
     }
     
     static func clearCache() throws {

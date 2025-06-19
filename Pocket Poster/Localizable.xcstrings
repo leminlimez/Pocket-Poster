@@ -139,6 +139,9 @@
     "CarPlay" : {
 
     },
+    "CarPlay Applied Wallpapers Successfully Cleared!" : {
+
+    },
     "CarPlay Wallpapers" : {
 
     },
@@ -970,6 +973,9 @@
         }
       }
     },
+    "Reset CarPlay Applied Wallpapers" : {
+
+    },
     "Reset Collections" : {
       "localizations" : {
         "es" : {
@@ -1305,6 +1311,9 @@
           }
         }
       }
+    },
+    "You can now choose your wallpapers in the CarPlay settings in your car." : {
+
     },
     "You can only apply %@ descriptors." : {
       "localizations" : {

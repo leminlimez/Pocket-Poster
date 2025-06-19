@@ -71,6 +71,16 @@ struct SettingsView: View {
                     Label("Clear App Cache", systemImage: "trash.circle")
                 }
                 .foregroundStyle(.red)
+                
+                Button(action: {
+                    UIImpactFeedbackGenerator(style: .soft).impactOccurred()
+                    UserDefaults.standard.set(nil, forKey: "ActiveCarPlayWallpapers")
+                    Haptic.shared.notify(.success)
+                    UIApplication.shared.alert(title: NSLocalizedString("CarPlay Applied Wallpapers Successfully Cleared!", comment: ""), body: "")
+                }) {
+                    Label("Reset CarPlay Applied Wallpapers", systemImage: "trash.circle")
+                }
+                .foregroundStyle(.red)
             } header: {
                 Label("Actions", systemImage: "gear")
             }
