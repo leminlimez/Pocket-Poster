@@ -15,10 +15,16 @@
             "value" : "Actions"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดำเนินการ"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hành Động"
+            "value" : "Hành động"
           }
         }
       }
@@ -35,6 +41,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cache de l'application vidé avec succès!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล้างแคชแอปสำเร็จแล้ว!"
           }
         },
         "vi" : {
@@ -59,6 +71,12 @@
             "value" : "Hash de l'application"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แฮชแอป"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -79,6 +97,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Appliquer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้งาน"
           }
         },
         "vi" : {
@@ -103,6 +127,12 @@
             "value" : "Application de fonds d'écran..."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังตั้งค่าวอลเปเปอร์…"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuler"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
           }
         },
         "vi" : {
@@ -147,10 +183,16 @@
             "value" : "Vider le cache de l'application"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล้างแคชแอป"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xoá Cache Ứng Dụng"
+            "value" : "Xoá cache Ứng dụng"
           }
         }
       }
@@ -167,6 +209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réinitialisation des collections réussie!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตคอลเลกชันสำเร็จแล้ว!"
           }
         },
         "vi" : {
@@ -191,6 +239,12 @@
             "value" : "Erro télécharge le fond d'écran!"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลดวอลเปเปอร์ไม่สำเร็จ!"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer une méthode de secours supplémentaire"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างวิธีสำรองเพิ่มเติม"
           }
         },
         "vi" : {
@@ -236,6 +296,12 @@
             "value" : "Création %@..."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังสร้าง %@..."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -257,6 +323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Création de données CAML..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังสร้างข้อมูล CAML"
           }
         },
         "vi" : {
@@ -281,6 +353,12 @@
             "value" : "Crédits"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เครดิต"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -301,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Détecter"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตรวจจับ"
           }
         },
         "vi" : {
@@ -325,6 +409,12 @@
             "value" : "Voulez-vous réinitialiser les collections?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณต้องการรีเซ็ตคอลเลคชั่นหรือไม่?"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -345,6 +435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Télécharger le raccourci de secours"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลด Shortcut สำรอง"
           }
         },
         "vi" : {
@@ -369,6 +465,12 @@
             "value" : "Télécharger un fichier de Tendies"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลดไฟล์ Tendies"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -389,6 +491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Téléchargement"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังดาวน์โหลด"
           }
         },
         "vi" : {
@@ -413,6 +521,12 @@
             "value" : "Saisir le App Hash"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่แฮชแอป"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -433,6 +547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entrez votre app hash de PosterBoard dans les Paramètres."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่แฮชแอปโปสเตอร์บอร์ดของคุณในเมนูการตั้งค่า"
           }
         },
         "vi" : {
@@ -457,6 +577,12 @@
             "value" : "Erreur"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ของผิดพลาด"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exploitation"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
           }
         },
         "vi" : {
@@ -502,6 +634,12 @@
             "value" : "L'extraction des tendies..."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังดึงข้อมูล tendies…"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -522,6 +660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Échec"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สำเร็จ"
           }
         },
         "vi" : {
@@ -546,6 +690,12 @@
             "value" : "N'a pas réussi à importer les tendies"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำเข้า tendies ไม่สำเร็จ"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -568,10 +718,16 @@
             "value" : "Créateur de raccourcis de secours"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวสร้าง Shortcut สำรอง"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bộ tạo phím tắt dự phòng"
+            "value" : "Bộ tạo Phím tắt dự phòng"
           }
         }
       }
@@ -590,10 +746,16 @@
             "value" : "Retomber dans le raccourci"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังย้อนกลับไปใช้ Shortcut"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quay lại phím tắt"
+            "value" : "Quay lại Phím tắt"
           }
         }
       }
@@ -610,6 +772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finir"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จ"
           }
         },
         "vi" : {
@@ -634,6 +802,12 @@
             "value" : "Générer des vidéos..."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังสร้างวิดีโอ"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -654,6 +828,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Accueil"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าหลัก"
           }
         },
         "vi" : {
@@ -678,6 +858,12 @@
             "value" : "Rejoindre le Discord"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้ารวม Discord"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -698,6 +884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liens"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลิงก์"
           }
         },
         "vi" : {
@@ -723,6 +915,12 @@
             "value" : "Développeur principal"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้พัฒนาหลัก"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -743,6 +941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies maximales atteintes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถึงจำนวนสูงสุดของ Tendies แล้ว"
           }
         },
         "vi" : {
@@ -767,10 +971,16 @@
             "value" : "Suivant"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kế tiếp"
+            "value" : "Tiếp theo"
           }
         }
       }
@@ -787,6 +997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget GitHub"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Github"
           }
         },
         "vi" : {
@@ -811,6 +1027,12 @@
             "value" : "OK"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โอเค"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -831,6 +1053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seuls les fichiers .tendies peuvent être téléchargés!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สามารถดาวน์โหลดไฟล์ .tendies ได้เท่านั้น!"
           }
         },
         "vi" : {
@@ -855,6 +1083,12 @@
             "value" : "Veuillez patienter"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณารอ"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -875,6 +1109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พ็อกเก็ตโปสเตอร์"
           }
         },
         "vi" : {
@@ -899,10 +1139,16 @@
             "value" : "PosterBoard n'a pas pu s'ouvrir directement. Le raccourci de secours sera maintenant ouvert."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถเปิดโปสเตอร์บอร์ดโดยตรง กำลังจะใช้ Shortcut สำรอง"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "PosterBoard không thể mở trực tiếp. Phím tắt dự phòng sẽ được mở ngay bây giờ."
+            "value" : "PosterBoard không thể mở trực tiếp. Phím tắt dự phòng bây giờ sẽ được mở."
           }
         }
       }
@@ -919,6 +1165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Libération"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีลีส"
           }
         },
         "vi" : {
@@ -943,6 +1195,12 @@
             "value" : "Répéter le tutoriel"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูบทแนะนำซ้ำ"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -963,6 +1221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réinitialiser les Collections"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตคอลเลคชั่น"
           }
         },
         "vi" : {
@@ -987,6 +1251,12 @@
             "value" : "Sélectionner Tendies"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือก Tendies"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1007,6 +1277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies sélectionnées"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies ที่ถูกเลือก"
           }
         },
         "vi" : {
@@ -1031,6 +1307,12 @@
             "value" : "Sauter"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้าม"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1051,6 +1333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sociales"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โซเชียล"
           }
         },
         "vi" : {
@@ -1075,10 +1363,16 @@
             "value" : "Succès!"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำเร็จ!"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hoàn thành!"
+            "value" : "Thành công!"
           }
         }
       }
@@ -1095,6 +1389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importation réussie %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำเข้า %@ สำเร็จ"
           }
         },
         "vi" : {
@@ -1119,6 +1419,12 @@
             "value" : "Support sur Ko-Fi"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สนับสนุนบน Ko-Fi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1139,6 +1445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le dossier est mal configuré. Appuyez sur \"Réinitialiser les Collections\" et réessayez."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โฟลเดอร์ถูกตั้งค่าไม่ถูกต้อง กรุณาแตะ \"รีเซ็ตคอลเลคชั่น\" แล้วลองอีกครั้ง"
           }
         },
         "vi" : {
@@ -1163,10 +1475,16 @@
             "value" : "L'application PosterBoard est maintenant ouverte. Veuillez la fermer à partir du sélecteur d'applications."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แอปโปสเตอร์บอร์ดจะถึกเปิด ให้คุณปิดมันในหน้าปัดขึ้น"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ứng dụng PosterBoard bây giờ sẽ được mở. Hãy đóng nó trong đa nhiệm."
+            "value" : "Ứng dụng PosterBoard đã được mở. Hãy đóng nó trong đa nhiệm."
           }
         }
       }
@@ -1191,6 +1509,12 @@
             "value" : "Version %1$@ (%2$@)"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวอร์ชั่น %1$@ (%2$@)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1211,6 +1535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vidéos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดีโอ"
           }
         },
         "vi" : {
@@ -1235,6 +1565,12 @@
             "value" : "Voir sur GitHub"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูบน GitHub"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1255,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Concepteur de site web"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้ออกแบบเว็บไซต์"
           }
         },
         "vi" : {
@@ -1279,6 +1621,12 @@
             "value" : "Voulez-vous télécharger le fichier %@?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณต้องการดาวน์โหลดไฟล์ %@ หรือไม่?"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1299,6 +1647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous ne pouvez appliquer que des descripteurs %@."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณสามารถใช้ descriptors %@ ได้เท่านั้น"
           }
         },
         "vi" : {
@@ -1323,6 +1677,12 @@
             "value" : "Votre App Hash est incorrect. Veuillez le redéfinir."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แฮชแอปของคุณไม่ถูกต้อง กรุณาตั้งค่าใหม่อีกครั้ง"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1343,6 +1703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre PosterBoard se rafraîchit automatiquement."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปสเตอร์บอร์ดของคุณจะรีเฟรชโดยอัตโนมัติ"
           }
         },
         "vi" : {

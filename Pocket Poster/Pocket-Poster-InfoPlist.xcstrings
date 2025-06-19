@@ -23,6 +23,12 @@
             "value" : "Pocket Poster"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43,6 +49,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fond d'écran Nugget"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วอลเปเปอร์ Nugget"
           }
         },
         "vi" : {
