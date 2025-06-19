@@ -73,9 +73,9 @@ struct ContentView: View {
                                             SymHandler.cleanup() // just to be extra sure
                                             try? FileManager.default.removeItem(at: pbManager.getTendiesStoreURL())
                                             UIApplication.shared.dismissAlert(animated: false)
-                                            Haptic.shared.notify(.success)
                                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
                                                 pbManager.selectedTendies.removeAll()
+                                                Haptic.shared.notify(.success)
                                                 UIApplication.shared.confirmAlert(title: NSLocalizedString("Success!", comment: ""), body: NSLocalizedString("The PosterBoard app will now open. Please close it from the app switcher.", comment: ""), onOK: {
                                                     if !pbManager.openPosterBoard() {
                                                         UIApplication.shared.confirmAlert(title: NSLocalizedString("Falling Back to Shortcut", comment: ""), body: NSLocalizedString("PosterBoard failed to open directly. The fallback shortcut will now be opened.", comment: ""), onOK: {
