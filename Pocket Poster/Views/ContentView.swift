@@ -107,7 +107,7 @@ struct ContentView: View {
                                     if pbManager.setSystemLanguage(to: lang) {
                                         UIApplication.shared.alert(title: NSLocalizedString("Collections Successfully Reset!", comment: ""), body: NSLocalizedString("Your PosterBoard will refresh automatically.", comment: ""))
                                     } else {
-                                        UIApplication.shared.alert(body: NSLocalizedString("The API failed to call correctly.\nSystem Locale Code: ", comment: "") + lang)
+                                        UIApplication.shared.alert(body: "The API failed to call correctly.\nSystem Locale Code: \(lang)")
                                     }
                                 }, noCancel: false)
                             }) {
