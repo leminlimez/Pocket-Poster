@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F09B7BB2DEB873F00CDE89C /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 6F09B7BA2DEB873F00CDE89C /* ZIPFoundation */; };
+		6F09BA332E00808300CDE89C /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6F09BA322E00808300CDE89C /* Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F09BA332E00808300CDE89C /* Dynamic in Frameworks */,
 				6F09B7BB2DEB873F00CDE89C /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +76,7 @@
 			name = "Pocket Poster";
 			packageProductDependencies = (
 				6F09B7BA2DEB873F00CDE89C /* ZIPFoundation */,
+				6F09BA322E00808300CDE89C /* Dynamic */,
 			);
 			productName = "Pocket Poster";
 			productReference = 6F09B79D2DEB694B00CDE89C /* Pocket Poster.app */;
@@ -105,6 +108,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				6F09B7B92DEB873F00CDE89C /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				6F09BA312E00808300CDE89C /* XCRemoteSwiftPackageReference "Dynamic" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6F09B79E2DEB694B00CDE89C /* Products */;
@@ -276,7 +280,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +312,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,6 +358,14 @@
 				minimumVersion = 0.9.19;
 			};
 		};
+		6F09BA312E00808300CDE89C /* XCRemoteSwiftPackageReference "Dynamic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mhdhejazi/Dynamic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -361,6 +373,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6F09B7B92DEB873F00CDE89C /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
 			productName = ZIPFoundation;
+		};
+		6F09BA322E00808300CDE89C /* Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F09BA312E00808300CDE89C /* XCRemoteSwiftPackageReference "Dynamic" */;
+			productName = Dynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

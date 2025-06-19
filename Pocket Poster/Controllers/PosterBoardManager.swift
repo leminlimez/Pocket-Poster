@@ -273,6 +273,32 @@ class PosterBoardManager: ObservableObject {
         }
     }
     
+    func applyCarPlay(appHash: String, wallpapers: [CarPlayWallpaper]) throws {
+        // write the image
+        var toRemove: [URL] = []
+        for wallpaper in wallpapers {
+            if let data = wallpaper.selectedImageDataLight, let img = UIImage(data: data) {
+                let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Light-11.cpbitmap")
+                img.writeToCPBitmapFile(to: imgURL.path() as NSString)
+                toRemove.append(imgURL)
+            }
+            if let data = wallpaper.selectedImageDataDark, let img = UIImage(data: data) {
+                let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Dark-11.cpbitmap")
+                img.writeToCPBitmapFile(to: imgURL.path() as NSString)
+                toRemove.append(imgURL)
+            }
+        }
+        
+        // symlink and apply
+        let _ = try SymHandler.createAppSymlink(for: "\(appHash)/Library/Caches/MappedImageCache/com.apple.CarPlayApp.wallpaper-images")
+        defer {
+            SymHandler.cleanup()
+        }
+        for imgURL in toRemove {
+            try FileManager.default.trashItem(at: imgURL, resultingItemURL: nil)
+        }
+    }
+    
     static func clearCache() throws {
         SymHandler.cleanup()
         let docDir = SymHandler.getDocumentsDirectory()

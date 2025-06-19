@@ -10,6 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     // Prefs
     @AppStorage("pbHash") var pbHash: String = ""
+    @AppStorage("cpHash") var cpHash: String = ""
     
     @State var checkingForHash: Bool = false
     @State var hashCheckTask: Task<Void, any Error>? = nil
@@ -18,14 +19,17 @@ struct SettingsView: View {
         List {
             Section {
                 VStack {
-                    TextField("Enter App Hash", text: $pbHash)
+                    TextField("Enter PosterBoard App Hash", text: $pbHash)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .font(.system(.body, design: .monospaced))
+                    TextField("Enter CarPlayWallpaper App Hash", text: $cpHash)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .font(.system(.body, design: .monospaced))
                     HStack {
                         Spacer()
                         // Run task to check until file exists from Nugget pc over AFC
                         Button(action: {
-                            UIApplication.shared.confirmAlert(title: "Waiting for app hash...", body: "Connect your device to Nugget and click the \"Pocket Poster Helper\" button.", confirmTitle: "Cancel", onOK: {
+                            UIApplication.shared.confirmAlert(title: "Waiting for app hashes...", body: "Connect your device to Nugget and click the \"Pocket Poster Helper\" button.", confirmTitle: "Cancel", onOK: {
                                 cancelWaitForHash()
                             }, noCancel: true)
                             startWaitForHash()
@@ -33,7 +37,7 @@ struct SettingsView: View {
                             Text("Detect")
                         }
                         .foregroundStyle(.green)
-                        .onChange(of: checkingForHash) {
+                        .onChange(of: checkingForHash) { _ in
                             if !checkingForHash {
                                 // hide ui alert
                                 UIApplication.shared.dismissAlert(animated: true)
@@ -136,6 +140,9 @@ struct SettingsView: View {
                     let items = contents.split(separator: "\n")
                     if let pb = items.first {
                         pbHash = String(pb)
+                    }
+                    if items.count >= 2 {
+                        cpHash = String(items[1])
                     }
                 }
             } catch {
