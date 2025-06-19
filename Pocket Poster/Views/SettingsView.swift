@@ -133,7 +133,10 @@ struct SettingsView: View {
                 let contents = try String(contentsOf: filePath)
                 try? FileManager.default.removeItem(at: filePath)
                 await MainActor.run {
-                    pbHash = contents
+                    let items = contents.split(separator: "\n")
+                    if let pb = items.first {
+                        pbHash = String(pb)
+                    }
                 }
             } catch {
                 print(error.localizedDescription)
