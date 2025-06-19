@@ -82,4 +82,9 @@ struct Pocket_PosterApp: App {
             }
         }
     }
+    
+    init() {
+        // clear the videos cache
+        try? FileManager.default.removeItem(at: SymHandler.getDocumentsDirectory().appendingPathComponent("Videos", conformingTo: .directory))
+    }
 }
