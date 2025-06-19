@@ -14,6 +14,12 @@
             "state" : "translated",
             "value" : "Actions"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hành Động"
+          }
         }
       }
     },
@@ -29,6 +35,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cache de l'application vidé avec succès!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ nhớ cache đã được xóa!"
           }
         }
       }
@@ -46,6 +58,12 @@
             "state" : "translated",
             "value" : "Hash de l'application"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã định danh Ứng dụng"
+          }
         }
       }
     },
@@ -61,6 +79,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Appliquer"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Áp dụng"
           }
         }
       }
@@ -78,6 +102,12 @@
             "state" : "translated",
             "value" : "Application de fonds d'écran..."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang áp dụng Hình nền..."
+          }
         }
       }
     },
@@ -93,6 +123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuler"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Huỷ"
           }
         }
       }
@@ -110,6 +146,12 @@
             "state" : "translated",
             "value" : "Vider le cache de l'application"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xoá Cache Ứng Dụng"
+          }
         }
       }
     },
@@ -125,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réinitialisation des collections réussie!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt lại thành công Bộ sưu tập!"
           }
         }
       }
@@ -142,6 +190,12 @@
             "state" : "translated",
             "value" : "Erro télécharge le fond d'écran!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể tải xuống hình nền!"
+          }
         }
       }
     },
@@ -157,6 +211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer une méthode de secours supplémentaire"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo phương thức dự phòng bổ sung"
           }
         }
       }
@@ -175,6 +235,12 @@
             "state" : "translated",
             "value" : "Création %@..."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tạo %@..."
+          }
         }
       }
     },
@@ -192,6 +258,12 @@
             "state" : "translated",
             "value" : "Création de données CAML..."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tạo dữ liệu CAML..."
+          }
         }
       }
     },
@@ -207,6 +279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crédits"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng góp"
           }
         }
       }
@@ -224,6 +302,12 @@
             "state" : "translated",
             "value" : "Détecter"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phát hiện"
+          }
         }
       }
     },
@@ -239,6 +323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voulez-vous réinitialiser les collections?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn có muốn thiết lập lại các bộ sưu tập?"
           }
         }
       }
@@ -256,6 +346,12 @@
             "state" : "translated",
             "value" : "Télécharger le raccourci de secours"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải xuống phím tắt dự phòng"
+          }
         }
       }
     },
@@ -271,6 +367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Télécharger un fichier de Tendies"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải xuống tệp tendies"
           }
         }
       }
@@ -288,6 +390,12 @@
             "state" : "translated",
             "value" : "Téléchargement"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang Tải xuống"
+          }
         }
       }
     },
@@ -303,6 +411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saisir le App Hash"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập mã định danh Ứng dụng"
           }
         }
       }
@@ -320,6 +434,12 @@
             "state" : "translated",
             "value" : "Entrez votre app hash de PosterBoard dans les Paramètres."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập mã định danh của PosterBoard trong Cài đặt."
+          }
         }
       }
     },
@@ -336,6 +456,12 @@
             "state" : "translated",
             "value" : "Erreur"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lỗi"
+          }
         }
       }
     },
@@ -351,6 +477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exploitation"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khai thác"
           }
         }
       }
@@ -369,6 +501,12 @@
             "state" : "translated",
             "value" : "L'extraction des tendies..."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang giải nén tendies..."
+          }
         }
       }
     },
@@ -384,6 +522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Échec"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thất bại"
           }
         }
       }
@@ -401,6 +545,12 @@
             "state" : "translated",
             "value" : "N'a pas réussi à importer les tendies"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập tendies thất bại"
+          }
         }
       }
     },
@@ -416,6 +566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créateur de raccourcis de secours"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ tạo phím tắt dự phòng"
           }
         }
       }
@@ -433,6 +589,12 @@
             "state" : "translated",
             "value" : "Retomber dans le raccourci"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quay lại phím tắt"
+          }
         }
       }
     },
@@ -448,6 +610,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finir"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoàn thành"
           }
         }
       }
@@ -465,6 +633,12 @@
             "state" : "translated",
             "value" : "Générer des vidéos..."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tạo video..."
+          }
         }
       }
     },
@@ -480,6 +654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Accueil"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trang chủ"
           }
         }
       }
@@ -497,6 +677,12 @@
             "state" : "translated",
             "value" : "Rejoindre le Discord"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tham gia Discord"
+          }
         }
       }
     },
@@ -512,6 +698,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liens"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên kết"
           }
         }
       }
@@ -530,6 +722,12 @@
             "state" : "translated",
             "value" : "Développeur principal"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhà phát triển chính"
+          }
         }
       }
     },
@@ -545,6 +743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies maximales atteintes"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số lượng tendies đã đạt tối đa"
           }
         }
       }
@@ -562,6 +766,12 @@
             "state" : "translated",
             "value" : "Suivant"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kế tiếp"
+          }
         }
       }
     },
@@ -574,6 +784,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget GitHub"
@@ -594,6 +810,12 @@
             "state" : "translated",
             "value" : "OK"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
         }
       }
     },
@@ -609,6 +831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seuls les fichiers .tendies peuvent être téléchargés!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ có thể tải xuống các tập tin .tendies!"
           }
         }
       }
@@ -626,6 +854,12 @@
             "state" : "translated",
             "value" : "Veuillez patienter"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vui lòng chờ"
+          }
         }
       }
     },
@@ -638,6 +872,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
@@ -658,6 +898,12 @@
             "state" : "translated",
             "value" : "PosterBoard n'a pas pu s'ouvrir directement. Le raccourci de secours sera maintenant ouvert."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard không thể mở trực tiếp. Phím tắt dự phòng sẽ được mở ngay bây giờ."
+          }
         }
       }
     },
@@ -673,6 +919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Libération"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phát hành"
           }
         }
       }
@@ -690,6 +942,12 @@
             "state" : "translated",
             "value" : "Répéter le tutoriel"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem lại Hướng dẫn"
+          }
         }
       }
     },
@@ -705,6 +963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réinitialiser les Collections"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt lại Bộ sưu tập"
           }
         }
       }
@@ -722,6 +986,12 @@
             "state" : "translated",
             "value" : "Sélectionner Tendies"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn Tendies"
+          }
         }
       }
     },
@@ -737,6 +1007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies sélectionnées"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã chọn Tendies"
           }
         }
       }
@@ -754,6 +1030,12 @@
             "state" : "translated",
             "value" : "Sauter"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ qua"
+          }
         }
       }
     },
@@ -769,6 +1051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sociales"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mạng Xã hội"
           }
         }
       }
@@ -786,6 +1074,12 @@
             "state" : "translated",
             "value" : "Succès!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoàn thành!"
+          }
         }
       }
     },
@@ -801,6 +1095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importation réussie %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập thành công %@"
           }
         }
       }
@@ -818,6 +1118,12 @@
             "state" : "translated",
             "value" : "Support sur Ko-Fi"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ trên Ko-Fi"
+          }
         }
       }
     },
@@ -834,6 +1140,12 @@
             "state" : "translated",
             "value" : "Le dossier est mal configuré. Appuyez sur \"Réinitialiser les Collections\" et réessayez."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thư mục được thiết lập không đúng cách. Nhấn vào \"Đặt lại Bộ sưu tập\" và thử lại."
+          }
         }
       }
     },
@@ -849,6 +1161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L'application PosterBoard est maintenant ouverte. Veuillez la fermer à partir du sélecteur d'applications."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ứng dụng PosterBoard bây giờ sẽ được mở. Hãy đóng nó trong đa nhiệm."
           }
         }
       }
@@ -872,6 +1190,12 @@
             "state" : "translated",
             "value" : "Version %1$@ (%2$@)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản %1@ (%2$@)"
+          }
         }
       }
     },
@@ -887,6 +1211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vidéos"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videos"
           }
         }
       }
@@ -904,6 +1234,12 @@
             "state" : "translated",
             "value" : "Voir sur GitHub"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem trên Github"
+          }
         }
       }
     },
@@ -919,6 +1255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Concepteur de site web"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhà thiết kế Website"
           }
         }
       }
@@ -936,6 +1278,12 @@
             "state" : "translated",
             "value" : "Voulez-vous télécharger le fichier %@?"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn có muốn tải xuống tệp %@ không?"
+          }
         }
       }
     },
@@ -951,6 +1299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous ne pouvez appliquer que des descripteurs %@."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn chỉ có thể áp dụng %@ mô tả."
           }
         }
       }
@@ -968,6 +1322,12 @@
             "state" : "translated",
             "value" : "Votre App Hash est incorrect. Veuillez le redéfinir."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã định danh Ứng dụng chưa chính xác. Vui lòng đặt lại."
+          }
         }
       }
     },
@@ -983,6 +1343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre PosterBoard se rafraîchit automatiquement."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard sẽ được tự động làm mới."
           }
         }
       }

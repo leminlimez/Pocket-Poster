@@ -22,6 +22,12 @@
             "state" : "translated",
             "value" : "Pocket Poster"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
         }
       }
     },
@@ -37,6 +43,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fond d'écran Nugget"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hình nền Nugget"
           }
         }
       }
