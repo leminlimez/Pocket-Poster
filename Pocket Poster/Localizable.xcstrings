@@ -507,6 +507,9 @@
         }
       }
     },
+    "Enjoy!" : {
+
+    },
     "Enter App Hash" : {
       "localizations" : {
         "es" : {
@@ -760,6 +763,9 @@
         }
       }
     },
+    "Find Wallpapers" : {
+
+    },
     "Finish" : {
       "localizations" : {
         "es" : {
@@ -816,6 +822,12 @@
         }
       }
     },
+    "Get Shortcut" : {
+
+    },
+    "Here is a tutorial to help you get started with the app." : {
+
+    },
     "Home" : {
       "localizations" : {
         "es" : {
@@ -843,6 +855,12 @@
           }
         }
       }
+    },
+    "Install Nugget" : {
+
+    },
+    "Install the Fallback Shortcut (Optional)" : {
+
     },
     "Join the Discord" : {
       "localizations" : {
@@ -1068,6 +1086,9 @@
           }
         }
       }
+    },
+    "Open GitHub" : {
+
     },
     "Please wait" : {
       "localizations" : {
@@ -1489,6 +1510,12 @@
         }
       }
     },
+    "To apply, PosterBoard will need to open.\n\nYou can install an optional shortcut if the original method fails." : {
+
+    },
+    "To get the app bundle id, Nugget is required.\n\nOn your computer, download Nugget from the GitHub." : {
+
+    },
     "Version %@ (%@)" : {
       "localizations" : {
         "en" : {
@@ -1607,6 +1634,9 @@
         }
       }
     },
+    "Welcome to Pocket Poster!" : {
+
+    },
     "Would you like to download the file %@?" : {
       "localizations" : {
         "es" : {
@@ -1634,6 +1664,9 @@
           }
         }
       }
+    },
+    "You can find wallpapers on the official Cowabun.ga website." : {
+
     },
     "You can only apply %@ descriptors." : {
       "localizations" : {
