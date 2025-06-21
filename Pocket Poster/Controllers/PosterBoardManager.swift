@@ -8,44 +8,6 @@
 import Foundation
 import ZIPFoundation
 import UIKit
-import CoreTransferable
-
-struct Movie: Transferable {
-    let url: URL
-
-    static var transferRepresentation: some TransferRepresentation {
-        FileRepresentation(contentType: .movie) { movie in
-            SentTransferredFile(movie.url)
-        } importing: { received in
-            let videoFolder = SymHandler.getDocumentsDirectory().appendingPathComponent("Videos", conformingTo: .directory)
-            if !FileManager.default.fileExists(atPath: videoFolder.path()) {
-                try? FileManager.default.createDirectory(at: videoFolder, withIntermediateDirectories: true)
-            }
-            let copy = videoFolder.appending(path: "\(UUID()).mp4")
-
-            if FileManager.default.fileExists(atPath: copy.path()) {
-                try FileManager.default.removeItem(at: copy)
-            }
-
-            try FileManager.default.copyItem(at: received.file, to: copy)
-            return Self.init(url: copy)
-        }
-    }
-}
-
-enum LoadState {
-    case unknown, loading, loaded(Movie), failed
-}
-
-struct LoadInfo: Identifiable, Equatable {
-    static func == (lhs: LoadInfo, rhs: LoadInfo) -> Bool {
-        lhs.id == rhs.id
-    }
-    
-    var id = UUID()
-    var autoReverses: Bool = false
-    var loadState: LoadState
-}
 
 class PosterBoardManager: ObservableObject {
     static let ShortcutURL = "https://www.icloud.com/shortcuts/a28d2c02ca11453cb5b8f91c12cfa692"

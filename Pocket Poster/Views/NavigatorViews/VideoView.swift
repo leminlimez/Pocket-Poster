@@ -11,6 +11,7 @@ import AVKit
 
 struct VideoView: View {
     @ObservedObject var pbManager = PosterBoardManager.shared
+    @AppStorage("ignoreDurationLimit") var ignoreDurationLimit: Bool = false
     
     @State var selectedVideo: PhotosPickerItem?
     
@@ -103,7 +104,12 @@ struct VideoView: View {
                         do {
                             if let movie = try await selectedVideo?.loadTransferable(type: Movie.self) {
                                 await MainActor.run {
-                                    pbManager.videos[id].loadState = .loaded(movie)
+                                    if !ignoreDurationLimit && VideoHandler.isVideoTooLong(at: movie.url) {
+                                        pbManager.videos.remove(at: id)
+                                        UIApplication.shared.alert(title: NSLocalizedString("Failed to Import Video", comment: ""), body: String(format: NSLocalizedString("The video you imported is too long! Your video must be %@ seconds or less.", comment: ""), "\(Int(VideoHandler.MaxDurationSecs))"))
+                                    } else {
+                                        pbManager.videos[id].loadState = .loaded(movie)
+                                    }
                                 }
                             } else {
                                 await MainActor.run {

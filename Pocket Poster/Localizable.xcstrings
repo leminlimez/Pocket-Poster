@@ -707,6 +707,9 @@
         }
       }
     },
+    "Failed to Import Video" : {
+
+    },
     "Fallback Shortcut Creator" : {
       "localizations" : {
         "es" : {
@@ -1509,6 +1512,9 @@
           }
         }
       }
+    },
+    "The video you imported is too long! Your video must be %@ seconds or less." : {
+
     },
     "To apply, PosterBoard will need to open.\n\nYou can install an optional shortcut if the original method fails." : {
 
