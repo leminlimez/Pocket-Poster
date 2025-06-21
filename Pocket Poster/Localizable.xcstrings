@@ -419,6 +419,9 @@
         }
       }
     },
+    "Apply CarPlay Wallpapers" : {
+
+    },
     "Applying Wallpapers..." : {
       "localizations" : {
         "ar" : {
@@ -630,6 +633,15 @@
           }
         }
       }
+    },
+    "CarPlay" : {
+
+    },
+    "CarPlay Applied Wallpapers Successfully Cleared!" : {
+
+    },
+    "CarPlay Wallpapers" : {
+
     },
     "Clear App Cache" : {
       "localizations" : {
@@ -1977,6 +1989,7 @@
       }
     },
     "Enter App Hash" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2075,6 +2088,15 @@
           }
         }
       }
+    },
+    "Enter CarPlayWallpaper App Hash" : {
+
+    },
+    "Enter PosterBoard App Hash" : {
+
+    },
+    "Enter your CarPlayWallpaper app hash in Settings." : {
+
     },
     "Enter your PosterBoard app hash in Settings." : {
       "localizations" : {
@@ -5137,6 +5159,9 @@
         }
       }
     },
+    "Reset CarPlay Applied Wallpapers" : {
+
+    },
     "Reset Collections" : {
       "localizations" : {
         "ar" : {
@@ -7008,6 +7033,9 @@
           }
         }
       }
+    },
+    "You can now choose your wallpapers in the CarPlay settings in your car." : {
+
     },
     "You can only apply %@ descriptors." : {
       "localizations" : {

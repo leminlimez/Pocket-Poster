@@ -29,61 +29,70 @@ struct CarPlayView: View {
     
     var body: some View {
         NavigationStack {
-            ScrollView {
-                if wallpapers.isEmpty {
-                    ProgressView()
-                } else {
-                    LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 250))]) {
-                        ForEach($wallpapers) { wallpaper in
-                            ZStack {
-                                WallpaperView(wallpaper: wallpaper, didChange: $didChange, showDark: $showDark)
-                                    .disabled(activeWallpapers.contains(wallpaper.name.wrappedValue))
-                                // The checkmark
-                                if activeWallpapers.contains(wallpaper.name.wrappedValue) {
-                                    RoundedRectangle(cornerRadius: 8)
-                                        .foregroundStyle(.black.opacity(0.4))
-                                    Image(systemName: "checkmark.circle.fill")
-                                        .font(.title)
-                                        .foregroundStyle(.green)
+            ZStack {
+                ScrollView {
+                    if wallpapers.isEmpty {
+                        ProgressView()
+                    } else {
+                        LazyVGrid(columns: [GridItem(.adaptive(minimum: 150, maximum: 250))]) {
+                            ForEach($wallpapers) { wallpaper in
+                                ZStack {
+                                    WallpaperView(wallpaper: wallpaper, didChange: $didChange, showDark: $showDark)
+                                        .disabled(activeWallpapers.contains(wallpaper.name.wrappedValue))
+                                    // The checkmark
+                                    if activeWallpapers.contains(wallpaper.name.wrappedValue) {
+                                        RoundedRectangle(cornerRadius: 8)
+                                            .foregroundStyle(.black.opacity(0.4))
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .font(.title)
+                                            .foregroundStyle(.green)
+                                    }
                                 }
                             }
                         }
-                    }
-                    .padding()
-                }
-                
-                if cpHash == "" {
-                    Text("Enter your CarPlayWallpaper app hash in Settings.")
                         .padding()
-                } else if didChange {
-                    Button(action: {
-                        UIImpactFeedbackGenerator(style: .soft).impactOccurred()
-                        UIApplication.shared.alert(title: NSLocalizedString("Applying Wallpapers...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
+                    }
+                }
+                VStack {
+                    Spacer()
+                    if didChange {
+                        Button(action: {
+                            UIImpactFeedbackGenerator(style: .soft).impactOccurred()
+                            UIApplication.shared.alert(title: NSLocalizedString("Applying Wallpapers...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
 
-                        DispatchQueue.global(qos: .userInitiated).async {
-                            do {
-                                try pbManager.applyCarPlay(appHash: cpHash, wallpapers: wallpapers)
-                                SymHandler.cleanup() // just to be extra sure
-                                UIApplication.shared.dismissAlert(animated: false)
-                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
-                                    activeWallpapers = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
-                                    Haptic.shared.notify(.success)
-                                    UIApplication.shared.alert(title: NSLocalizedString("Success!", comment: ""), body: NSLocalizedString("You can now choose your wallpapers in the CarPlay settings in your car.", comment: ""))
-                                })
-                            } catch CocoaError.fileWriteUnknown {
-                                presentError(ApplyError.wrongAppHash)
-                            } catch CocoaError.fileWriteFileExists {
-                                presentError(ApplyError.collectionsNeedsReset)
-                            } catch {
-                                print(error.localizedDescription)
-                                presentError(ApplyError.unexpected(info: error.localizedDescription))
+                            DispatchQueue.global(qos: .userInitiated).async {
+                                do {
+                                    try pbManager.applyCarPlay(appHash: cpHash, wallpapers: wallpapers)
+                                    SymHandler.cleanup() // just to be extra sure
+                                    UIApplication.shared.dismissAlert(animated: false)
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
+                                        activeWallpapers = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
+                                        Haptic.shared.notify(.success)
+                                        UIApplication.shared.alert(title: NSLocalizedString("Success!", comment: ""), body: NSLocalizedString("You can now choose your wallpapers in the CarPlay settings in your car.", comment: ""))
+                                    })
+                                } catch CocoaError.fileWriteUnknown {
+                                    presentError(ApplyError.wrongAppHash)
+                                } catch CocoaError.fileWriteFileExists {
+                                    presentError(ApplyError.collectionsNeedsReset)
+                                } catch {
+                                    print(error.localizedDescription)
+                                    presentError(ApplyError.unexpected(info: error.localizedDescription))
+                                }
+                            }
+                        }) {
+                            if cpHash == "" {
+                                Text("Enter your CarPlayWallpaper app hash in Settings.")
+                            } else {
+                                Label("Apply CarPlay Wallpapers", systemImage: "checkmark.circle")
                             }
                         }
-                    }) {
-                        Label("Apply CarPlay Wallpapers", systemImage: "checkmark.circle")
+                        .buttonStyle(OpaqueButton(color: cpHash == "" ? .red : .blue, fullwidth: true))
+                        .disabled(cpHash == "")
+                        .padding(.vertical, 10)
+                        .padding(.horizontal, 25)
+                        .transition(.move(edge: .bottom))
+                        .animation(.easeIn, value: didChange)
                     }
-                    .buttonStyle(TintedButton(color: .blue, fullwidth: true))
-                    .padding()
                 }
             }
             .navigationTitle("CarPlay Wallpapers")
@@ -177,7 +186,9 @@ struct WallpaperView: View {
                         } else {
                             wallpaper.selectedImageDataLight = data
                         }
-                        didChange = true
+                        withAnimation {
+                            didChange = true
+                        }
                     }
                 }
             }
