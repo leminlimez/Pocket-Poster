@@ -140,17 +140,19 @@ class VideoHandler {
 
             while let sampleBuffer = readerOutput.copyNextSampleBuffer(),
                   let imageBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) {
-                let name = "\(frameCount).jpg"
-                let filePathName = "assets/\(name)"
-                UIApplication.shared.change(title: NSLocalizedString("Generating Video...", comment: ""), body: String(format: NSLocalizedString("Creating %@...", comment: "the message for the current image that is being generated"), filePathName))
-
-                let ciImage = CIImage(cvPixelBuffer: imageBuffer)
-                let context = CIContext()
-                if let cgImage = context.createCGImage(ciImage, from: ciImage.extent) {
-                    if let img = cgImage.jpg {
-                        try img.write(to: assetsFolder.appendingPathComponent(name))
-                        camlData += "\t\t\t<CGImage src=\"assets/\(name)\"/>\n"
-                        frameCount += 1
+                try? autoreleasepool {
+                    let name = "\(frameCount).jpg"
+                    let filePathName = "assets/\(name)"
+                    UIApplication.shared.change(title: NSLocalizedString("Generating Video...", comment: ""), body: String(format: NSLocalizedString("Creating %@...", comment: "the message for the current image that is being generated"), filePathName))
+                    
+                    let ciImage = CIImage(cvPixelBuffer: imageBuffer)
+                    let context = CIContext()
+                    if let cgImage = context.createCGImage(ciImage, from: ciImage.extent) {
+                        if let img = cgImage.jpg {
+                            try img.write(to: assetsFolder.appendingPathComponent(name))
+                            camlData += "\t\t\t<CGImage src=\"assets/\(name)\"/>\n"
+                            frameCount += 1
+                        }
                     }
                 }
             }
