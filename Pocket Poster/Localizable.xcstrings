@@ -844,6 +844,12 @@
             "state" : "translated",
             "value" : "Сообщество переводчиков"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cộng đồng các Phiên dịch viên"
+          }
         }
       }
     },
@@ -2680,6 +2686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ошибка при импорте видео"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập Video bị lỗi"
           }
         }
       }
@@ -5987,6 +5999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ваше видео слишком длинное! Оно должно быть не больше %@ секунд"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn nhập video dài quá! Video của bạn cần phải ít hơn hoặc vừa đủ %@ giây."
           }
         }
       }
