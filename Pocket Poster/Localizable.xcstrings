@@ -845,6 +845,12 @@
             "value" : "Сообщество переводчиков"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toplum Çevirmenleri"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1356,7 +1362,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Külçe"
+            "value" : "İtibarlar"
           }
         },
         "vi" : {
@@ -1450,7 +1456,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Найдено"
+            "value" : "Верно"
           }
         },
         "th" : {
@@ -1932,13 +1938,19 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вперёд!"
+            "value" : "Наслаждайтесь!"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เอ็นจอย!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tadına Var!"
           }
         },
         "vi" : {
@@ -2688,6 +2700,12 @@
             "value" : "Ошибка при импорте видео"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video içe aktarılamadı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2956,6 +2974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค้นหาวอลเปเปอร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duvar Kağıtları Bul"
           }
         },
         "vi" : {
@@ -3234,6 +3258,12 @@
             "value" : "รับ Shortcut"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kestirme Al"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3290,6 +3320,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นี่คือบทแนะนำเพื่อให้คุณเริ่มต้นใช้งานแอปได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı kullanmaya başlamak için bir eğitim videosu."
           }
         },
         "vi" : {
@@ -3383,7 +3419,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Домой"
+            "value" : "Главная"
           }
         },
         "th" : {
@@ -3405,6 +3441,9 @@
           }
         }
       }
+    },
+    "How to Reset Collections" : {
+
     },
     "Install Nugget" : {
       "localizations" : {
@@ -3453,13 +3492,19 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Установить Nugget"
+            "value" : "Установите Nugget"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดตั้ง Nugget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget'i indir"
           }
         },
         "vi" : {
@@ -3524,6 +3569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดตั้ง Shortcut สำรอง (ไม่บังคับลง)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fallback Kestirmesini indir (Opsiyonel)"
           }
         },
         "vi" : {
@@ -4327,6 +4378,12 @@
             "value" : "ดาวน์โหลด Nugget จาก GitHub บนคอมพิวเตอร์ของคุณ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilgisayarınızda Nugget'i GitHub'dan indirin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4497,6 +4554,12 @@
             "value" : "เปิด GitHub"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Github'ı Aç"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4504,6 +4567,9 @@
           }
         }
       }
+    },
+    "Open the Language Settings" : {
+
     },
     "Please wait" : {
       "localizations" : {
@@ -5305,6 +5371,9 @@
         }
       }
     },
+    "Set the Primary Language" : {
+
+    },
     "Skip" : {
       "localizations" : {
         "ar" : {
@@ -6001,6 +6070,12 @@
             "value" : "Ваше видео слишком длинное! Оно должно быть не больше %@ секунд"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçe aktardığın video çok uzun! Video en fazla  %@ veya daha az olmalı."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6059,6 +6134,12 @@
             "value" : "ในการใช้งาน ตัวแอป PosterBoard จะจำเป็นต้องเปิดขึ้นมา"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamak için PosterBoard Açılacak."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6114,13 +6195,19 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Чтобы получить ID приложения, потребуется Nugget."
+            "value" : "Чтобы получить App Hash, потребуется Nugget."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ในการหา Bundle ID ของแอปจะต้องใช้ Nugget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paket kimliğini almak için Nugget gereklidir."
           }
         },
         "vi" : {
@@ -6130,6 +6217,9 @@
           }
         }
       }
+    },
+    "Verify That It Worked" : {
+
     },
     "Version %@ (%@)" : {
       "localizations" : {
@@ -6557,6 +6647,12 @@
             "value" : "ยินดีสู่ Pocket Poster!"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster'a Hoşgeldiniz!"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6709,6 +6805,12 @@
             "value" : "คุณสามารถหาวอลเปเปอร์ได้ที่เว็บไซต์ Cowabun.ga"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cowabun.ga websitesinde duvar kağıtları bulabilirsiniz."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6765,6 +6867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณสามารถติดตั้ง Shortcut เพิ่มได้ถ้าวิธีเดิมใช้ไม่ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orijinal yöntem başarısız olursa opsiyonel bir kestirme indirebilirsiniz."
           }
         },
         "vi" : {
