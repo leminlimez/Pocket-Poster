@@ -114,6 +114,7 @@ struct SettingsView: View {
                 LinkCell(imageName: "Nathan", url: "https://github.com/verygenericname", title: "Nathan", contribution: NSLocalizedString("Exploit", comment: ""), circle: true)
                 LinkCell(imageName: "duy", url: "https://github.com/khanhduytran0", title: "DuyKhanhTran", contribution: NSLocalizedString("Exploit", comment: ""), circle: true)
                 LinkCell(imageName: "sky", url: "https://bsky.app/profile/did:plc:xykfeb7ieeo335g3aly6vev4", title: "dootskyre", contribution: NSLocalizedString("Fallback Shortcut Creator", comment: ""), circle: true)
+                LinkCell(imageName: "POEditor", url: "https://poeditor.com/join/project/MPZOsunwVj", title: NSLocalizedString("Community Translators", comment: ""), contribution: "POEditor")
             } header: {
                 Label("Credits", systemImage: "wrench.and.screwdriver")
             }
