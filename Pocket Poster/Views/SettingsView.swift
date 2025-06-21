@@ -9,8 +9,9 @@ import SwiftUI
 
 struct SettingsView: View {
     // Prefs
-    @AppStorage("pbHash") var pbHash: String = ""
-    @AppStorage("cpHash") var cpHash: String = ""
+    @AppStorage("pbHash") var pbHash: String = "" // PosterBoard hash
+    @AppStorage("cpHash") var cpHash: String = "" // CarPlay hash
+    @AppStorage("ignoreDurationLimit") var ignoreDurationLimit: Bool = false
     
     @State var checkingForHash: Bool = false
     @State var hashCheckTask: Task<Void, any Error>? = nil
@@ -47,6 +48,14 @@ struct SettingsView: View {
                 }
             } header: {
                 Label("App Hash", systemImage: "lock.app.dashed")
+            }
+            
+            Section {
+                Toggle(isOn: $ignoreDurationLimit, label: {
+                    Label("Disable Video Duration Limit", systemImage: "ruler")
+                })
+            } header: {
+                Label("Preferences", systemImage: "gear")
             }
             
             Section {
@@ -128,6 +137,7 @@ struct SettingsView: View {
                 LinkCell(imageName: "Nathan", url: "https://github.com/verygenericname", title: "Nathan", contribution: NSLocalizedString("Exploit", comment: ""), circle: true)
                 LinkCell(imageName: "duy", url: "https://github.com/khanhduytran0", title: "DuyKhanhTran", contribution: NSLocalizedString("Exploit", comment: ""), circle: true)
                 LinkCell(imageName: "sky", url: "https://bsky.app/profile/did:plc:xykfeb7ieeo335g3aly6vev4", title: "dootskyre", contribution: NSLocalizedString("Fallback Shortcut Creator", comment: ""), circle: true)
+                LinkCell(imageName: "POEditor", url: "https://poeditor.com/join/project/MPZOsunwVj", title: NSLocalizedString("Community Translators", comment: ""), contribution: "POEditor")
             } header: {
                 Label("Credits", systemImage: "wrench.and.screwdriver")
             }

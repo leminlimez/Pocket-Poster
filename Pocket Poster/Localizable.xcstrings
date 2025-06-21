@@ -3,7 +3,43 @@
   "strings" : {
     "Actions" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العمليات"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجراءات"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجراءات"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akce"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktionen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acciones"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Acciones"
@@ -15,26 +51,158 @@
             "value" : "Actions"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actions"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Műveletek"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アクション"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acties"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opcje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Действия"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดำเนินการ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eylemler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hành Động"
+            "value" : "Tác vụ"
           }
         }
       }
     },
     "App Cache Successfully Cleared!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم مسح ذاكرة التخزين المؤقت للتطبيق بنجاح!"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم مسح ذاكرة التخزين المؤقت بنجاح!"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم مسح ذاكرة التخزين المؤقت للتطبيق بنجاح!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikační Cache Úspěšně Vyčištěna!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App-Cache erfolgreich geleert!"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "El cache de la aplicación fue limpiado con exito!"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Caché de la app eliminada satisfactoriamente!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cache de l'application vidé avec succès!"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache de l'app vidé avec succès !"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az app gyorsítótára sikeresen tisztítva!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリのキャッシュがクリアされました"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Cache Succesvol Schoongemaakt!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash aplikacji wyczyszczony!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кэш успешно очищен!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล้างแคชแอปสำเร็จแล้ว!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama Önbelleği Başarıyla Temizlendi!"
           }
         },
         "vi" : {
@@ -47,16 +215,94 @@
     },
     "App Hash" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معرّف هاش التطبيق"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مفتاح الهاش للتطبيق"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash Aplikace"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Hash"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "App Hash"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash de la app"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hash de l'application"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Hash"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Hashje"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリハッシュ"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Hash"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash aplikacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Hash"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แฮชแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama Hash'i"
           }
         },
         "vi" : {
@@ -69,7 +315,43 @@
     },
     "Apply" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تطبيق"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تطبيق"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تطبيق"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikovat"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anwenden"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicar"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aplicar"
@@ -81,6 +363,54 @@
             "value" : "Appliquer"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appliquer"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alkalmazás"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "適用"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toepassen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zastosuj"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подтвердить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้งาน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygula"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -89,21 +419,102 @@
         }
       }
     },
-    "Apply CarPlay Wallpapers" : {
-
-    },
     "Applying Wallpapers..." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري تعيين الخلفيات…"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تطبيق الخلفيات..."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ تطبيق الخلفيات..."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikuji Tapety..."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hintergrundbilder werden angewandt..."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aplicando Fondos de Pantalla"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicando fondos de pantalla…"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Application de fonds d'écran..."
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Application des fonds d'écrans..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Háttérképek alkalmazása..."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壁紙を適用中"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Achtergrond Toepassen…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zastosowanie tapet..."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранение обоев..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังตั้งค่าวอลเปเปอร์…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duvar Kağıtları Uygulanıyor..."
           }
         },
         "vi" : {
@@ -116,7 +527,43 @@
     },
     "Cancel" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الغاء"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
@@ -128,6 +575,54 @@
             "value" : "Annuler"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mégsem"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anuluj"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal Et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -136,21 +631,48 @@
         }
       }
     },
-    "CarPlay" : {
-
-    },
-    "CarPlay Applied Wallpapers Successfully Cleared!" : {
-
-    },
-    "CarPlay Wallpapers" : {
-
-    },
     "Clear App Cache" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف بيانات التخزين المؤقت للتطبيق"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح ذاكرة التخزين المؤقت للتطبيق"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح ذاكرة التخزين المؤقت"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyčistit Aplikační Cache"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App-Cache löschen"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Limpiar cache de aplicación"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limpiar Caché de la App"
           }
         },
         "fr" : {
@@ -159,26 +681,152 @@
             "value" : "Vider le cache de l'application"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vider le cache de l'app"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App gyorsítótárának tisztítása"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャッシュをクリア"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Cache Verschonen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyczyść Cache aplikacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить кэш"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล้างแคชแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama Önbelleğini Temizle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xoá Cache Ứng Dụng"
+            "value" : "Xoá cache Ứng dụng"
           }
         }
       }
     },
     "Collections Successfully Reset!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم اعادة تعيين المجموعات بنجاح!"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم إعادة تعيين المجموعات بنجاح!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kolekce Úspěšně Resetovány!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammlungen erfolgreich zurückgesetzt!"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Colecciones reiniciadas exitosamente!"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Colecciones reiniciadas satisfactoriamente!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réinitialisation des collections réussie!"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collections réinitialisées avec succès!"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gyűjtemények sikeresen visszaállítva!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コレクションが正常にリセットされました"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collecties Succesvol Hersteld!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kolekcje zresetowane!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коллекции успешно сброшены!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตคอลเลกชันสำเร็จแล้ว!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koleksiyonlar Başarıyla Sıfırlandı!"
           }
         },
         "vi" : {
@@ -189,9 +837,73 @@
         }
       }
     },
+    "Community Translators" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fordítók"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сообщество переводчиков"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toplum Çevirmenleri"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cộng đồng các Phiên dịch viên"
+          }
+        }
+      }
+    },
     "Could not download wallpaper!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حدث فشل في تحميل الخلفية!"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذر تحميل الخلفية!"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يمكن تحميل الخلفية!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nepodařilo se stáhnout tapetu!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hintergrundbild konnte nicht heruntergeladen werden!"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡No se pudo descargar el fondo de pantalla!"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡No se pudo descargar el fondo de pantalla!"
@@ -201,6 +913,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erro télécharge le fond d'écran!"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fond d'écran n'a pas pu être téléchargé!"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nem sikerült letölteni a háttérképet!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壁紙がダウンロードできませんでした"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Achtergrond downloaden mislukt!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało sie pobrać tapety!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка загрузки обоев!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลดวอลเปเปอร์ไม่สำเร็จ!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duvar Kağıdı İndirilemedi!"
           }
         },
         "vi" : {
@@ -213,16 +973,94 @@
     },
     "Create Additional Fallback Method" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انشئ طريقة بديلة اضافية لإستخدامها"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء طريقة بديلة إضافية"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvořit Dodatečnou Záložní Metodu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zusätzliche Fallback-Methode erstellen"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear un método de respaldo adicional"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear Método de respaldo adicional"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer une méthode de secours supplémentaire"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créer une méthode additionnelle de Fallback"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "További tartalék módszer létrehozása"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加のフォールバックメソッドの作成"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak een extra Terugval Methode"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stworz opcjonalna metodę Fallbacku"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать свою Fallback Shortcut"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างวิธีสำรองเพิ่มเติม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ek Fallback yöntemi ekle"
           }
         },
         "vi" : {
@@ -236,7 +1074,43 @@
     "Creating %@..." : {
       "comment" : "the message for the current image that is being generated",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري التصميم %@..."
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء %@العنصر..."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ إنشاء %@..."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvářím %@..."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstelle %@..."
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creando %@..."
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Creando %@..."
@@ -246,6 +1120,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Création %@..."
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Création de %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ készítése..."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ を作成中…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creëren %@…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tworzenie %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создание %@..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังสร้าง %@..."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oluşturuluyor %@..."
           }
         },
         "vi" : {
@@ -259,7 +1181,37 @@
     "Creating CAML data..." : {
       "comment" : "translate this however you see fits",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري إنشاء ملف معلومات الخلفية…"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء معلومات CAML..."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvářím CAML data..."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstelle CAML-Daten..."
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creando datos CAML..."
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Creando datos CAML..."
@@ -269,6 +1221,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Création de données CAML..."
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Création des données CAML..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CAML adat készítése..."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CAMLデータの作成中…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CAML data creëren…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tworzenie danych CAML..."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбор данных..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังสร้างข้อมูล CAML"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CAML verisi oluşturuluyor..."
           }
         },
         "vi" : {
@@ -281,16 +1281,94 @@
     },
     "Credits" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مساهمين"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاعتمادات"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdo se podílel"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Credits"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Creditos"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créditos"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crédits"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crédits"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Közreműködők"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クレジット"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Met dank aan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twórcy"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Авторы"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เครดิต"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İtibarlar"
           }
         },
         "vi" : {
@@ -303,7 +1381,43 @@
     },
     "Detect" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم الكشف"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم التحقق"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كشف"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detekovat"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erkennen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detectar"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detectar"
@@ -315,6 +1429,54 @@
             "value" : "Détecter"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Détecter"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Érzékelés"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検出"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detecteren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wykryj"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตรวจจับ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tespit et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -323,9 +1485,42 @@
         }
       }
     },
+    "Disable Video Duration Limit" : {
+
+    },
     "Do you want to reset collections?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل ترغب بإعادة تعيين المجموعات ؟"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل ترغب في إعادة ضبط المجموعات؟"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejete si resetovat kolekce?"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Möchten Sie die Sammlungen zurücksetzen?"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Quieres reiniciar las colecciones?"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Quieres reiniciar las colecciones?"
@@ -335,6 +1530,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voulez-vous réinitialiser les collections?"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voulez-vous réinitialiser les collections?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visszaszeretnéd állítani a gyűjteményeket?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コレクションをリセットしますか？"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wil je de collecties resetten?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czy chcesz zresetować kolekcje?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить коллекции?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณต้องการรีเซ็ตคอลเลคชั่นหรือไม่?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koleksiyonları sıfırlamak istiyor musunuz?"
           }
         },
         "vi" : {
@@ -347,10 +1590,40 @@
     },
     "Download Fallback Shortcut" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميل الإختصار البديل"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميل اختصار البديل"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stáhnout Záložní Zkratku"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fallback Shortcut herunterladen"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descargar acceso directo de respaldo"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargar atajo de respaldo"
           }
         },
         "fr" : {
@@ -359,17 +1632,101 @@
             "value" : "Télécharger le raccourci de secours"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Téléchargement du raccourcis Fallback "
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tartalék parancs letöltése"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォールバックショートカットをダウンロード"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download Terugval Snelkoppeling"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pobierz skrót fallback"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скачать Fallback Shortcut"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลด Shortcut สำรอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fallback kestirmesini indir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tải xuống phím tắt dự phòng"
+            "value" : "Tải xuống Phím tắt dự phòng"
           }
         }
       }
     },
     "Download Tendies File" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميل ملف ال Tendies"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميل ملف Tendies"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميل ملف Tendies"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stáhnout Tendies Soubor"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies-Datei herunterladen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargar archivo Tendies"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descargar archivo Tendies"
@@ -379,6 +1736,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Télécharger un fichier de Tendies"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharger le fichier Tendies"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies fájl letöltése"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendiesファイルをダウンロード"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download Tendies Bestand"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pobierz pliki tendies"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скачать файл Tendies"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลดไฟล์ Tendies"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies dosyası indir"
           }
         },
         "vi" : {
@@ -391,7 +1796,43 @@
     },
     "Downloading" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري التحميل"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتم التحميل"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتم التحميل"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stahuji"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herunterladen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargando"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descargando"
@@ -403,6 +1844,54 @@
             "value" : "Téléchargement"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Téléchargement"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letöltés folyamatban"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダウンロード中"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloaden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pobieranie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังดาวน์โหลด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İndiriliyor"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -411,19 +1900,172 @@
         }
       }
     },
-    "Enter App Hash" : {
-      "extractionState" : "stale",
+    "Enjoy!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استمتع!"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استمتع!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viel spaß!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disfruta!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disfruta!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jouir!"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Élvezd!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciesz się tapetami!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наслаждайтесь!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เอ็นจอย!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tadına Var!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy thưởng thức!"
+          }
+        }
+      }
+    },
+    "Enter App Hash" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل هاش التطبيق"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل الهاش"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zadejte Hash Aplikace"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App-Hash eingeben"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingresar el hash de la aplicación"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingresar el hash de la app"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saisir le App Hash"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insérer le Hash de l'app"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Írd be az App hashjét"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリハッシュを入力"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voer de App Hash in"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podaj Hash Aplikacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите App Hash"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่แฮชแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama Hash'i gir"
           }
         },
         "vi" : {
@@ -434,27 +2076,96 @@
         }
       }
     },
-    "Enter CarPlayWallpaper App Hash" : {
-
-    },
-    "Enter PosterBoard App Hash" : {
-
-    },
-    "Enter your CarPlayWallpaper app hash in Settings." : {
-
-    },
     "Enter your PosterBoard app hash in Settings." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل هاش تطبيق PosterBoard خاصتك بالإعدادات."
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدخل الهاش لتطبيق PosterBoard في الإعدادات."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zadejte váš hash PosterBoard aplikace v Nastavení."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geben Sie Ihren PosterBoard App-Hash in den Einstellungen ein."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingrese el hash de su aplicación PosterBoard en Configuración."
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingresa el hash de tu app PosterBoard en configuración."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entrez votre app hash de PosterBoard dans les Paramètres."
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insérer votre PosterBoard hash de l'app dans les paramètres."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Írd be a PosterBoard app hashedet a Beállításokban."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定でPosterBoardアプリのハッシュを入力してください。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voer je PosterBoard app hash in instellingen toe"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podaj hash aplikacji PosterBoard w ustawieniach."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите свой App Hash в настройках"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่แฮชแอปโปสเตอร์บอร์ดของคุณในเมนูการตั้งค่า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlarda PosterBoard uygulama Hash'i girin."
           }
         },
         "vi" : {
@@ -467,7 +2178,43 @@
     },
     "Error" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطأ"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطاء"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطأ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chyba"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Error"
@@ -477,6 +2224,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erreur"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiba"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "エラー"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fout"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Błąd"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ของผิดพลาด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata"
           }
         },
         "vi" : {
@@ -489,7 +2284,43 @@
     },
     "Exploit" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استغلال الثغرة"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استغلال"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مؤسس الثغرة"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausnutzen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exploit"
@@ -499,6 +2330,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exploitation"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kwetsbaarheid"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эксплойт"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Açığı Kullan"
           }
         },
         "vi" : {
@@ -512,7 +2391,43 @@
     "Extracting tendies..." : {
       "comment" : "happens when unzipping the files",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري استخراج ملفات ال ... tendies"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخراج tendies..."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ استخراج tendies..."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extrahuji tendies..."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies werden extrahiert..."
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extrayendo tendies..."
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Extrayendo tendies..."
@@ -522,6 +2437,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L'extraction des tendies..."
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excraction des tendies..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies kicsomagolása..."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendiesを解凍中…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitpakken tendies…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyciąganie tendies..."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Извлечение .tendies..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังดึงข้อมูล tendies…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies dışa aktarılıyor..."
           }
         },
         "vi" : {
@@ -534,7 +2497,43 @@
     },
     "Failed" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selhalo"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gescheitert"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fallido"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fallido"
@@ -544,6 +2543,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Échec"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échué"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikertelen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mislukt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało się"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สำเร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarısız"
           }
         },
         "vi" : {
@@ -556,16 +2603,100 @@
     },
     "Failed to import tendies" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل في استيراد ال tendies"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"فشل في استيراد tendies\""
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل في استيراد ملفات tendies"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selhal import tendies"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Einfuhr von Tendies ist fehlgeschlagen"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No se pudieron importar tendies"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudieron importar los tendies"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "N'a pas réussi à importer les tendies"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de l'importation des tendies"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A tendies importálása sikertelen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendiesのインポートに失敗しました"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toevoegen van tendies mislukt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało sie zaimportować tendies"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка при импорте .tendies"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำเข้า tendies ไม่สำเร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies dosyaları içe aktarılırken hata oluştu"
           }
         },
         "vi" : {
@@ -576,12 +2707,76 @@
         }
       }
     },
+    "Failed to Import Video" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videó importálása sikertelen"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка при импорте видео"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video içe aktarılamadı"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập Video bị lỗi"
+          }
+        }
+      }
+    },
     "Fallback Shortcut Creator" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مصمم الإختصار البديل"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء اختصار البدائل"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صانع اختصار Fallback"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tvorba Záložní Zkratky"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fallback Shortcut Creator"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Creador de atajos de respaldo"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creador del atajo de respaldo"
           }
         },
         "fr" : {
@@ -590,20 +2785,98 @@
             "value" : "Créateur de raccourcis de secours"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créateur de raccourcis Fallback"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tartalék parancs készítő"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォールバックショートカット作成者"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terugval Snelkoppeling Maker"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tworzenie skrótu fallback"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создатель Fallback Shortcut"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวสร้าง Shortcut สำรอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fallback Kestirme Oluşturucusu"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bộ tạo phím tắt dự phòng"
+            "value" : "Bộ tạo Phím tắt dự phòng"
           }
         }
       }
     },
     "Falling Back to Shortcut" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري استخدام طريقة الاختصارات البديلة"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرجوع إلى الاختصار"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přechod na Náhradní Zkratku"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rückgriff auf Kurzbefehle"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regresar al atajo"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recurriendo al atajo"
           }
         },
         "fr" : {
@@ -612,26 +2885,234 @@
             "value" : "Retomber dans le raccourci"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revenir au raccourcis"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visszatérés a parancshoz"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ショートカットに戻る"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terugvallen op Snelkoppeling"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powracanie do skroru fallback"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возвращение к Fallback"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังย้อนกลับไปใช้ Shortcut"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kestirmeye geri düşülüyor"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quay lại phím tắt"
+            "value" : "Quay lại Phím tắt"
+          }
+        }
+      }
+    },
+    "Find Wallpapers" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العثور على خلفيات للجهاز"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابحث عن الخلفيات"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finde Hintergrundbilder"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encontrar fondos de pantalla"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar fondos de pantalla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trouver des fonds d'écran"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Háttérképek találása"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poszukaj tapet"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Галерея обоев"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาวอลเปเปอร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duvar Kağıtları Bul"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm kiếm Hình nền"
           }
         }
       }
     },
     "Finish" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنهاء"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنهاء"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنهاء"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokončit"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abschließen"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finalizar"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminar"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finir"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminer"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Befejezés"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "終了"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einde"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koniec"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamamla"
           }
         },
         "vi" : {
@@ -644,16 +3125,100 @@
     },
     "Generating Video..." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري إنشاء الفيديو…"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ إنشاء الفيديو..."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ إنشاء الفيديو..."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generuji Video..."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video wird generiert..."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Generando vídeo..."
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generando video…"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Générer des vidéos..."
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Géneration de la vidéo..."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videó generálása..."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動画を生成中…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video Genereren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generawonie filmu.."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Генерация видео..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังสร้างวิดีโอ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video oluşturuluyor..."
           }
         },
         "vi" : {
@@ -664,9 +3229,191 @@
         }
       }
     },
+    "Get Shortcut" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحصول على الاختصار"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احصل على الأختصار"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurzbefehl holen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtener el atajo"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conseguir el atajo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtenir un raccourci"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shortcut letöltése"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdobądź skrót"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Получить Fallback"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับ Shortcut"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kestirme Al"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải xuống Phím tắt"
+          }
+        }
+      }
+    },
+    "Here is a tutorial to help you get started with the app." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذا دليل تعليمي لمساعدتك على البدء بإستخدام التطبيق."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إليك دليل تعليمي لمساعدتك على البدء باستخدام التطبيق."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aqui esta un tutorial para ayudarte a empezara a usar la aplicación"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquí hay un tutorial para ayudarte a empezar a utilizar la aplicación."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voici un tutoriel pour vous aider à démarrer avec l'application."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Íme egy oktatóanyag, amely segít az alkalmazás használatának megkezdésében."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poradnik jak korzystać z aplikacji."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта инструкция поможет вам начать пользоваться данным приложением."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นี่คือบทแนะนำเพื่อให้คุณเริ่มต้นใช้งานแอปได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı kullanmaya başlamak için bir eğitim videosu."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đây là hướng dẫn trước khi bạn bắt đầu sử dụng ứng dụng này."
+          }
+        }
+      }
+    },
     "Home" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرئيسية"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصفحة الرئيسية"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصفحة الرئيسية"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domů"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startseite"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicio"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inicio"
@@ -678,6 +3425,54 @@
             "value" : "Accueil"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acceuil"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Főképernyő"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホーム"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thuis"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dom"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Главная"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าหลัก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana sayfa"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -686,18 +3481,254 @@
         }
       }
     },
+    "Install Nugget" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميل Nugget"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نزل Nuggrt"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget installieren"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instala Nugget"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instalar Nugget"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer Nugget"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget telepítése"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zainstaluj Nugget"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установите Nugget"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดตั้ง Nugget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget'i indir"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải xuống Nugget"
+          }
+        }
+      }
+    },
+    "Install the Fallback Shortcut (Optional)" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحميل الاختصار البديل ( اختياري )"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تثبيت اختصار fallback (اختياري)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurzbefehl als Fallback installieren (Optional)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instala el atajo de respaldo (opcional)"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instalar el atajo de respaldo (opcional)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer le raccourci de repli (optionnel)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tartalék parancs telepítése"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zainstaluj skrót fallback (opcjonalne)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установите Fallback Shortcut (По желанию)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดตั้ง Shortcut สำรอง (ไม่บังคับลง)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fallback Kestirmesini indir (Opsiyonel)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt Phím tắt Dự phòng (Thích thì tải)"
+          }
+        }
+      }
+    },
     "Join the Discord" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنضم الى الديسكورد"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انضم إلى Discord"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انضم الى الدسكورد"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidej se na Discord Server"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discord beitreten"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unete a nuestro Discord"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Únete al Discord"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rejoindre le Discord"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rejoigner le Discord"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Csatlakozz a Discordhoz"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discordサーバに参加"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meedoen aan Discord"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dołącz do naszego Discorda"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Присоединиться к Discord серверу"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้ารวม Discord"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discord sunucusuna katıl"
           }
         },
         "vi" : {
@@ -710,7 +3741,43 @@
     },
     "Links" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "روابط"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "روابط"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "روابط"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odkazy"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Links"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enlaces"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enlaces"
@@ -720,6 +3787,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liens"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liens"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linkek"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リンク"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Links"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linki"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ссылки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลิงก์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linkler"
           }
         },
         "vi" : {
@@ -733,16 +3848,100 @@
     "Main Developer" : {
       "comment" : "leminlimez's contribution",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المطور الرئيسي"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المطور الرئيسي"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المطور الرئيسي"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlavní Vývojář"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hauptentwickler"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Desarrollador Principal"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desarrollador principal"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Développeur principal"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Développeur principal"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Főfejlesztő"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メイン開発者"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoofd Developer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Główny developer"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Главный разработчик"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้พัฒนาหลัก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana geliştirici"
           }
         },
         "vi" : {
@@ -755,16 +3954,100 @@
     },
     "Max Tendies Reached" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم بلوغ الحد الأقصى من ال Tendies"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم الوصول إلى الحد الأقصى من tendies"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحد الاقصى لـtendies وصل"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximální Počet Tendies Dosažen"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximale Tendies erreicht"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cantidad Maxima de Tendies alcanzada"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Máximo de Tendies alcanzado"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies maximales atteintes"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies maximum atteint"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Tendies elérve"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tendiesの上限到達"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximale tendies Bereikt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limit tendies"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Достигнуто максимальное количество обоев"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถึงจำนวนสูงสุดของ Tendies แล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maksimum tendies dosyası sınırına ulaşıldı"
           }
         },
         "vi" : {
@@ -777,7 +4060,43 @@
     },
     "Next" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiter"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
@@ -789,23 +4108,155 @@
             "value" : "Suivant"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Következő"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volgende"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Następny"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далее"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonraki"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kế tiếp"
+            "value" : "Tiếp theo"
           }
         }
       }
     },
     "Nugget GitHub" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صفحة Nugget على GitHub"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Github"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugger GitHub"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget Github"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub de Nugget"
+          }
+        },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Github"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Github"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Github"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget GitHub"
@@ -821,7 +4272,37 @@
     },
     "OK" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسناً"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنا"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -831,6 +4312,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ок"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โอเค"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam"
           }
         },
         "vi" : {
@@ -841,18 +4370,178 @@
         }
       }
     },
+    "On your computer, download Nugget from the GitHub." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "على حاسوبك، قم بتحميل Nugget من GitHub."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قم بتنزيل Nugget على جهاز الكمبيوتر الخاص بك من GitHub."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf Ihrem Computer installieren sie Nugget über GitHub."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En tu computadora, descargarlo desde GitHub"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En tu computadora, descarga Nugget desde el GitHub."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sur votre ordinateur, téléchargez Nugget depuis GitHub."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A számítógépeden, töltsd le a Nuggetet a GitHubról."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na swoim komputerze pobierz Nugget z GitHuba."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установите Nugget из официального GitHub на ваш компьютер."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลด Nugget จาก GitHub บนคอมพิวเตอร์ของคุณ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilgisayarınızda Nugget'i GitHub'dan indirin."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải về Nugget trên máy tính từ Github."
+          }
+        }
+      }
+    },
     "Only .tendies files can be downloaded!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فقط ملفات .tendies يمكن تحميلها!"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فقط ملفات .tendies يمكن تحميلها!"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فقط ملفات .tendies يمكن تحميلها!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Staženy mohou být pouze .tendies soubory!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es können nur .tendies-Dateien heruntergeladen werden!"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Solo archivos .tendies pueden ser descargados"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Solo archivos .tendies pueden ser descargados!"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seuls les fichiers .tendies peuvent être téléchargés!"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seulement les fichiers .tendies peuvent être téléchargés!"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Csak .tendies fájlt lehet letölteni!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tendiesファイルのみダウンロードできます"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alleen .tendies bestanden kunnen worden gedownload!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tylko pliki .tendies mogą być pobrane!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Только файлы .tendies могут быть загружены!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สามารถดาวน์โหลดไฟล์ .tendies ได้เท่านั้น!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sadece .tendies dosyaları indirilebilir!"
           }
         },
         "vi" : {
@@ -863,9 +4552,121 @@
         }
       }
     },
+    "Open GitHub" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتح GitHub"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح على GitHub"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub öffnen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre GitHub"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir GitHub"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir GitHub"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub megnyitésa"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otwórz githuba"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть GitHub"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิด GitHub"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Github'ı Aç"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở Github"
+          }
+        }
+      }
+    },
     "Please wait" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرجاء الإنتظار"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرجاء الانتظار"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please wait"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prosím počkejte"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte warten"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por favor espere"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Por favor espere"
@@ -875,6 +4676,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veuillez patienter"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attendez s'il vous plait"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kérlek várj"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お待ちください"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Even geduld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proszę czekać"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пожалуйста, подождите"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณารอ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen bekleyin"
           }
         },
         "vi" : {
@@ -887,13 +4736,97 @@
     },
     "Pocket Poster" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بوكيت بوستر Pocket Poster"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster Ar"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พ็อกเก็ตโปสเตอร์"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
@@ -909,10 +4842,40 @@
     },
     "PosterBoard failed to open directly. The fallback shortcut will now be opened." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل فتح تطبيق PosterBoard بشكل مباشر. سيتم فتح الاختصار البديل."
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل PosterBoard في الفتح بشكل مباشر. سيتم فتح الاختصار البديل الآن."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard se nemohl otevřít přímo. Otevře se záložní zkratka."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard konnte nicht direkt geöffnet werden. Der Ersatz-Kurzebefehl wird nun geöffnet."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "PosterBoard no se pudo abrir directamente. Ahora se abrirá el acceso directo alternativo."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard no se pudo abrir directamente. Se utilizará el atajo de respaldo."
           }
         },
         "fr" : {
@@ -921,26 +4884,149 @@
             "value" : "PosterBoard n'a pas pu s'ouvrir directement. Le raccourci de secours sera maintenant ouvert."
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A PosterBoard közvetlen megnyitása sikertelen. A tartalék parancs most elindul."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoardが直接開くことができませんでした。フォールバックショートカットが開きます。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard gefaald om het direct te openen. De terugval snelkoppeling wordt nu geopend."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie udało sie otworzyć PosterBoard. Skrot fallback zostanie otwarty."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard не был открыт напрямую. Открывается Fallback Shortcut"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถเปิดโปสเตอร์บอร์ดโดยตรง กำลังจะใช้ Shortcut สำรอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard doğrudan açılamadı. Fallback kestirmesi şimdi kullanılacak."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "PosterBoard không thể mở trực tiếp. Phím tắt dự phòng sẽ được mở ngay bây giờ."
+            "value" : "PosterBoard không thể mở trực tiếp. Phím tắt dự phòng bây giờ sẽ được mở."
           }
         }
       }
     },
+    "Preferences" : {
+
+    },
     "Release" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاصدار"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاصدار"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإصدار"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vydání"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Release"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lanzar"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanzamiento"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Libération"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiadás"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リリース"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitbrengen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wydanie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Релиз"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีลีส"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürüm"
           }
         },
         "vi" : {
@@ -953,16 +5039,94 @@
     },
     "Replay Tutorial" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اعادة تشغيل الدليل التعليمي"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة تشغيل الدليل"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة تشغيل الدليل التعليمي"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přehrát návod"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutorial erneut starten"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reproducir de nuevo Tutorial"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repetir el tutorial"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Répéter le tutoriel"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutorial újrajátszása"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チュートリアルを再生"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutorial opnieuw afspelen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powtórz poradnik"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Воспроизвести иструкцию заново"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูบทแนะนำซ้ำ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekrar Oynatma Öğreticisi"
           }
         },
         "vi" : {
@@ -973,12 +5137,39 @@
         }
       }
     },
-    "Reset CarPlay Applied Wallpapers" : {
-
-    },
     "Reset Collections" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اعادة تعيين المجموعات"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة تعيين المجموعات"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resetovat Kolekce"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sammlungen zurücksetzen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar colecciones"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reiniciar colecciones"
@@ -988,6 +5179,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réinitialiser les Collections"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gyűjetmények visszaállítása"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コレクションをリセット"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collecties Terugzetten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zresetuj kolekcje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить коллекции"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตคอลเลคชั่น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koleksiyonları sıfırla"
           }
         },
         "vi" : {
@@ -1000,7 +5233,43 @@
     },
     "Select Tendies" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار ال Tendies"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حدد Tendies"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختار ملفات Tendies"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrat Tendies"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies auswählen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionar Tendies"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seleccionar Tendies"
@@ -1010,6 +5279,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sélectionner Tendies"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies kiválasztása"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendiesを選択"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies Tendies"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz tendies"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать Tendies"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือก Tendies"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies dosyasını Seç"
           }
         },
         "vi" : {
@@ -1022,7 +5333,43 @@
     },
     "Selected Tendies" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ال Tendies المختارة"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم تحديد Tendies"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملفات Tendies المختارة"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrané Tendies"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgewählte Tendies"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies seleccionado"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies seleccionado"
@@ -1032,6 +5379,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies sélectionnées"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiválasztott Tendies"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択されたTendies"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geselecteerden Tendies"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybrane tendies"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбранные Tendies"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies ที่ถูกเลือก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçilmiş Tendies dosyası"
           }
         },
         "vi" : {
@@ -1044,7 +5433,43 @@
     },
     "Skip" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přeskočit"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überspringen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saltar"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saltar"
@@ -1054,6 +5479,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sauter"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kihagyás"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキップ"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overslaan"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomiń"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้าม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geç"
           }
         },
         "vi" : {
@@ -1066,7 +5533,43 @@
     },
     "Socials" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وسائل التواصل"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "روابط التواصل الاجتماعي"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "روابط"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sociální Sítě"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soziale Netzwerke"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sociales"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sociales"
@@ -1076,6 +5579,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sociales"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Közösségi profilok"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソーシャル"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sociale media"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sociale"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Социальные сети"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โซเชียล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sosyal Medya"
           }
         },
         "vi" : {
@@ -1088,10 +5633,46 @@
     },
     "Success!" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم بنجاح!"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نجاح!"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نجاح!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úspěch!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erfolg!"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logrado!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Éxito!"
           }
         },
         "fr" : {
@@ -1100,26 +5681,146 @@
             "value" : "Succès!"
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siker!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelukt!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sukces!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำเร็จ!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarılı!"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hoàn thành!"
+            "value" : "Thành công!"
           }
         }
       }
     },
     "Successfully imported %@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم الاستيراد بنجاح %@"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم استيراد %@ بنجاح"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم استيراد %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úspěšně jsem importoval %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ wurde erfolgreich importiert"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importado correctamente!"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ importado satisfactoriamente"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importation réussie %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikeresen importáltuk a %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ のインポートに成功"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succesvol toegevoegd %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaimportowano %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Успешный импорт %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำเข้า %@ สำเร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarıyla içe aktarıldı %@"
           }
         },
         "vi" : {
@@ -1132,16 +5833,94 @@
     },
     "Support on Ko-Fi" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادعمني على Ko-Fi"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدعم عبر Ko-Fi"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادعمني في Ko-Fi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podpořte nás na Ko-Fi"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unterstütze bei Ko-Fi"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apoyanos en Ko-Fi"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apóyanos en Ko-Fi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support sur Ko-Fi"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Támogass minket Ko-Fi-n"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ko-Fiでサポート"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steun mij op Ko-Fi"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wesprzyj na Ko-Fi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддержать на Ko-Fi"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สนับสนุนบน Ko-Fi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ko-Fi üzerinden destekleyin"
           }
         },
         "vi" : {
@@ -1154,16 +5933,88 @@
     },
     "The folder is improperly set up. Please tap \"Reset Collections\" and try again." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملف لم يتم اعداده بشكل صحيح. الرجاء الضغط على \"اعادة تعيين المجموعات\" و المحاولة مجدداً."
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المجلد غير مهيأ بشكل صحيح. يرجى الضغط على \"إعادة تعيين المجموعات\" واعادة المحاولة."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Složka je nesprávně nastavena. Prosím klikněte na \"Resetovat Kolekce\" a zkuste to znovu."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Ordner ist nicht ordnungsgemäß eingerichtet. Bitte tippen Sie auf \"Sammlungen zurücksetzen\" und versuchen Sie es erneut."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "La carpeta no está configurada correctamente. Pulsa \"Restablecer colecciones\" y vuelve a intentarlo."
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El folder no está configurado correctamente. Favor de presionar \"Reiniciar Colecciones\" e intente de nuevo."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le dossier est mal configuré. Appuyez sur \"Réinitialiser les Collections\" et réessayez."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A mappa nincs megfelelően beállítva. Koppintson a \"Gyűjtemények visszaállítása\" gombra, és próbálja újra."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォルダが正しく設定されていません。「コレクションをリセット」をタップして、もう一度やり直してください。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De folder is incorrect ingesteld. Druk alsjeblieft op “herstel Collecties” en probeer het opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folder jest nieprawidłowo skonfigurowany. Kliknij „Resetuj kolekcje” i spróbuj ponownie."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка. Нажмите \"Сбросить коллекции\" и попробуйте снова."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โฟลเดอร์ถูกตั้งค่าไม่ถูกต้อง กรุณาแตะ \"รีเซ็ตคอลเลคชั่น\" แล้วลองอีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klasör uygunsuz kurulmuş. Lütfen \"Koleksiyonları Sıfırla\" tuşuna basıp tekrar deneyin."
           }
         },
         "vi" : {
@@ -1176,10 +6027,46 @@
     },
     "The PosterBoard app will now open. Please close it from the app switcher." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تطبيق PosterBoard سيفتح الآن. الرجاء اغلاقه من واجهة التبديل بين التطبيقات."
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سيتم فتح تطبيق PosterBoard الآن. يرجى إغلاقه من قائمة التطبيقات."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تطبيق PosterBoard بيفتح الان. قفله من السويتشر."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard aplikace se teď otevře. Prosím zavřete ji z Nedávných aplikací."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die PosterBoard App wird nun geöffnet. Bitte schließen Sie sie über den App-Switcher."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se abrirá la aplicación PosterBoard. Ciérrela desde el selector de aplicaciones."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app PosterBoard se abrirá. Por favor ciérrala del multitareas."
           }
         },
         "fr" : {
@@ -1188,16 +6075,262 @@
             "value" : "L'application PosterBoard est maintenant ouverte. Veuillez la fermer à partir du sélecteur d'applications."
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Megnyílik a PosterBoard alkalmazás. Kérjük, zárja be az alkalmazásváltóból."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoardアプリが開きます。アプリスイッチャーから閉じてください。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De PosterBoard app opent nu. Sluit het af van de app switcher."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja Posterboard zostanie otwarta. Proszę zamknąć ją w przełączniku aplikacji."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard сейчас будет открыт. Закройте его принудительно"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แอปโปสเตอร์บอร์ดจะถึกเปิด ให้คุณปิดมันในหน้าปัดขึ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard uygulaması şimdi açılacak. Lütfen uygulama değiştiriciden kapatın."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ứng dụng PosterBoard bây giờ sẽ được mở. Hãy đóng nó trong đa nhiệm."
+            "value" : "Ứng dụng PosterBoard đã được mở. Hãy đóng nó trong đa nhiệm."
+          }
+        }
+      }
+    },
+    "The video you imported is too long! Your video must be %@ seconds or less." : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az importált videó túl hosszú! A videó hossza legfeljebb %@ másodperc lehet."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваше видео слишком длинное! Оно должно быть не больше %@ секунд"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçe aktardığın video çok uzun! Video en fazla  %@ veya daha az olmalı."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn nhập video dài quá! Video của bạn cần phải ít hơn hoặc vừa đủ %@ giây."
+          }
+        }
+      }
+    },
+    "To apply, PosterBoard will need to open." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لتطبيق التغييرات، سنحتاج لفتح تطبيق PosterBoard."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um anzuwenden, Pocket Poster wird Posterboard öffnen."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para aplicar, PosterBoard necesitara abrirse."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para aplicar, PosterBoard se abrirá."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour l'appliquer, PosterBoard doit être ouvert."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az alkalmazáshoz a PosterBoardnak meg kell nyílnia."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aby zastosować PosterBoard musi zostać otwarty."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы обои установились, Pocket Poster потребуется открыть PosterBoard."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ในการใช้งาน ตัวแอป PosterBoard จะจำเป็นต้องเปิดขึ้นมา"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamak için PosterBoard Açılacak."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Để áp dụng, PosterBoard sẽ cần phải được mở."
+          }
+        }
+      }
+    },
+    "To get the app bundle id, Nugget is required." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "للحصول على معرّف bundle id الخاص بالتطبيق، تطبيق Nugget ضروري."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "للحصول على معرف حزمة التطبيق، يلزم استخدام Nugget."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um die App-Bundle-ID zu bekommen, wird Nugget benötigt."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para obteenr el bundle id de la aplicacion, se necesitará Nugget."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para obtener el Bundle ID de la app, se necesita Nugget."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour obtenir l'identifiant du bundle d'application, Nugget est nécessaire."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuggetre van szükség az App Bundle id megszerzéséhez."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aby uzyskać identyfikator pakietu aplikacji, wymagany jest Nugget."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы получить App Hash, потребуется Nugget."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ในการหา Bundle ID ของแอปจะต้องใช้ Nugget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paket kimliğini almak için Nugget gereklidir."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Để lấy ID gói của ứng dụng, bạn cần phải sử dụng Nugget."
           }
         }
       }
     },
     "Version %@ (%@)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاصدار %1$@ (%2$@)"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإصدار %1$@ (%2$@)"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإصدار %1$@ (%2$@)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verze %1$@ (%2$@)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %1$@ (%2$@)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -1210,10 +6343,58 @@
             "value" : "Version %1$@ (%2$@)"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión %1$@ (%2$@)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Version %1$@ (%2$@)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verzió %1$@ (%2$@)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バージョン %1$@ (%2$@)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versie %1$@ (%2$@)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wersja %1@ (%2$@)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия %1$@ (%2$@)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวอร์ชั่น %1$@ (%2$@)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürüm %1$@ (%2$@)"
           }
         },
         "vi" : {
@@ -1226,7 +6407,37 @@
     },
     "Videos" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفيديوهات"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفديوهات"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videa"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videos"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videos"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Videos"
@@ -1236,6 +6447,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vidéos"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videók"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動画"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videos"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wideo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видео"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดีโอ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videolar"
           }
         },
         "vi" : {
@@ -1248,7 +6501,37 @@
     },
     "View on GitHub" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المشاهدة على GitHub"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض على GitHub"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit na GitHubu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf GitHub ansehen"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver en GitHub"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ver en GitHub"
@@ -1258,6 +6541,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voir sur GitHub"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Megtekintés a GitHubon"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHubで見る"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekijk op GitHub"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobacz na GitHubie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูบน GitHub"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Github üzerinde görüntüle"
           }
         },
         "vi" : {
@@ -1270,16 +6595,94 @@
     },
     "Website Designer" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مصمم الموقع"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مصمم الموقع الإلكتروني"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ديزانير الموقع"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Designer Webovky"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Website-Designer"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diseñador de la pagina"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseñador del sitio web"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Concepteur de site web"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weboldal Designere"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ウェブサイトデザイナー"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Website Designer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Designer Strony"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дизайнер Веб-сайта"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้ออกแบบเว็บไซต์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İnteret sayfası tasarımcısı"
           }
         },
         "vi" : {
@@ -1290,18 +6693,166 @@
         }
       }
     },
+    "Welcome to Pocket Poster!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحباً ب Pocket Poster!"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبا الى Pocket Poster!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommen zum Pocket Poster!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenido a Pocket Poster!"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Bienvenid@ a Pocket Poster!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue à Pocket Poster!"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üdvözlünk a Pocket Poster-be!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witaj w Pocket Poster!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добро пожаловать в Pocket Poster!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยินดีสู่ Pocket Poster!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster'a Hoşgeldiniz!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chào mừng đến với Pocket Poster!"
+          }
+        }
+      }
+    },
     "Would you like to download the file %@?" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل ترغب بتحميل الملف %@?"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تريد تحميل الملف %@؟"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejete si stahnout soubor %@?"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Möchten Sie die Datei %@ herunterladen?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Quieres descargar el archivo %@?"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deseas descargar el archivo %@?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voulez-vous télécharger le fichier %@?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szeretnéd letölteni a(z) %@ fájlt?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ファイルをダウンロードしますか？"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wil je dit bestand downloaden %@?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czy chcesz pobrać plik %@?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы хотите скачать файл %@?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณต้องการดาวน์โหลดไฟล์ %@ หรือไม่?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosyayı indirmek ister misiniz %@?"
           }
         },
         "vi" : {
@@ -1312,21 +6863,236 @@
         }
       }
     },
-    "You can now choose your wallpapers in the CarPlay settings in your car." : {
-
+    "You can find wallpapers on the official Cowabun.ga website." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك العثور على موقع Cowabun.ga الرسمي."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك العثور على الخلفيات على الموقع الرسمي Cowabun.ga."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie können Hintergrundbilder auf der offiziellen Cowabun.ga Webseite finden."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes encontrar fondos de pantalla en el sitio oficial Cowabun.ga"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes encontrar fondos de pantalla en el sitio web oficial Cowabun.ga."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez trouver des fonds d'écran sur le site officiel de Cowabun.ga."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Háttérképeket a hivatalos Cowabun.ga weboldalon találhatsz."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mozesz znaleźć tapety na oficjalnej stronie Cowabun.ga"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы можете найти обои на официальном сайте Cowabun.ga."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณสามารถหาวอลเปเปอร์ได้ที่เว็บไซต์ Cowabun.ga"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cowabun.ga websitesinde duvar kağıtları bulabilirsiniz."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn có thể tìm kiếm các hình nền trên trang web Cowabun.ga."
+          }
+        }
+      }
+    },
+    "You can install an optional shortcut if the original method fails." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك تحميل اختصار اختياري اذا فشلت الطريقة الاساسية."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie können den optionalen Kurzbefehl installieren, wenn die originale Methode fehlgeschlagen hat."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes instalar un atajo opcional si el metodo original falla."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puedes instalar un atajo opcional si el método original falla."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez installer un raccourci facultatif si la méthode originale échoue."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telepíthetsz egy opcionális parancsot, ha az eredeti módszer nem működik."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz zainstalować opcjonalny skrót jeżeli oryginalna metoda nie zadziała."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы можете установить Fallback Shortcut если встроенный метод не работает."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณสามารถติดตั้ง Shortcut เพิ่มได้ถ้าวิธีเดิมใช้ไม่ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orijinal yöntem başarısız olursa opsiyonel bir kestirme indirebilirsiniz."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn có thể tải xuống Phím tắt Dự phòng nếu cách làm bình thường bị lỗi."
+          }
+        }
+      }
     },
     "You can only apply %@ descriptors." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك فقط تطبيق %@ descriptors."
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك تطبيق %@ وصف فقط."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Můžete aplikovat pouze %@ descriptory."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie können nur %@-Deskriptoren anwenden."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sólo puedes aplicar descriptores %@."
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo puedes aplicar descriptores %@."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous ne pouvez appliquer que des descripteurs %@."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Csak %@ descriptort alkalmazhatsz."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 記述子のみ適用できます。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je kan alleen kenmerken %@ aanpassen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Można stosować tylko deskryptory %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы можете установить только %@ дескрипторов."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณสามารถใช้ descriptors %@ ได้เท่านั้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sadece %@ descriptors uygulanabilir."
           }
         },
         "vi" : {
@@ -1339,16 +7105,88 @@
     },
     "Your app hash is incorrect. Please set it again." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هاش تطبيقك خاطئ. رجاءً عيينه مرة اخرى."
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الهاش الخاص بالتطبيق غير صحيح. يرجى إعادة الإعداد."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Váš hash aplikace je nesprávný. Prosím nastavte ho znovu."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihr App-Hash ist falsch. Bitte stellen Sie ihn erneut ein."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "El hash de tu aplicación es incorrecto. Por favor, configúralo de nuevo."
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El Hash de tu app es incorrecto. Por favor configúralo de nuevo."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre App Hash est incorrect. Veuillez le redéfinir."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az App hashed helytelen. Kérlek állítsd be újra"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリのハッシュが正しくありません。もう一度設定してください。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jou app hash is incorrect. Stel hem opnieuw in."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twoj hash jest nieprawidłowy. Ustaw go jeszcze raz."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш App hash неправильный. Впишите его заново."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แฮชแอปของคุณไม่ถูกต้อง กรุณาตั้งค่าใหม่อีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama Hash'iniz geçersiz . Lütfen tekrar giriniz."
           }
         },
         "vi" : {
@@ -1361,7 +7199,37 @@
     },
     "Your PosterBoard will refresh automatically." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تطبيق PosterBoard خاصتك سيتم تحديثه تلقائياً."
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سيتم تحديث PosterBoard الخاص بك تلقائيًا."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Váš PosterBoard se automaticky znovu načte."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihr PosterBoard wird automatisch aktualisiert."
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su PosterBoard se actualizará automáticamente."
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Su PosterBoard se actualizará automáticamente."
@@ -1371,6 +7239,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre PosterBoard se rafraîchit automatiquement."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A PosterBoardod automatikusan újra fog tölteni."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoardは自動的に更新されます。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jou PosterBoard ververst automatisch."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twój posterboard odświeży się automatycznie."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш PosterBoard будет перезагружен автоматически."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปสเตอร์บอร์ดของคุณจะรีเฟรชโดยอัตโนมัติ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard'ınız otomatik olarak yenilenecektir."
           }
         },
         "vi" : {
