@@ -9,14 +9,14 @@ import SwiftUICore
 
 struct OnBoardingPage: Identifiable {
     var id = UUID()
-    var title: LocalizedStringKey
+    var title: String
     var description: String
     var image: String
     var link: URL?
-    var linkName: LocalizedStringKey?
+    var linkName: String?
     var gradientColors: [Color]
     
-    init(title: LocalizedStringKey, description: String, image: String, link: URL? = nil, linkName: LocalizedStringKey? = nil, gradientColors: [Color] = [Color("WelcomeLight"), Color("WelcomeDark")]) {
+    init(title: String, description: String, image: String, link: URL? = nil, linkName: String? = nil, gradientColors: [Color] = [Color("WelcomeLight"), Color("WelcomeDark")]) {
         self.id = UUID()
         self.title = title
         self.description = description
@@ -29,30 +29,30 @@ struct OnBoardingPage: Identifiable {
 
 let onBoardingCards: [OnBoardingPage] = [
     .init(
-        title: "Welcome to Pocket Poster!",
+        title: NSLocalizedString("Welcome to Pocket Poster!", comment: ""),
         description: NSLocalizedString("Here is a tutorial to help you get started with the app.", comment: ""),
         image: "Logo"
     ),
     .init(
-        title: "Install the Fallback Shortcut (Optional)",
+        title: NSLocalizedString("Install the Fallback Shortcut (Optional)", comment: ""),
         description: NSLocalizedString("To apply, PosterBoard will need to open.", comment: "") + "\n\n" + NSLocalizedString("You can install an optional shortcut if the original method fails.", comment: ""),
         image: "Shortcuts",
         link: URL(string: PosterBoardManager.ShortcutURL),
-        linkName: "Get Shortcut"
+        linkName: NSLocalizedString("Get Shortcut", comment: "")
     ),
     .init(
-        title: "Install Nugget",
+        title: NSLocalizedString("Install Nugget", comment: ""),
         description: NSLocalizedString("To get the app bundle id, Nugget is required.", comment: "") + "\n\n" + NSLocalizedString("On your computer, download Nugget from the GitHub.", comment: ""),
         image: "Nugget",
         link: URL(string: "https://github.com/leminlimez/Nugget/releases/latest"),
-        linkName: "Open GitHub"
+        linkName: NSLocalizedString("Open GitHub", comment: "")
     ),
     .init(
-        title: "Enjoy!",
+        title: NSLocalizedString("Enjoy!", comment: ""),
         description: NSLocalizedString("You can find wallpapers on the official Cowabun.ga website.", comment: ""),
         image: "Cowabunga",
         link: URL(string: PosterBoardManager.WallpapersURL),
-        linkName: "Find Wallpapers"
+        linkName: NSLocalizedString("Find Wallpapers", comment: "")
     )
 ]
 

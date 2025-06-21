@@ -839,6 +839,12 @@
     },
     "Community Translators" : {
       "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fordítók"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1929,6 +1935,12 @@
             "value" : "Jouir!"
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Élvezd!"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2694,6 +2706,12 @@
     },
     "Failed to Import Video" : {
       "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videó importálása sikertelen"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2956,6 +2974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trouver des fonds d'écran"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Háttérképek találása"
           }
         },
         "pl" : {
@@ -3240,6 +3264,12 @@
             "value" : "Obtenir un raccourci"
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shortcut letöltése"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3302,6 +3332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voici un tutoriel pour vous aider à démarrer avec l'application."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Íme egy oktatóanyag, amely segít az alkalmazás használatának megkezdésében."
           }
         },
         "pl" : {
@@ -3442,9 +3478,6 @@
         }
       }
     },
-    "How to Reset Collections" : {
-
-    },
     "Install Nugget" : {
       "localizations" : {
         "ar" : {
@@ -3481,6 +3514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Installer Nugget"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget telepítése"
           }
         },
         "pl" : {
@@ -3551,6 +3590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Installer le raccourci de repli (optionnel)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tartalék parancs telepítése"
           }
         },
         "pl" : {
@@ -4360,6 +4405,12 @@
             "value" : "Sur votre ordinateur, téléchargez Nugget depuis GitHub."
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A számítógépeden, töltsd le a Nuggetet a GitHubról."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4536,6 +4587,12 @@
             "value" : "Ouvrir GitHub"
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub megnyitésa"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4567,9 +4624,6 @@
           }
         }
       }
-    },
-    "Open the Language Settings" : {
-
     },
     "Please wait" : {
       "localizations" : {
@@ -5371,9 +5425,6 @@
         }
       }
     },
-    "Set the Primary Language" : {
-
-    },
     "Skip" : {
       "localizations" : {
         "ar" : {
@@ -5918,6 +5969,12 @@
             "value" : "Le dossier est mal configuré. Appuyez sur \"Réinitialiser les Collections\" et réessayez."
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A mappa nincs megfelelően beállítva. Koppintson a \"Gyűjtemények visszaállítása\" gombra, és próbálja újra."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6064,6 +6121,12 @@
     },
     "The video you imported is too long! Your video must be %@ seconds or less." : {
       "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az importált videó túl hosszú! A videó hossza legfeljebb %@ másodperc lehet."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6114,6 +6177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pour l'appliquer, PosterBoard doit être ouvert."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az alkalmazáshoz a PosterBoardnak meg kell nyílnia."
           }
         },
         "pl" : {
@@ -6186,6 +6255,12 @@
             "value" : "Pour obtenir l'identifiant du bundle d'application, Nugget est nécessaire."
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuggetre van szükség az App Bundle id megszerzéséhez."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6217,9 +6292,6 @@
           }
         }
       }
-    },
-    "Verify That It Worked" : {
-
     },
     "Version %@ (%@)" : {
       "localizations" : {
@@ -6275,6 +6347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Version %1$@ (%2$@)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verzió %1$@ (%2$@)"
           }
         },
         "ja" : {
@@ -6365,6 +6443,12 @@
             "value" : "Vidéos"
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videók"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6451,6 +6535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voir sur GitHub"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Megtekintés a GitHubon"
           }
         },
         "ja" : {
@@ -6547,6 +6637,12 @@
             "value" : "Concepteur de site web"
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weboldal Designere"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6629,6 +6725,12 @@
             "value" : "Bienvenue à Pocket Poster!"
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üdvözlünk a Pocket Poster-be!"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6703,6 +6805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voulez-vous télécharger le fichier %@?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szeretnéd letölteni a(z) %@ fájlt?"
           }
         },
         "ja" : {
@@ -6787,6 +6895,12 @@
             "value" : "Vous pouvez trouver des fonds d'écran sur le site officiel de Cowabun.ga."
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Háttérképeket a hivatalos Cowabun.ga weboldalon találhatsz."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6849,6 +6963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous pouvez installer un raccourci facultatif si la méthode originale échoue."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telepíthetsz egy opcionális parancsot, ha az eredeti módszer nem működik."
           }
         },
         "pl" : {
@@ -6925,6 +7045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous ne pouvez appliquer que des descripteurs %@."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Csak %@ descriptort alkalmazhatsz."
           }
         },
         "ja" : {
@@ -7015,6 +7141,12 @@
             "value" : "Votre App Hash est incorrect. Veuillez le redéfinir."
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az App hashed helytelen. Kérlek állítsd be újra"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7101,6 +7233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre PosterBoard se rafraîchit automatiquement."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A PosterBoardod automatikusan újra fog tölteni."
           }
         },
         "ja" : {

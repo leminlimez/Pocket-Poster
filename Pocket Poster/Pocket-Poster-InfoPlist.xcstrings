@@ -59,6 +59,12 @@
             "value" : "Pocket Poster"
           }
         },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -145,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fond d'écran Nugget"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Háttérkép"
           }
         },
         "ja" : {

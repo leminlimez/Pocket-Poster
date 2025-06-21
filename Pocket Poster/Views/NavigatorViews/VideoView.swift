@@ -14,12 +14,30 @@ struct VideoView: View {
     @AppStorage("ignoreDurationLimit") var ignoreDurationLimit: Bool = false
     
     @State var selectedVideo: PhotosPickerItem?
+    @State private var currentPage: Int = 0
+    
+    @State private var currentDate = Date()
+    private let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect() // update every second
+    private var dateFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE, MMMM d"
+        return formatter
+    }
+    private var timeFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        if Locale.current.hourCycle == .zeroToEleven || Locale.current.hourCycle == .oneToTwelve {
+            formatter.dateFormat = "h:mm"
+        } else {
+            formatter.dateFormat = "HH:mm"
+        }
+        return formatter
+    }
     
     var body: some View {
         VStack {
             GeometryReader { geom in
-                TabView {
-                    ForEach(pbManager.videos) { vid in
+                TabView(selection: $currentPage) {
+                    ForEach(Array(pbManager.videos.enumerated()), id: \.offset) { idx, vid in
                         ZStack {
                             switch vid.loadState {
                             case .unknown:
@@ -31,6 +49,17 @@ struct VideoView: View {
                                     .scaledToFill()
                                     .frame(width: geom.size.width * 0.7, height: geom.size.height * 0.8)
                                     .clipped()
+                                VStack {
+                                    Text(dateFormatter.string(from: currentDate))
+                                        .shadow(radius: 10)
+                                    
+                                    Text(timeFormatter.string(from: currentDate))
+                                        .font(.system(size: 75, weight: .semibold, design: .rounded))
+                                        .shadow(radius: 10)
+                                    Spacer()
+                                }
+                                .padding(.top, 45)
+                                .foregroundStyle(.white)
                             case .failed:
                                 Text("Failed")
                             }
@@ -39,6 +68,7 @@ struct VideoView: View {
                         .shadow(radius: 5)
                         .background(Color.black.opacity(0.6))
                         .cornerRadius(24)
+                        .tag(idx)
                         .overlay {
                             RoundedRectangle(cornerRadius: 24)
                                 .stroke(.gray, lineWidth: 4)
@@ -51,22 +81,30 @@ struct VideoView: View {
                         .overlay(
                             // Loops Button
                             Button(action: {
-                                if let index = pbManager.videos.firstIndex(of: vid) {
-                                    pbManager.videos[index].autoReverses = !vid.autoReverses
-                                }
+                                pbManager.videos[idx].autoReverses = !vid.autoReverses
                             }) {
                                 Image(systemName: "arrow.left.arrow.right.circle")
                                     .font(.title)
-                                    .foregroundStyle(.black)
+                                    .foregroundStyle(Color(uiColor: .label))
                                     .background {
-                                        Circle()
-                                            .foregroundStyle(vid.autoReverses ? .blue : .white)
+                                        if vid.autoReverses {
+                                            Circle()
+                                                .foregroundStyle(.blue.opacity(0.8))
+                                                .shadow(radius: 5)
+                                        } else {
+                                            Circle()
+                                                .foregroundStyle(.regularMaterial)
+                                                .shadow(radius: 5)
+                                        }
                                     }
                             }.offset(x: 8, y: -8),
                             alignment: .topTrailing
                         )
                     }
                     .onDelete(perform: removeVideo)
+                    .onReceive(timer) { input in
+                        currentDate = input
+                    }
                     
                     // MARK: Select Photo Option
                     if selectedVideo == nil && pbManager.videos.count < 5 {
@@ -90,6 +128,7 @@ struct VideoView: View {
                         .shadow(radius: 5)
                         .background(Color.black.opacity(0.6))
                         .cornerRadius(24)
+                        .tag(pbManager.videos.count)
                         .overlay {
                             RoundedRectangle(cornerRadius: 24)
                                 .stroke(.gray, lineWidth: 4)
@@ -109,6 +148,7 @@ struct VideoView: View {
                                         UIApplication.shared.alert(title: NSLocalizedString("Failed to Import Video", comment: ""), body: String(format: NSLocalizedString("The video you imported is too long! Your video must be %@ seconds or less.", comment: ""), "\(Int(VideoHandler.MaxDurationSecs))"))
                                     } else {
                                         pbManager.videos[id].loadState = .loaded(movie)
+                                        currentPage = id
                                     }
                                 }
                             } else {
@@ -124,7 +164,7 @@ struct VideoView: View {
                         selectedVideo = nil
                     }
                 }
-                .tabViewStyle(.page)
+                .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
             }
         }
     }
@@ -155,7 +195,8 @@ struct DeleteButton: View {
                     .font(.title)
                     .background {
                         Circle()
-                            .foregroundStyle(.white)
+                            .foregroundStyle(.regularMaterial)
+                            .shadow(radius: 5)
                     }
             }
             .offset(x: -8, y: -8)
