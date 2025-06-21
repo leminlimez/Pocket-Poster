@@ -9,7 +9,8 @@ import SwiftUI
 
 struct SettingsView: View {
     // Prefs
-    @AppStorage("pbHash") var pbHash: String = ""
+    @AppStorage("pbHash") var pbHash: String = "" // PosterBoard hash
+    @AppStorage("cpHash") var cpHash: String = "" // CarPlay hash
     
     @State var checkingForHash: Bool = false
     @State var hashCheckTask: Task<Void, any Error>? = nil
@@ -137,6 +138,9 @@ struct SettingsView: View {
                     let items = contents.split(separator: "\n")
                     if let pb = items.first {
                         pbHash = String(pb)
+                    }
+                    if items.count >= 2 {
+                        cpHash = String(items[1])
                     }
                 }
             } catch {
