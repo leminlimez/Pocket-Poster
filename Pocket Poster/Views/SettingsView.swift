@@ -11,6 +11,7 @@ struct SettingsView: View {
     // Prefs
     @AppStorage("pbHash") var pbHash: String = "" // PosterBoard hash
     @AppStorage("cpHash") var cpHash: String = "" // CarPlay hash
+    @AppStorage("ignoreDurationLimit") var ignoreDurationLimit: Bool = false
     
     @State var checkingForHash: Bool = false
     @State var hashCheckTask: Task<Void, any Error>? = nil
@@ -44,6 +45,14 @@ struct SettingsView: View {
                 }
             } header: {
                 Label("App Hash", systemImage: "lock.app.dashed")
+            }
+            
+            Section {
+                Toggle(isOn: $ignoreDurationLimit, label: {
+                    Label("Disable Video Duration Limit", systemImage: "ruler")
+                })
+            } header: {
+                Label("Preferences", systemImage: "gear")
             }
             
             Section {

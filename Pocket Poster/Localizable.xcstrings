@@ -1485,6 +1485,9 @@
         }
       }
     },
+    "Disable Video Duration Limit" : {
+
+    },
     "Do you want to reset collections?" : {
       "localizations" : {
         "ar" : {
@@ -4930,6 +4933,9 @@
           }
         }
       }
+    },
+    "Preferences" : {
+
     },
     "Release" : {
       "localizations" : {
