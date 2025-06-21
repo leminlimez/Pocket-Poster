@@ -35,14 +35,14 @@ let onBoardingCards: [OnBoardingPage] = [
     ),
     .init(
         title: NSLocalizedString("Install the Fallback Shortcut (Optional)", comment: ""),
-        description: NSLocalizedString("To apply, PosterBoard will need to open.\n\nYou can install an optional shortcut if the original method fails.", comment: ""),
+        description: NSLocalizedString("To apply, PosterBoard will need to open.", comment: "") + "\n\n" + NSLocalizedString("You can install an optional shortcut if the original method fails.", comment: ""),
         image: "Shortcuts",
         link: URL(string: PosterBoardManager.ShortcutURL),
         linkName: NSLocalizedString("Get Shortcut", comment: "")
     ),
     .init(
         title: NSLocalizedString("Install Nugget", comment: ""),
-        description: NSLocalizedString("To get the app bundle id, Nugget is required.\n\nOn your computer, download Nugget from the GitHub.", comment: ""),
+        description: NSLocalizedString("To get the app bundle id, Nugget is required.", comment: "") + "\n\n" + NSLocalizedString("On your computer, download Nugget from the GitHub.", comment: ""),
         image: "Nugget",
         link: URL(string: "https://github.com/leminlimez/Nugget/releases/latest"),
         linkName: NSLocalizedString("Open GitHub", comment: "")

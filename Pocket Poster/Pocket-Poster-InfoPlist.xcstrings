@@ -5,6 +5,36 @@
       "comment" : "Bundle name",
       "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster Ar"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "new",
@@ -17,13 +47,49 @@
             "value" : "Pocket Poster"
           }
         },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
@@ -39,7 +105,37 @@
     },
     "Nugget Wallpaper" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خلفيات Nugget"
+          }
+        },
+        "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خلفيات Nugget"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Tapeta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Hintergrundbilder"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Wallpaper"
+          }
+        },
+        "es-MX" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget Wallpaper"
@@ -51,10 +147,40 @@
             "value" : "Fond d'écran Nugget"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Wallpaper"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Achtergrond"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tapeta Nugget"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обои Nugget"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "วอลเปเปอร์ Nugget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Duvar Kağıdı"
           }
         },
         "vi" : {
