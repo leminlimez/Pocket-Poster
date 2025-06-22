@@ -59,6 +59,18 @@
             "value" : "Pocket Poster"
           }
         },
+        "fr-BE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66,6 +78,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
@@ -102,6 +120,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
@@ -153,6 +177,18 @@
             "value" : "Fond d'écran Nugget"
           }
         },
+        "fr-BE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fond écran nugget"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fond d'écran Nugget"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
@@ -163,6 +199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget Wallpaper"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget 배경화면"
           }
         },
         "nl" : {
@@ -199,6 +241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hình nền Nugget"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget 壁紙"
           }
         }
       }
