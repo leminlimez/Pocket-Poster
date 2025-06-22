@@ -235,13 +235,24 @@ class PosterBoardManager: ObservableObject {
         }
     }
     
+    func getCarPlayCacheVersion() -> String {
+        // they started adding numbers to the end in iOS 18, this is to compensate for that
+        if #available(iOS 19.0, *) {
+            return "-12"
+        } else if #available(iOS 18.0, *) {
+            return "-11"
+        }
+        return ""
+    }
+    
     func applyCarPlay(appHash: String, wallpapers: [CarPlayWallpaper]) throws {
         // write the image
         var toRemove: [URL] = []
         var activeWP: [String] = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
+        let cacheVer = getCarPlayCacheVersion()
         for wallpaper in wallpapers {
             if let data = wallpaper.selectedImageDataLight, let img = UIImage(data: data) {
-                let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Light-11.cpbitmap")
+                let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Light\(cacheVer).cpbitmap")
                 img.writeToCPBitmapFile(to: imgURL.path() as NSString)
                 toRemove.append(imgURL)
                 if !activeWP.contains(wallpaper.name) {
@@ -249,7 +260,7 @@ class PosterBoardManager: ObservableObject {
                 }
             }
             if let data = wallpaper.selectedImageDataDark, let img = UIImage(data: data) {
-                let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Dark-11.cpbitmap")
+                let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Dark\(cacheVer).cpbitmap")
                 img.writeToCPBitmapFile(to: imgURL.path() as NSString)
                 toRemove.append(imgURL)
                 if !activeWP.contains(wallpaper.name) {
