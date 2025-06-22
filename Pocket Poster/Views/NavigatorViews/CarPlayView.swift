@@ -8,16 +8,6 @@
 import SwiftUI
 import PhotosUI
 
-struct CarPlayWallpaper: Identifiable {
-    var id = UUID()
-    var name: String
-    var lightImage: UIImage
-    var darkImage: UIImage
-    var selectedImageDataLight: Data?
-    var selectedImageDataDark: Data?
-    var changed: Bool
-}
-
 struct CarPlayView: View {
     @State var wallpapers: [CarPlayWallpaper] = []
     @State var didChange: Bool = false
@@ -128,8 +118,12 @@ struct CarPlayView: View {
                             }
                         }
                     }
+                    // sort them
+                    if let sortedWallpapers = PosterBoardManager.shared.getCarPlayWallpaperNames() {
+                        wallpapers = wallpapers.reorder(by: sortedWallpapers)
+                    }
                 } catch {
-                    print(error.localizedDescription)
+                    UIApplication.shared.alert(body: NSLocalizedString("Failed to fetch CarPlay wallpapers", comment: "") + ":\n\(error.localizedDescription)")
                 }
             }
         }
@@ -178,6 +172,7 @@ struct WallpaperView: View {
                     .stroke(.gray, lineWidth: 2)
             }
             .onChange(of: selectedItem) { newItem in
+                if newItem == nil { return }
                 Task {
                     // Retrieve selected asset in the form of Data
                     if let data = try? await newItem?.loadTransferable(type: Data.self) {
@@ -186,6 +181,7 @@ struct WallpaperView: View {
                         } else {
                             wallpaper.selectedImageDataLight = data
                         }
+                        selectedItem = nil
                         withAnimation {
                             didChange = true
                         }

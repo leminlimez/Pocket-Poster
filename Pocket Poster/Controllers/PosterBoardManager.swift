@@ -245,6 +245,39 @@ class PosterBoardManager: ObservableObject {
         return ""
     }
     
+    func getCarPlayWallpaperNames() -> [String]? {
+        dlopen("/System/Library/PrivateFrameworks/CarPlayUIServices.framework/CarPlayUIServices", RTLD_GLOBAL)
+        
+        if #available(iOS 18.0, *) {
+            // iOS 18 method (it got moved)
+            guard let obj = objc_getClass("CRSUISystemWallpaper") as? NSObject else { print("no class"); return nil }
+            
+            if let success = obj.perform(Selector(("wallpapers"))), let arr = success.takeUnretainedValue() as? [NSObject] {
+                var namesList: [String] = []
+                for wp in arr {
+                    if let wpACName = wp.perform(Selector(("wallpaperAssetCatalogName"))), let result = wpACName.takeUnretainedValue() as? String {
+                        namesList.append(result)
+                    }
+                }
+                return namesList
+            }
+        } else {
+            // iOS 17-
+            guard let obj = objc_getClass("CRSUIWallpaperPreferences") as? NSObject else { print("no class"); return nil }
+            if let success = obj.perform(Selector(("availableWallpapers"))), let arr = success.takeUnretainedValue() as? [NSObject] {
+                var namesList: [String] = []
+                for wp in arr {
+                    if let wpACName = wp.perform(Selector(("wallpaperAssetCatalogName"))), let result = wpACName.takeUnretainedValue() as? String {
+                        namesList.append(result)
+                    }
+                }
+                return namesList
+            }
+        }
+        
+        return nil
+    }
+    
     func applyCarPlay(appHash: String, wallpapers: [CarPlayWallpaper]) throws {
         // write the image
         var toRemove: [URL] = []
@@ -270,14 +303,21 @@ class PosterBoardManager: ObservableObject {
         }
         
         // symlink and apply
-        let _ = try SymHandler.createAppSymlink(for: "\(appHash)/Library/Caches/MappedImageCache/com.apple.CarPlayApp.wallpaper-images")
+//        let _ = try SymHandler.createAppSymlink(for: "\(appHash)/Library/Caches/MappedImageCache/com.apple.CarPlayApp.wallpaper-images")
+//        defer {
+//            SymHandler.cleanup()
+//        }
+//        for imgURL in toRemove {
+//            try FileManager.default.trashItem(at: imgURL, resultingItemURL: nil)
+//        }
+//        UserDefaults.standard.set(activeWP, forKey: "ActiveCarPlayWallpapers")
+//        let test = SymHandler.getDocumentsDirectory().appendingPathComponent("Caches")
+//        try Data(count: 0).write(to: test)
+        let hmm = try SymHandler.createAppSymlink(for: "\(appHash)/Library")
         defer {
             SymHandler.cleanup()
         }
-        for imgURL in toRemove {
-            try FileManager.default.trashItem(at: imgURL, resultingItemURL: nil)
-        }
-        UserDefaults.standard.set(activeWP, forKey: "ActiveCarPlayWallpapers")
+        try FileManager.default.removeItem(at: hmm.appendingPathComponent("Caches"))
     }
     
     static func clearCache() throws {
