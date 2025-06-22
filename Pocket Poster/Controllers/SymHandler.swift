@@ -43,10 +43,18 @@ class SymHandler {
         return try createSymlink(to: "/var/mobile/Containers/Data/Application/\(appHash)")
     }
     
+    static func getExtensionVersion() -> String {
+        if #available(iOS 17.0, *) {
+            return "61"
+        }
+        return "59"
+    }
+    
     static func createDescriptorsSymlink(appHash: String, ext: String) throws -> URL {
         // create a symlink directly to the descriptors
-        print("linking to \(appHash)/Library/Application Support/PRBPosterExtensionDataStore/61/Extensions/\(ext)/descriptors")
-        return try createAppSymlink(for: "\(appHash)/Library/Application Support/PRBPosterExtensionDataStore/61/Extensions/\(ext)/descriptors")
+        let extVer = SymHandler.getExtensionVersion()
+        print("linking to \(appHash)/Library/Application Support/PRBPosterExtensionDataStore/\(extVer)/Extensions/\(ext)/descriptors")
+        return try createAppSymlink(for: "\(appHash)/Library/Application Support/PRBPosterExtensionDataStore/\(extVer)/Extensions/\(ext)/descriptors")
     }
     
     static func cleanup() {

@@ -101,7 +101,7 @@ class PosterBoardManager: ObservableObject {
             let fileName = dir.lastPathComponent
             if fileName.lowercased() == "container" {
                 // container support, find the extensions
-                let extDir = dir.appending(path: "Library/Application Support/PRBPosterExtensionDataStore/61/Extensions")
+                let extDir = dir.appending(path: "Library/Application Support/PRBPosterExtensionDataStore/\(SymHandler.getExtensionVersion())/Extensions")
                 print(extDir.absoluteString)
                 var retList: [String: [URL]] = [:]
                 for ext in try FileManager.default.contentsOfDirectory(at: extDir, includingPropertiesForKeys: nil, options: .skipsHiddenFiles) {
