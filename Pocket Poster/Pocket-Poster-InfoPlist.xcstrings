@@ -147,6 +147,12 @@
             "value" : "خلفيات Nugget"
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خلفيات Nugget"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

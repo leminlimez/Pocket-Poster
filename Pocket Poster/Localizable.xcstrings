@@ -275,6 +275,12 @@
             "value" : "مفتاح الهاش للتطبيق"
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هاش البرنامج"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -931,6 +937,12 @@
             "value" : "تم إعادة تعيين المجموعات بنجاح!"
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تمت إعادة تعيين المجموعات بنجاح!"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1043,10 +1055,28 @@
     },
     "Community Translators" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مترجمو المجتمع"
+          }
+        },
         "ar-AE" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "مترجمو المجتمع"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مجتمع المترجمين"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komunitní Překladatelé"
           }
         },
         "de" : {
@@ -1289,6 +1319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إنشاء طريقة بديلة إضافية"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء طريقة Fallback إضافية"
           }
         },
         "cs" : {
@@ -1547,6 +1583,12 @@
             "value" : "إنشاء معلومات CAML..."
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ إنشاء بيانات CAML..."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1669,6 +1711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الاعتمادات"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المساهمون"
           }
         },
         "cs" : {
@@ -1913,10 +1961,28 @@
     },
     "Disable Video Duration Limit" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعطيل حد مدة الفيديو"
+          }
+        },
         "ar-AE" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "تعطيل حد مدة الفيديو"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعطيل حد مدة الفيديو"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vypnout Omezení Délky Videa"
           }
         },
         "de" : {
@@ -2029,6 +2095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "هل ترغب في إعادة ضبط المجموعات؟"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل ترغب في إعادة تعيين المجموعات؟"
           }
         },
         "cs" : {
@@ -2153,6 +2225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تحميل اختصار البديل"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حمل اختصار Fallback"
           }
         },
         "cs" : {
@@ -2545,6 +2623,12 @@
             "value" : "استمتع!"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Užívejte!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2656,6 +2740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "أدخل الهاش"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل هاش البرنامج"
           }
         },
         "cs" : {
@@ -2791,6 +2881,12 @@
             "value" : "أدخل الهاش لتطبيق PosterBoard في الإعدادات."
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل هاش البرنامج من الاعدادات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2906,7 +3002,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "خطأ"
+            "value" : " خطأ"
           }
         },
         "ar-AE" : {
@@ -3557,10 +3653,28 @@
     },
     "Failed to Import Video" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل في استيراد الفيديو"
+          }
+        },
         "ar-AE" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "فشل في استيراد الفيديو"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل استيراد الفيديو"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Videa Selhal"
           }
         },
         "de" : {
@@ -3805,6 +3919,12 @@
             "value" : "الرجوع إلى الاختصار"
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتم استخدام الاختصار"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3933,6 +4053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ابحث عن الخلفيات"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najít Tapety"
           }
         },
         "de" : {
@@ -4313,6 +4439,12 @@
             "value" : "احصل على الأختصار"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Získat Zkratku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4429,6 +4561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إليك دليل تعليمي لمساعدتك على البدء باستخدام التطبيق."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zde je návod, který vám pomůže s aplikací začít."
           }
         },
         "de" : {
@@ -4679,6 +4817,12 @@
             "value" : "نزل Nuggrt"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nainstalovat Nugget"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4795,6 +4939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تثبيت اختصار fallback (اختياري)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nainstalovat Záložní Zkratku (Volitelné)"
           }
         },
         "de" : {
@@ -5215,7 +5365,7 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Développeur principal "
+            "value" : "Développeur principal"
           }
         },
         "fr-CH" : {
@@ -5690,6 +5840,12 @@
             "value" : "حسنا"
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5818,6 +5974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "قم بتنزيل Nugget على جهاز الكمبيوتر الخاص بك من GitHub."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na počítači si z GitHubu stáhněte Nugget."
           }
         },
         "de" : {
@@ -6068,6 +6230,12 @@
             "value" : "افتح على GitHub"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otevřít GitHub"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6183,7 +6351,7 @@
         "ar-SA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Please wait"
+            "value" : "يرجى الانتظار"
           }
         },
         "cs" : {
@@ -6440,6 +6608,12 @@
             "value" : "فشل PosterBoard في الفتح بشكل مباشر. سيتم فتح الاختصار البديل الآن."
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل فتح PosterBoard مباشرةً. سيتم الآن فتح الاختصار fallback."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6546,10 +6720,28 @@
     },
     "Preferences" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التفضيلات"
+          }
+        },
         "ar-AE" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "التفضيلات"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التفضيلات"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Předvolby"
           }
         },
         "de" : {
@@ -6910,6 +7102,12 @@
           }
         },
         "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة تعيين المجموعات"
+          }
+        },
+        "ar-SA" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "إعادة تعيين المجموعات"
@@ -7901,6 +8099,12 @@
             "value" : "المجلد غير مهيأ بشكل صحيح. يرجى الضغط على \"إعادة تعيين المجموعات\" واعادة المحاولة."
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المجلد مُعد بشكل غير صحيح. يرجى الضغط على \"إعادة تعيين المجموعات\" وحاول مرة أخرى."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8131,10 +8335,28 @@
     },
     "The video you imported is too long! Your video must be %@ seconds or less." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفيديو الذي قمتَ باستيراده طويل جداً! يجب أن يكون الفيديو %@ ثانية أو أقل."
+          }
+        },
         "ar-AE" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "الفيديو الذي قمت باستيراده طويل جدًا! يجب أن يكون الفيديو %@ ثانية أو أقل."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفيديو الذي استوردته طويل جدًا! يجب أن يكون طول الفيديو %@ ثانية أو أقل."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video které jste importovali je příliš dlouhé! Musí mít %@ sekund nebo méně."
           }
         },
         "de" : {
@@ -8247,6 +8469,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "لتطبيق ذلك، يجب فتح PosterBoard."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لتطبيق ذلك، سيحتاج PosterBoard إلى الفتح."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro aplikování se bude muset otevřít PosterBoard"
           }
         },
         "de" : {
@@ -8365,6 +8599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "للحصول على معرف حزمة التطبيق، يلزم استخدام Nugget."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro získání ID balíčku aplikace je potřeba Nugget."
           }
         },
         "de" : {
@@ -8609,6 +8849,12 @@
             "value" : "الفديوهات"
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيديو"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8725,6 +8971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "عرض على GitHub"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انظر على Github"
           }
         },
         "cs" : {
@@ -8975,6 +9227,12 @@
             "value" : "مرحبا الى Pocket Poster!"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vítejte v Pocket Posteru!"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9085,6 +9343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "هل تريد تحميل الملف %@؟"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل ترغب في تنزيل الملف %@؟"
           }
         },
         "cs" : {
@@ -9211,6 +9475,12 @@
             "value" : "يمكنك العثور على الخلفيات على الموقع الرسمي Cowabun.ga."
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tapety můžete najít na oficiálních stránkách Cowagun.ga."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9321,6 +9591,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يمكنك تثبيت اختصار اختياري إذا فشلت الطريقة الأصلية."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك تثبيت اختصار اختياري إذا فشلت الطريقة الأصلية."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Můžete nainstalovat volitelnou zkratku když původní metoda selže."
           }
         },
         "de" : {
@@ -9436,6 +9718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يمكنك تطبيق %@ وصف فقط."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك تطبيق أوصاف %@ فقط."
           }
         },
         "cs" : {
@@ -9556,6 +9844,12 @@
             "value" : "الهاش الخاص بالتطبيق غير صحيح. يرجى إعادة الإعداد."
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هاش البرنامج غير صحيح. يرجى إعادة تعيينه."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9672,6 +9966,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "سيتم تحديث PosterBoard الخاص بك تلقائيًا."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سيتم تحديث PosterBoard تلقائيًا."
           }
         },
         "cs" : {
