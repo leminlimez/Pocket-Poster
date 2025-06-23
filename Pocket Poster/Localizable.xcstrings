@@ -1043,10 +1043,22 @@
     },
     "Community Translators" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مترجمو المجتمع"
+          }
+        },
         "ar-AE" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "مترجمو المجتمع"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مجتمع المترجمين"
           }
         },
         "cs" : {
@@ -1937,7 +1949,19 @@
     },
     "Disable Video Duration Limit" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعطيل حد مدة الفيديو"
+          }
+        },
         "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعطيل حد مدة الفيديو"
+          }
+        },
+        "ar-SA" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "تعطيل حد مدة الفيديو"
@@ -2956,7 +2980,7 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "خطأ"
+            "value" : " خطأ"
           }
         },
         "ar-AE" : {
@@ -3604,10 +3628,22 @@
     },
     "Failed to Import Video" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل في استيراد الفيديو"
+          }
+        },
         "ar-AE" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "فشل في استيراد الفيديو"
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فشل استيراد الفيديو"
           }
         },
         "cs" : {
@@ -6290,7 +6326,7 @@
         "ar-SA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Please wait"
+            "value" : "يرجى الانتظار"
           }
         },
         "cs" : {
@@ -6659,7 +6695,19 @@
     },
     "Preferences" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التفضيلات"
+          }
+        },
         "ar-AE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التفضيلات"
+          }
+        },
+        "ar-SA" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "التفضيلات"
@@ -8259,10 +8307,22 @@
     },
     "The video you imported is too long! Your video must be %@ seconds or less." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفيديو الذي قمتَ باستيراده طويل جداً! يجب أن يكون الفيديو %@ ثانية أو أقل."
+          }
+        },
         "ar-AE" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "الفيديو الذي قمت باستيراده طويل جدًا! يجب أن يكون الفيديو %@ ثانية أو أقل."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفيديو الذي استوردته طويل جدًا! يجب أن يكون طول الفيديو %@ ثانية أو أقل."
           }
         },
         "cs" : {
@@ -8381,6 +8441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "لتطبيق ذلك، يجب فتح PosterBoard."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لتطبيق ذلك، سيحتاج PosterBoard إلى الفتح."
           }
         },
         "cs" : {
@@ -9499,6 +9565,12 @@
             "value" : "يمكنك تثبيت اختصار اختياري إذا فشلت الطريقة الأصلية."
           }
         },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك تثبيت اختصار اختياري إذا فشلت الطريقة الأصلية."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9615,6 +9687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يمكنك تطبيق %@ وصف فقط."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك تطبيق أوصاف %@ فقط."
           }
         },
         "cs" : {
@@ -9857,6 +9935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "سيتم تحديث PosterBoard الخاص بك تلقائيًا."
+          }
+        },
+        "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سيتم تحديث PosterBoard تلقائيًا."
           }
         },
         "cs" : {
