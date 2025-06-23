@@ -9,14 +9,12 @@ import SwiftUI
 
 struct SettingsView: View {
     // Prefs
-    @AppStorage("pbHash") var pbHash: String = ""
+    @AppStorage("pbHash") var pbHash: String = "" // PosterBoard hash
+    @AppStorage("cpHash") var cpHash: String = "" // CarPlay hash
+    @AppStorage("ignoreDurationLimit") var ignoreDurationLimit: Bool = false
     
     @State var checkingForHash: Bool = false
     @State var hashCheckTask: Task<Void, any Error>? = nil
-    
-    @State var showErrorAlert = false
-    @State var errorAlertTitle: String?
-    @State var errorAlertDescr: String?
     
     var body: some View {
         List {
@@ -50,11 +48,19 @@ struct SettingsView: View {
             }
             
             Section {
+                Toggle(isOn: $ignoreDurationLimit, label: {
+                    Label("Disable Video Duration Limit", systemImage: "ruler")
+                })
+            } header: {
+                Label("Preferences", systemImage: "gear")
+            }
+            
+            Section {
                 Button(action: {
                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                     UserDefaults.standard.set(false, forKey: "finishedTutorial")
                 }) {
-                    Text("Replay Tutorial")
+                    Label("Replay Tutorial", systemImage: "questionmark.circle")
                 }
                 
                 Button(action: {
@@ -62,17 +68,13 @@ struct SettingsView: View {
                     do {
                         try PosterBoardManager.clearCache()
                         Haptic.shared.notify(.success)
-                        errorAlertTitle = "App Cache Successfully Cleared!"
-                        errorAlertDescr = ""
-                        showErrorAlert = true
+                        UIApplication.shared.alert(title: NSLocalizedString("App Cache Successfully Cleared!", comment: ""), body: "")
                     } catch {
                         Haptic.shared.notify(.error)
-                        errorAlertTitle = "Error"
-                        errorAlertDescr = error.localizedDescription
-                        showErrorAlert = true
+                        UIApplication.shared.alert(body: error.localizedDescription)
                     }
                 }) {
-                    Text("Clear App Cache")
+                    Label("Clear App Cache", systemImage: "trash.circle")
                 }
                 .foregroundStyle(.red)
             } header: {
@@ -118,18 +120,14 @@ struct SettingsView: View {
             // MARK: Credits
             Section {
                 LinkCell(imageName: "leminlimez", url: "https://github.com/leminlimez", title: "LeminLimez", contribution: NSLocalizedString("Main Developer", comment: "leminlimez's contribution"), circle: true)
-                LinkCell(imageName: "serstars", url: "https://github.com/SerStars", title: "SerStars", contribution: "Website Designer", circle: true)
-                LinkCell(imageName: "Nathan", url: "https://github.com/verygenericname", title: "Nathan", contribution: "Exploit", circle: true)
-                LinkCell(imageName: "duy", url: "https://github.com/khanhduytran0", title: "DuyKhanhTran", contribution: "Exploit", circle: true)
-                LinkCell(imageName: "sky", url: "https://bsky.app/profile/did:plc:xykfeb7ieeo335g3aly6vev4", title: "dootskyre", contribution: "Fallback Shortcut Creator", circle: true)
+                LinkCell(imageName: "serstars", url: "https://github.com/SerStars", title: "SerStars", contribution: NSLocalizedString("Website Designer", comment: ""), circle: true)
+                LinkCell(imageName: "Nathan", url: "https://github.com/verygenericname", title: "Nathan", contribution: NSLocalizedString("Exploit", comment: ""), circle: true)
+                LinkCell(imageName: "duy", url: "https://github.com/khanhduytran0", title: "DuyKhanhTran", contribution: NSLocalizedString("Exploit", comment: ""), circle: true)
+                LinkCell(imageName: "sky", url: "https://bsky.app/profile/did:plc:xykfeb7ieeo335g3aly6vev4", title: "dootskyre", contribution: NSLocalizedString("Fallback Shortcut Creator", comment: ""), circle: true)
+                LinkCell(imageName: "POEditor", url: "https://poeditor.com/join/project/MPZOsunwVj", title: NSLocalizedString("Community Translators", comment: ""), contribution: "POEditor")
             } header: {
                 Label("Credits", systemImage: "wrench.and.screwdriver")
             }
-        }
-        .alert(errorAlertTitle ?? "Error", isPresented: $showErrorAlert) {
-            Button("OK") {}
-        } message: {
-            Text(errorAlertDescr ?? "???")
         }
     }
     
@@ -146,7 +144,13 @@ struct SettingsView: View {
                 let contents = try String(contentsOf: filePath)
                 try? FileManager.default.removeItem(at: filePath)
                 await MainActor.run {
-                    pbHash = contents
+                    let items = contents.split(separator: "\n")
+                    if let pb = items.first {
+                        pbHash = String(pb)
+                    }
+                    if items.count >= 2 {
+                        cpHash = String(items[1])
+                    }
                 }
             } catch {
                 print(error.localizedDescription)

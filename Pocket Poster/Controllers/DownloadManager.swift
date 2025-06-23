@@ -19,7 +19,7 @@ class DownloadManager {
             
         let (data, response) = try await URLSession.shared.data(for: request) as! (Data, HTTPURLResponse)
         guard response.statusCode == 200 else { throw URLError(.cannotConnectToHost) }
-        let newURL = PosterBoardManager.getTendiesStoreURL().appendingPathComponent(getWallpaperNameFromURL(string: url.absoluteString))
+        let newURL = PosterBoardManager.shared.getTendiesStoreURL().appendingPathComponent(getWallpaperNameFromURL(string: url.absoluteString))
         try data.write(to: newURL)
         return newURL
     }
@@ -37,7 +37,7 @@ class DownloadManager {
                 url.stopAccessingSecurityScopedResource()
             }
         }
-        let newURL = PosterBoardManager.getTendiesStoreURL().appendingPathComponent(url.lastPathComponent)
+        let newURL = PosterBoardManager.shared.getTendiesStoreURL().appendingPathComponent(url.lastPathComponent)
         try FileManager.default.copyItem(at: url, to: newURL)
         return newURL
     }

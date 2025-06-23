@@ -7,6 +7,7 @@
 
 import SwiftUI
 import UniformTypeIdentifiers
+import PhotosUI
 
 extension UIDocumentPickerViewController {
     @objc func fix_init(forOpeningContentTypes contentTypes: [UTType], asCopy: Bool) -> UIDocumentPickerViewController {
@@ -18,13 +19,11 @@ struct ContentView: View {
     // Prefs
     @AppStorage("pbHash") var pbHash: String = ""
     
+    @ObservedObject var pbManager = PosterBoardManager.shared
+    
     private let buildNumber = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
     
     @State var showTendiesImporter: Bool = false
-    var selectedTendies: Binding<[URL]>
-    
-    @State var showErrorAlert = false
-    @State var lastError: String?
     @State var hideResetHelp: Bool = true
     
     var body: some View {
@@ -40,16 +39,16 @@ struct ContentView: View {
                         UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                         showTendiesImporter.toggle()
                     }) {
-                        Text("Select Tendies")
+                        Label("Select Tendies", systemImage: "document.circle")
                     }
                     .buttonStyle(TintedButton(color: .green, fullwidth: true))
                 }
                 .listRowInsets(EdgeInsets())
                 .padding(7)
                 
-                if !selectedTendies.wrappedValue.isEmpty {
+                if !pbManager.selectedTendies.isEmpty {
                     Section {
-                        ForEach(selectedTendies.wrappedValue, id: \.self) { tendie in
+                        ForEach(pbManager.selectedTendies, id: \.self) { tendie in
                             Text(tendie.deletingPathExtension().lastPathComponent)
                         }
                         .onDelete(perform: delete)
@@ -63,42 +62,56 @@ struct ContentView: View {
                         Text("Enter your PosterBoard app hash in Settings.")
                     } else {
                         VStack {
-                            if !selectedTendies.wrappedValue.isEmpty {
+                            if !pbManager.selectedTendies.isEmpty || !pbManager.videos.isEmpty {
                                 Button(action: {
                                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
-                                    UIApplication.shared.alert(title: NSLocalizedString("Applying Tendies...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
+                                    UIApplication.shared.alert(title: NSLocalizedString("Applying Wallpapers...", comment: ""), body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
 
-                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                                    DispatchQueue.global(qos: .userInitiated).async {
                                         do {
-                                            try PosterBoardManager.applyTendies(selectedTendies.wrappedValue, appHash: pbHash)
-                                            selectedTendies.wrappedValue.removeAll()
+                                            try pbManager.applyTendies(appHash: pbHash)
                                             SymHandler.cleanup() // just to be extra sure
-                                            try? FileManager.default.removeItem(at: PosterBoardManager.getTendiesStoreURL())
-                                            Haptic.shared.notify(.success)
+                                            try? FileManager.default.removeItem(at: pbManager.getTendiesStoreURL())
                                             UIApplication.shared.dismissAlert(animated: false)
-                                            UIApplication.shared.confirmAlert(title: "Success!", body: "The PosterBoard app will now open. Please close it from the app switcher.", onOK: {
-                                                if !PosterBoardManager.openPosterBoard() {
-                                                    UIApplication.shared.confirmAlert(title: "Falling Back to Shortcut", body: "PosterBoard failed to open directly. The fallback shortcut will now be opened.", onOK: {
-                                                        PosterBoardManager.runShortcut(named: "PosterBoard")
-                                                    }, noCancel: true)
-                                                }
-                                            }, noCancel: true)
+                                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
+                                                pbManager.selectedTendies.removeAll()
+                                                Haptic.shared.notify(.success)
+                                                UIApplication.shared.confirmAlert(title: NSLocalizedString("Success!", comment: ""), body: NSLocalizedString("The PosterBoard app will now open. Please close it from the app switcher.", comment: ""), onOK: {
+                                                    if !pbManager.openPosterBoard() {
+                                                        UIApplication.shared.confirmAlert(title: NSLocalizedString("Falling Back to Shortcut", comment: ""), body: NSLocalizedString("PosterBoard failed to open directly. The fallback shortcut will now be opened.", comment: ""), onOK: {
+                                                            pbManager.runShortcut(named: "PosterBoard")
+                                                        }, noCancel: true)
+                                                    }
+                                                }, noCancel: true)
+                                            })
+                                        } catch CocoaError.fileWriteUnknown {
+                                            presentError(ApplyError.wrongAppHash)
+                                        } catch CocoaError.fileWriteFileExists {
+                                            presentError(ApplyError.collectionsNeedsReset)
                                         } catch {
-                                            Haptic.shared.notify(.error)
-                                            SymHandler.cleanup()
-                                            UIApplication.shared.dismissAlert(animated: false)
-                                            UIApplication.shared.alert(body: error.localizedDescription)
+                                            print(error.localizedDescription)
+                                            presentError(ApplyError.unexpected(info: error.localizedDescription))
                                         }
                                     }
                                 }) {
-                                    Text("Apply")
+                                    Label("Apply", systemImage: "checkmark.circle")
                                 }
                                 .buttonStyle(TintedButton(color: .blue, fullwidth: true))
                             }
                             Button(action: {
-                                hideResetHelp = false
+                                guard let lang = UserDefaults.standard.stringArray(forKey: "AppleLanguages")?.first else {
+                                    hideResetHelp = false // fallback to tutorial
+                                    return
+                                }
+                                UIApplication.shared.confirmAlert(title: NSLocalizedString("Reset Collections", comment: ""), body: NSLocalizedString("Do you want to reset collections?", comment: ""), onOK: {
+                                    if pbManager.setSystemLanguage(to: lang) {
+                                        UIApplication.shared.alert(title: NSLocalizedString("Collections Successfully Reset!", comment: ""), body: NSLocalizedString("Your PosterBoard will refresh automatically.", comment: ""))
+                                    } else {
+                                        UIApplication.shared.alert(body: "The API failed to call correctly.\nSystem Locale Code: \(lang)")
+                                    }
+                                }, noCancel: false)
                             }) {
-                                Text("Reset Collections")
+                                Label("Reset Collections", systemImage: "arrow.clockwise.circle")
                             }
                             .buttonStyle(TintedButton(color: .red, fullwidth: true))
                         }
@@ -130,21 +143,16 @@ struct ContentView: View {
         .fileImporter(isPresented: $showTendiesImporter, allowedContentTypes: [UTType(filenameExtension: "tendies", conformingTo: .data)!], allowsMultipleSelection: true, onCompletion: { result in
             switch result {
             case .success(let url):
-                if selectedTendies.wrappedValue.count + url.count > PosterBoardManager.MaxTendies {
-                    UIApplication.shared.alert(title: "Max Tendies Reached", body: "You can only apply \(PosterBoardManager.MaxTendies) descriptors.")
+                if pbManager.selectedTendies.count + url.count > PosterBoardManager.MaxTendies {
+                    UIApplication.shared.alert(title: NSLocalizedString("Max Tendies Reached", comment: ""), body: String(format: NSLocalizedString("You can only apply %@ descriptors.", comment: ""), "\(PosterBoardManager.MaxTendies)"))
                 } else {
-                    selectedTendies.wrappedValue.append(contentsOf: url)
+                    pbManager.selectedTendies.append(contentsOf: url)
                 }
             case .failure(let error):
-                lastError = error.localizedDescription
-                showErrorAlert.toggle()
+                Haptic.shared.notify(.error)
+                UIApplication.shared.alert(body: error.localizedDescription)
             }
         })
-        .alert("Error", isPresented: $showErrorAlert) {
-            Button("OK") {}
-        } message: {
-            Text(lastError ?? "???")
-        }
         .overlay {
             OnBoardingView(cards: resetCollectionsInfo, isFinished: $hideResetHelp)
                 .opacity(hideResetHelp ? 0.0 : 1.0)
@@ -154,11 +162,19 @@ struct ContentView: View {
     }
     
     func delete(at offsets: IndexSet) {
-        selectedTendies.wrappedValue.remove(atOffsets: offsets)
+        pbManager.selectedTendies.remove(atOffsets: offsets)
     }
     
-    init(selectedTendies: Binding<[URL]>) {
-        self.selectedTendies = selectedTendies
+    func presentError(_ error: ApplyError) {
+        SymHandler.cleanup()
+        UIApplication.shared.dismissAlert(animated: false)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
+            Haptic.shared.notify(.error)
+            UIApplication.shared.alert(body: error.localizedDescription)
+        })
+    }
+    
+    init() {
         // Fix file picker
         let fixMethod = class_getInstanceMethod(UIDocumentPickerViewController.self, #selector(UIDocumentPickerViewController.fix_init(forOpeningContentTypes:asCopy:)))!
         let origMethod = class_getInstanceMethod(UIDocumentPickerViewController.self, #selector(UIDocumentPickerViewController.init(forOpeningContentTypes:asCopy:)))!

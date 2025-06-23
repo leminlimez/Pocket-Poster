@@ -9,6 +9,7 @@ import UIKit
 
 // credit: sourcelocation & TrollTools
 var currentUIAlertController: UIAlertController?
+var lastDismissTitle: String?
 
 
 fileprivate let errorString = NSLocalizedString("Error", comment: "")
@@ -19,6 +20,7 @@ extension UIApplication {
     
     func dismissAlert(animated: Bool) {
         DispatchQueue.main.async {
+            lastDismissTitle = currentUIAlertController?.title
             currentUIAlertController?.dismiss(animated: animated)
         }
     }
@@ -32,7 +34,7 @@ extension UIApplication {
                 let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
                 let appBuild = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
                 let systemVersion = device.systemVersion
-                body += "\n\(device.systemName) \(systemVersion), version \(appVersion) build \(appBuild)"
+                body += "\n\(device.systemName) \(systemVersion), v\(appVersion) build \(appBuild)"
             }
             
             currentUIAlertController = UIAlertController(title: title, message: body, preferredStyle: .alert)
@@ -60,8 +62,8 @@ extension UIApplication {
     }
     
     func present(alert: UIAlertController) {
-        if var topController = self.windows[0].rootViewController {
-            while let presentedViewController = topController.presentedViewController {
+        if let window = UIApplication.shared.connectedScenes.map({ $0 as? UIWindowScene }).compactMap({ $0 }).first?.windows.first, var topController = window.rootViewController {
+            while let presentedViewController = topController.presentedViewController, presentedViewController.title != lastDismissTitle {
                 topController = presentedViewController
             }
             
