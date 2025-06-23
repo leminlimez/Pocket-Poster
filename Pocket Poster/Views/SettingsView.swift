@@ -84,6 +84,7 @@ struct SettingsView: View {
                 Button(action: {
                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                     UserDefaults.standard.set(nil, forKey: "ActiveCarPlayWallpapers")
+                    try? FileManager.default.removeItem(at: PosterBoardManager.shared.getCarPlayPhotosURL())
                     Haptic.shared.notify(.success)
                     UIApplication.shared.alert(title: NSLocalizedString("CarPlay Applied Wallpapers Successfully Cleared!", comment: ""), body: "")
                 }) {

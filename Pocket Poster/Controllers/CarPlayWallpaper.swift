@@ -14,7 +14,6 @@ struct CarPlayWallpaper: Identifiable {
     var darkImage: UIImage
     var selectedImageDataLight: Data?
     var selectedImageDataDark: Data?
-    var changed: Bool
 }
 
 extension CarPlayWallpaper: Reorderable {

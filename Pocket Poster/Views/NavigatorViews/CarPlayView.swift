@@ -103,6 +103,7 @@ struct CarPlayView: View {
                 // load active wallpapers from user defaults
                 activeWallpapers = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
                 // load the wallpapers
+                let cppURL = PosterBoardManager.shared.getCarPlayPhotosURL()
                 let frameworkPath = "/System/Library/PrivateFrameworks/CarPlayUIServices.framework"
                 do {
                     for file in try FileManager.default.contentsOfDirectory(at: URL(fileURLWithPath: frameworkPath), includingPropertiesForKeys: nil, options: .skipsHiddenFiles) {
@@ -114,7 +115,14 @@ struct CarPlayView: View {
                                     darkImg = UIImage(data: darkData) ?? wpImg
                                 }
                                 let name = file.lastPathComponent.replacingOccurrences(of: "-Light.heic", with: "")
-                                wallpapers.append(.init(name: name, lightImage: wpImg, darkImage: darkImg, changed: false))
+                                // fetch the selected image if they exist
+                                let selectedLight: Data? = try? Data(contentsOf: cppURL.appendingPathComponent("\(name)-Light"))
+                                let selectedDark: Data? = try? Data(contentsOf: cppURL.appendingPathComponent("\(name)-Dark"))
+                                wallpapers.append(.init(
+                                    name: name,
+                                    lightImage: wpImg, darkImage: darkImg,
+                                    selectedImageDataLight: selectedLight, selectedImageDataDark: selectedDark
+                                ))
                             }
                         }
                     }

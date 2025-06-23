@@ -278,15 +278,26 @@ class PosterBoardManager: ObservableObject {
         return nil
     }
     
+    func getCarPlayPhotosURL() -> URL {
+        let cppURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CarPlayPhotos", conformingTo: .directory)
+        // create it if it doesn't exist
+        if !FileManager.default.fileExists(atPath: cppURL.path()) {
+            try? FileManager.default.createDirectory(at: cppURL, withIntermediateDirectories: true)
+        }
+        return cppURL
+    }
+    
     func applyCarPlay(appHash: String, wallpapers: [CarPlayWallpaper]) throws {
         // write the image
         var toRemove: [URL] = []
         var activeWP: [String] = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
+        let cppURL = getCarPlayPhotosURL()
         let cacheVer = getCarPlayCacheVersion()
         for wallpaper in wallpapers {
             if let data = wallpaper.selectedImageDataLight, let img = UIImage(data: data) {
                 let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Light\(cacheVer).cpbitmap")
                 img.writeToCPBitmapFile(to: imgURL.path() as NSString)
+                try? data.write(to: cppURL.appendingPathComponent("\(wallpaper.name)-Light"))
                 toRemove.append(imgURL)
                 if !activeWP.contains(wallpaper.name) {
                     activeWP.append(wallpaper.name)
@@ -295,6 +306,7 @@ class PosterBoardManager: ObservableObject {
             if let data = wallpaper.selectedImageDataDark, let img = UIImage(data: data) {
                 let imgURL = SymHandler.getDocumentsDirectory().appendingPathComponent("CAR\(wallpaper.name)Dynamic-Dark\(cacheVer).cpbitmap")
                 img.writeToCPBitmapFile(to: imgURL.path() as NSString)
+                try? data.write(to: cppURL.appendingPathComponent("\(wallpaper.name)-Dark"))
                 toRemove.append(imgURL)
                 if !activeWP.contains(wallpaper.name) {
                     activeWP.append(wallpaper.name)
@@ -303,28 +315,25 @@ class PosterBoardManager: ObservableObject {
         }
         
         // symlink and apply
-//        let _ = try SymHandler.createAppSymlink(for: "\(appHash)/Library/Caches/MappedImageCache/com.apple.CarPlayApp.wallpaper-images")
-//        defer {
-//            SymHandler.cleanup()
-//        }
-//        for imgURL in toRemove {
-//            try FileManager.default.trashItem(at: imgURL, resultingItemURL: nil)
-//        }
-//        UserDefaults.standard.set(activeWP, forKey: "ActiveCarPlayWallpapers")
-//        let test = SymHandler.getDocumentsDirectory().appendingPathComponent("Caches")
-//        try Data(count: 0).write(to: test)
-        let hmm = try SymHandler.createAppSymlink(for: "\(appHash)/Library")
+        let _ = try SymHandler.createAppSymlink(for: "\(appHash)/Library/Caches/MappedImageCache/com.apple.CarPlayApp.wallpaper-images")
         defer {
             SymHandler.cleanup()
         }
-        try FileManager.default.removeItem(at: hmm.appendingPathComponent("Caches"))
+        for imgURL in toRemove {
+            try FileManager.default.trashItem(at: imgURL, resultingItemURL: nil)
+        }
+        UserDefaults.standard.set(activeWP, forKey: "ActiveCarPlayWallpapers")
+        let test = SymHandler.getDocumentsDirectory().appendingPathComponent("Caches")
+        try Data(count: 0).write(to: test)
     }
     
     static func clearCache() throws {
         SymHandler.cleanup()
         let docDir = SymHandler.getDocumentsDirectory()
         for file in try FileManager.default.contentsOfDirectory(at: docDir, includingPropertiesForKeys: nil) {
-            try FileManager.default.removeItem(at: file)
+            if file.lastPathComponent != "CarPlayPhotos" {
+                try FileManager.default.removeItem(at: file)
+            }
         }
     }
 }
