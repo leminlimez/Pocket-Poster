@@ -23,6 +23,23 @@ struct SettingsView: View {
                     TextField("Enter App Hash", text: $pbHash)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .font(.system(.body, design: .monospaced))
+                        .onChange(of: pbHash) { _ in
+                            var separator: String? = nil
+                            if pbHash.contains(" ") {
+                                separator = " "
+                            } else if pbHash.contains("\n") {
+                                separator = "\n"
+                            }
+                            if let separator = separator {
+                                let items = pbHash.split(separator: separator)
+                                if let pb = items.first {
+                                    pbHash = String(pb)
+                                }
+                                if items.count >= 2 {
+                                    cpHash = String(items[1])
+                                }
+                            }
+                        }
                     HStack {
                         Spacer()
                         // Run task to check until file exists from Nugget pc over AFC
@@ -144,7 +161,11 @@ struct SettingsView: View {
                 let contents = try String(contentsOf: filePath)
                 try? FileManager.default.removeItem(at: filePath)
                 await MainActor.run {
-                    let items = contents.split(separator: "\n")
+                    var separator = " "
+                    if contents.contains("\n") {
+                        separator = "\n"
+                    }
+                    let items = contents.split(separator: separator)
                     if let pb = items.first {
                         pbHash = String(pb)
                     }
