@@ -3257,6 +3257,9 @@
         }
       }
     },
+    "Explore" : {
+
+    },
     "Extracting tendies..." : {
       "comment" : "happens when unzipping the files",
       "localizations" : {

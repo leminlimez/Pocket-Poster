@@ -22,6 +22,10 @@ struct RootView: View {
                 .tabItem {
                     Label("CarPlay", systemImage: "car")
                 }
+            ExploreView()
+                .tabItem {
+                    Label("Explore", systemImage: "safari")
+                }
         }
     }
 }
