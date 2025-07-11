@@ -3778,6 +3778,9 @@
         }
       }
     },
+    "Failed to load explore page." : {
+
+    },
     "Fallback Shortcut Creator" : {
       "localizations" : {
         "ar" : {
@@ -7220,6 +7223,9 @@
         }
       }
     },
+    "Retry" : {
+
+    },
     "Select Tendies" : {
       "localizations" : {
         "ar" : {
@@ -7839,6 +7845,9 @@
           }
         }
       }
+    },
+    "Successfully downloaded wallpaper!" : {
+
     },
     "Successfully imported %@" : {
       "localizations" : {
@@ -9956,6 +9965,9 @@
           }
         }
       }
+    },
+    "Your downloaded .tendies will be on the Home page." : {
+      "comment" : "after successfully downloading tendies"
     },
     "Your PosterBoard will refresh automatically." : {
       "localizations" : {
