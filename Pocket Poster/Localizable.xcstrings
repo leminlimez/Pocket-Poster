@@ -6569,6 +6569,9 @@
         }
       }
     },
+    "Pocket Poster %@ is available, do you want to visit releases page?" : {
+      "comment" : "app update available on GitHub"
+    },
     "PosterBoard failed to open directly. The fallback shortcut will now be opened." : {
       "localizations" : {
         "ar" : {
@@ -8676,6 +8679,9 @@
           }
         }
       }
+    },
+    "Update Available" : {
+      "comment" : "app update available on GitHub"
     },
     "Version %@ (%@)" : {
       "localizations" : {

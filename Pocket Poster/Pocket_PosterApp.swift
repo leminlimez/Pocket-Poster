@@ -14,6 +14,7 @@ struct Pocket_PosterApp: App {
     @AppStorage("pbHash") var pbHash: String = ""
     
     @State var downloadURL: String? = nil
+    @State var checkedForUpdate: Bool = false
     
     var body: some Scene {
         WindowGroup {
@@ -26,6 +27,29 @@ struct Pocket_PosterApp: App {
             }
             .transition(.opacity)
             .animation(.easeOut(duration: 0.5), value: finishedTutorial)
+            .onAppear {
+                // check for update
+                if !checkedForUpdate {
+                    checkedForUpdate = true
+                    if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String, let url = URL(string: "https://api.github.com/leminlimez/Pocket-Poster/releases/latest") {
+                        let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
+                            guard let data = data else { return }
+                            
+                            if let json = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] {
+                                if (json["tag_name"] as? String)?.replacingOccurrences(of: "v", with: "").compare(version, options: .numeric) == .orderedDescending {
+                                    UIApplication.shared.confirmAlert(
+                                        title: NSLocalizedString("Update Available", comment: "app update available on GitHub"),
+                                        body: String(format: NSLocalizedString("Pocket Poster %@ is available, do you want to visit releases page?", comment: "app update available on GitHub"), json["tag_name"] as? String ?? "update"),
+                                        onOK: {
+                                        UIApplication.shared.open(URL(string: "https://github.com/leminlimez/Pocket-Poster/releases/latest")!)
+                                    }, noCancel: false)
+                                }
+                            }
+                        }
+                        task.resume()
+                    }
+                }
+            }
             .onOpenURL(perform: { url in
                 // Download URL
                 if url.absoluteString.starts(with: "pocketposter://download") {
