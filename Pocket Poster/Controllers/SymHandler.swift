@@ -23,11 +23,11 @@ class SymHandler {
         return getDocumentsDirectory()
     }
     
-    static func getAppHashURL() -> URL {
-        return getLCDocumentsDirectory().appendingPathComponent("NuggetAppHash")
+    static func getPosterBoardHashURL() -> URL {
+        return getLCDocumentsDirectory().appendingPathComponent("NuggetPosterBoardHash")
     }
     static func getCarPlayHashURL() -> URL {
-        return getLCDocumentsDirectory().appendingPathComponent("NuggetCarPlayHash")
+        return getLCDocumentsDirectory().appendingPathComponent("NuggetCarPlayWallpaperHash")
     }
     
     private static func getSymlinkURL() -> URL {

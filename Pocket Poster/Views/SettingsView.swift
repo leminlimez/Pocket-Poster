@@ -27,7 +27,7 @@ struct SettingsView: View {
                         Spacer()
                         // Run task to check until file exists from Nugget pc over AFC
                         Button(action: {
-                            if !FileManager.default.fileExists(atPath: SymHandler.getAppHashURL().path()) {
+                            if !FileManager.default.fileExists(atPath: SymHandler.getPosterBoardHashURL().path()) {
                                 // don't show the alert because it is already there
                                 UIApplication.shared.confirmAlert(title: NSLocalizedString("Waiting for app hash...", comment: ""), body: NSLocalizedString("Connect your device to Nugget and click the \"Pocket Poster Helper\" button.", comment: ""), confirmTitle: NSLocalizedString("Cancel", comment: ""), onOK: {
                                     cancelWaitForHash()
@@ -137,7 +137,7 @@ struct SettingsView: View {
     func startWaitForHash() {
         checkingForHash = true
         hashCheckTask = Task {
-            let filePath = SymHandler.getAppHashURL()
+            let filePath = SymHandler.getPosterBoardHashURL()
             while !FileManager.default.fileExists(atPath: filePath.path()) {
                 try? await Task.sleep(nanoseconds: 500_000_000) // Sleep 0.5s
                 try Task.checkCancellation()
