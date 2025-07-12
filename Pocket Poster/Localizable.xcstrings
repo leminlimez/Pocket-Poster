@@ -1165,6 +1165,9 @@
         }
       }
     },
+    "Connect your device to Nugget and click the \"Pocket Poster Helper\" button." : {
+
+    },
     "Could not download wallpaper!" : {
       "localizations" : {
         "ar" : {
@@ -9060,6 +9063,9 @@
           }
         }
       }
+    },
+    "Waiting for app hash..." : {
+
     },
     "Website Designer" : {
       "localizations" : {
