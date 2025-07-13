@@ -99,17 +99,21 @@ struct ContentView: View {
                                 .buttonStyle(TintedButton(color: .blue, fullwidth: true))
                             }
                             Button(action: {
-                                guard let lang = UserDefaults.standard.stringArray(forKey: "AppleLanguages")?.first else {
-                                    hideResetHelp = false // fallback to tutorial
-                                    return
-                                }
-                                UIApplication.shared.confirmAlert(title: NSLocalizedString("Reset Collections", comment: ""), body: NSLocalizedString("Do you want to reset collections?", comment: ""), onOK: {
-                                    if pbManager.setSystemLanguage(to: lang) {
-                                        UIApplication.shared.alert(title: NSLocalizedString("Collections Successfully Reset!", comment: ""), body: NSLocalizedString("Your PosterBoard will refresh automatically.", comment: ""))
-                                    } else {
-                                        UIApplication.shared.alert(body: "The API failed to call correctly.\nSystem Locale Code: \(lang)")
+                                if #available(iOS 18.0, *) {
+                                    guard let lang = UserDefaults.standard.stringArray(forKey: "AppleLanguages")?.first else {
+                                        hideResetHelp = false // fallback to tutorial
+                                        return
                                     }
-                                }, noCancel: false)
+                                    UIApplication.shared.confirmAlert(title: NSLocalizedString("Reset Collections", comment: ""), body: NSLocalizedString("Do you want to reset collections?", comment: ""), onOK: {
+                                        if pbManager.setSystemLanguage(to: lang) {
+                                            UIApplication.shared.alert(title: NSLocalizedString("Collections Successfully Reset!", comment: ""), body: NSLocalizedString("Your PosterBoard will refresh automatically.", comment: ""))
+                                        } else {
+                                            UIApplication.shared.alert(body: "The API failed to call correctly.\nSystem Locale Code: \(lang)")
+                                        }
+                                    }, noCancel: false)
+                                } else {
+                                    hideResetHelp = false
+                                }
                             }) {
                                 Label("Reset Collections", systemImage: "arrow.clockwise.circle")
                             }
