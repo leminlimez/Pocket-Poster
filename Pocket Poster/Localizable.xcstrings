@@ -21,6 +21,12 @@
             "value" : "إجراءات"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Действия"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -69,10 +75,22 @@
             "value" : "Actions"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actions"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Műveletek"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azioni"
           }
         },
         "ja" : {
@@ -123,6 +141,12 @@
             "value" : "Tác vụ"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "操作"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تم مسح ذاكرة التخزين المؤقت للتطبيق بنجاح!"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кешът на приложението е изчистен успешно!"
           }
         },
         "cs" : {
@@ -199,10 +229,22 @@
             "value" : "Cache de l'app vidé avec succès !"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache de l'appli effacé avec succès !"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Az app gyorsítótára sikeresen tisztítva!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La cache dell'app è stata pulita con successo!"
           }
         },
         "ja" : {
@@ -226,13 +268,13 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hash aplikacji wyczyszczony!"
+            "value" : "Pamięć podręczna wyczyszczona!"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Кэш успешно очищен!"
+            "value" : "Кэш приложения успешно очищен!"
           }
         },
         "th" : {
@@ -251,6 +293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bộ nhớ cache đã được xóa!"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功清除 App 缓存"
           }
         },
         "zh-Hant" : {
@@ -279,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "هاش البرنامج"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хеш на приложението"
           }
         },
         "cs" : {
@@ -329,10 +383,22 @@
             "value" : "App Hash"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash de l'appli"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "App Hashje"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash dell'app"
           }
         },
         "ja" : {
@@ -356,13 +422,13 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hash aplikacji"
+            "value" : "Pamięć podręczna aplikacji"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App Hash"
+            "value" : "Хэш приложения"
           }
         },
         "th" : {
@@ -381,6 +447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mã định danh Ứng dụng"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App 哈希值"
           }
         },
         "zh-Hant" : {
@@ -409,6 +481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تطبيق"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложи"
           }
         },
         "cs" : {
@@ -459,10 +537,22 @@
             "value" : "Appliquer"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appliquer"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alkalmazás"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applica"
           }
         },
         "ja" : {
@@ -492,7 +582,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Подтвердить"
+            "value" : "Применить"
           }
         },
         "th" : {
@@ -511,6 +601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Áp dụng"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用"
           }
         },
         "zh-Hant" : {
@@ -539,6 +635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جارٍ تطبيق الخلفيات..."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прилагане на тапети..."
           }
         },
         "cs" : {
@@ -589,10 +691,22 @@
             "value" : "Application des fonds d'écrans..."
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Application des fonds d'écran..."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Háttérképek alkalmazása..."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applico gli sfondi..."
           }
         },
         "ja" : {
@@ -604,7 +718,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "배경화면을 적용하는중..."
+            "value" : "배경화면을 적용 중..."
           }
         },
         "nl" : {
@@ -643,6 +757,12 @@
             "value" : "Đang áp dụng Hình nền..."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在应用墙纸..."
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -669,6 +789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إلغاء"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отказ"
           }
         },
         "cs" : {
@@ -719,10 +845,22 @@
             "value" : "Annuler"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mégsem"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
           }
         },
         "ja" : {
@@ -773,6 +911,12 @@
             "value" : "Huỷ"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -799,6 +943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "مسح ذاكرة التخزين المؤقت"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изчистване на кеша на приложението"
           }
         },
         "cs" : {
@@ -849,10 +999,22 @@
             "value" : "Vider le cache de l'app"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer le cache de l'appli"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "App gyorsítótárának tisztítása"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pulisci la cache dell'app"
           }
         },
         "ja" : {
@@ -876,13 +1038,13 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wyczyść Cache aplikacji"
+            "value" : "Wyczyść pamięć podręczną aplikacji"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Очистить кэш"
+            "value" : "Очистить кэш приложения"
           }
         },
         "th" : {
@@ -901,6 +1063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xoá cache Ứng dụng"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除 App 缓存"
           }
         },
         "zh-Hant" : {
@@ -929,6 +1097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تمت إعادة تعيين المجموعات بنجاح!"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Колекциите са нулирани успешно!"
           }
         },
         "cs" : {
@@ -976,13 +1150,25 @@
         "fr-CH" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Collections réinitialisées avec succès!"
+            "value" : "Collections réinitialisées avec succès !"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collections réinitialisées avec succès !"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gyűjtemények sikeresen visszaállítva!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le raccolte sono state ripristinate con successo!"
           }
         },
         "ja" : {
@@ -994,7 +1180,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "컬렉션이 성공적으로 초기화되었습니다!"
+            "value" : "모음이 성공적으로 초기화되었습니다!"
           }
         },
         "nl" : {
@@ -1033,6 +1219,12 @@
             "value" : "Đặt lại thành công Bộ sưu tập!"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置“收藏”成功！"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1059,6 +1251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "مجتمع المترجمين"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преводачи от общността"
           }
         },
         "cs" : {
@@ -1103,10 +1301,28 @@
             "value" : "Traducteurs de communauté"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traducteurs de la Communauté"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traducteurs de la communauté"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fordítók"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traduttori della community"
           }
         },
         "ja" : {
@@ -1157,6 +1373,12 @@
             "value" : "Cộng đồng các Phiên dịch viên"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "社区翻译者们"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1166,7 +1388,32 @@
       }
     },
     "Connect your device to Nugget and click the \"Pocket Poster Helper\" button." : {
-
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecta tu dispositivo a Nugget y haz click en “Pocket Poster Helper”"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connectez votre appareil à Nugget et cliquez sur le bouton \"Pocket Poster Helper\"."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối thiết bị của bạn với Nugget và chọn nút \"Trợ giúp Pocket Poster\"."
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将您的设备连接到 Nugget 并点击 “Pocket Poster Helper” 按钮。"
+          }
+        }
+      }
     },
     "Could not download wallpaper!" : {
       "localizations" : {
@@ -1186,6 +1433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "لم يمكن تحميل الخلفية!"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не може да се изтегли тапет!"
           }
         },
         "cs" : {
@@ -1233,13 +1486,25 @@
         "fr-CH" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fond d'écran n'a pas pu être téléchargé!"
+            "value" : "Le fond d'écran n'a pas pu être téléchargé !"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de télécharger le fond d'écran !"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nem sikerült letölteni a háttérképet!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile scaricare lo sfondo!"
           }
         },
         "ja" : {
@@ -1269,7 +1534,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ошибка загрузки обоев!"
+            "value" : "Не удалось загрузить обои!"
           }
         },
         "th" : {
@@ -1288,6 +1553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không thể tải xuống hình nền!"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法下载墙纸！"
           }
         },
         "zh-Hant" : {
@@ -1316,6 +1587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إنشاء طريقة Fallback إضافية"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Създаване на допълнителен резервен метод"
           }
         },
         "cs" : {
@@ -1366,10 +1643,22 @@
             "value" : "Créer une méthode additionnelle de Fallback"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créer une méthode de secours supplémentaire"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "További tartalék módszer létrehozása"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea metodo aggiuntivo di riserva"
           }
         },
         "ja" : {
@@ -1420,6 +1709,12 @@
             "value" : "Tạo phương thức dự phòng bổ sung"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建其他应急方案"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1447,6 +1742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جارٍ إنشاء %@..."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Създаване на %@..."
           }
         },
         "cs" : {
@@ -1494,13 +1795,25 @@
         "fr-CH" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Création de %@"
+            "value" : "Création de %@..."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Création de %@..."
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ készítése..."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creando %@..."
           }
         },
         "ja" : {
@@ -1512,7 +1825,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ 생성중..."
+            "value" : "%@ 생성 중..."
           }
         },
         "nl" : {
@@ -1551,6 +1864,12 @@
             "value" : "Đang tạo %@..."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在创建 %@..."
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1578,6 +1897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جارٍ إنشاء بيانات CAML..."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Създаване на CAML данни..."
           }
         },
         "cs" : {
@@ -1628,10 +1953,22 @@
             "value" : "Création des données CAML..."
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Création de données CAML..."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "CAML adat készítése..."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creando dati CAML..."
           }
         },
         "ja" : {
@@ -1661,7 +1998,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сбор данных..."
+            "value" : "Создание CAML-данных..."
           }
         },
         "th" : {
@@ -1680,6 +2017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang tạo dữ liệu CAML..."
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在创建 CAML 数据..."
           }
         },
         "zh-Hant" : {
@@ -1708,6 +2051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "المساهمون"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кредити"
           }
         },
         "cs" : {
@@ -1758,10 +2107,22 @@
             "value" : "Crédits"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crédits"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Közreműködők"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crediti"
           }
         },
         "ja" : {
@@ -1812,10 +2173,16 @@
             "value" : "Đóng góp"
           }
         },
-        "zh-Hant" : {
+        "zh-CN" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "鸣谢"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鳴謝"
           }
         }
       }
@@ -1838,6 +2205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "كشف"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откриване"
           }
         },
         "cs" : {
@@ -1888,10 +2261,22 @@
             "value" : "Détecter"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Détecter"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Érzékelés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rileva"
           }
         },
         "ja" : {
@@ -1942,6 +2327,12 @@
             "value" : "Phát hiện"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "识别"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1970,6 +2361,12 @@
             "value" : "تعطيل حد مدة الفيديو"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Деактивиране на ограничението за продължителност на видеото"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1979,7 +2376,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Videolänge limit ausschalten"
+            "value" : "Deaktiviere Videodauer Limit"
           }
         },
         "es" : {
@@ -2012,16 +2409,34 @@
             "value" : "Désactiver la limite de longueur de vidéo."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Désactiver la limite de durée de la vidéo"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Désactiver la limite de durée de la vidéo"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Videó hosszúsági limit letiltása"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disabilita il limite di durata video"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "動画の長さ制限を無効にする"
+            "value" : "動画の継続時間制限を無効にする"
           }
         },
         "ko" : {
@@ -2066,6 +2481,12 @@
             "value" : "Tắt Giới hạn Thời gian của Video"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "禁用视频时长限制"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2094,6 +2515,12 @@
             "value" : "هل ترغب في إعادة تعيين المجموعات؟"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Искате ли да нулирате колекциите?"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2103,7 +2530,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Möchten Sie die Sammlungen zurücksetzen?"
+            "value" : "Möchtest du die Sammlungen zurücksetzen?"
           }
         },
         "es" : {
@@ -2139,13 +2566,25 @@
         "fr-CH" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voulez-vous réinitialiser les collections?"
+            "value" : "Voulez-vous réinitialiser les collections ?"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voulez-vous réinitialiser les collections ?"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Visszaszeretnéd állítani a gyűjteményeket?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vuoi ripristinare le raccolte?"
           }
         },
         "ja" : {
@@ -2157,7 +2596,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "컬렉션을 초기화하고 싶으신가요?"
+            "value" : "모음을 초기화하시겠습니까?"
           }
         },
         "nl" : {
@@ -2196,6 +2635,12 @@
             "value" : "Bạn có muốn thiết lập lại các bộ sưu tập?"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您想要重置“收藏”吗？"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2222,6 +2667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "حمل اختصار Fallback"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изтегляне на резервен пряк път"
           }
         },
         "cs" : {
@@ -2269,13 +2720,25 @@
         "fr-CH" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Téléchargement du raccourcis Fallback "
+            "value" : "Téléchargement du raccourci Fallback"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharger le raccourci de secours"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tartalék parancs letöltése"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scarica il comando rapido di riserva"
           }
         },
         "ja" : {
@@ -2326,6 +2789,12 @@
             "value" : "Tải xuống Phím tắt dự phòng"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载备用快捷指令"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2352,6 +2821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تحميل ملف Tendies"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изтегляне на файл Tendies"
           }
         },
         "cs" : {
@@ -2402,16 +2877,28 @@
             "value" : "Télécharger le fichier Tendies"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Télécharger le fichier Tendies"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies fájl letöltése"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scarica file tende"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tendiesファイルをダウンロード"
+            "value" : "tendiesファイルをダウンロード"
           }
         },
         "ko" : {
@@ -2435,7 +2922,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Скачать файл Tendies"
+            "value" : "Скачать Tendies файл"
           }
         },
         "th" : {
@@ -2454,6 +2941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tải xuống tệp tendies"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载 Tendies 文件"
           }
         },
         "zh-Hant" : {
@@ -2482,6 +2975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يتم التحميل"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изтегляне"
           }
         },
         "cs" : {
@@ -2532,10 +3031,22 @@
             "value" : "Téléchargement"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Téléchargement"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letöltés folyamatban"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scaricando"
           }
         },
         "ja" : {
@@ -2586,6 +3097,12 @@
             "value" : "Đang Tải xuống"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载中"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2612,6 +3129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "استمتع!"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Насладете се!"
           }
         },
         "cs" : {
@@ -2656,10 +3179,28 @@
             "value" : "Profitez!"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profitez-en !"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amusez-vous !"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Élvezd!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Divertiti!"
           }
         },
         "ja" : {
@@ -2710,6 +3251,12 @@
             "value" : "Hãy thưởng thức!"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尽情享受吧！"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2736,6 +3283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ادخل هاش البرنامج"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Въведете хеш на приложението"
           }
         },
         "cs" : {
@@ -2786,10 +3339,22 @@
             "value" : "Insérer le Hash de l'app"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrer le Hash de l'appli"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Írd be az App hashjét"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inserisci l'hash dell'app"
           }
         },
         "ja" : {
@@ -2840,10 +3405,16 @@
             "value" : "Nhập mã định danh Ứng dụng"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入 APP 哈希值"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "輸入應用程式雜湊值"
+            "value" : "輸入應用程式哈希值"
           }
         }
       }
@@ -2866,6 +3437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ادخل هاش البرنامج من الاعدادات"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Въведете хеша на приложението PosterBoard в настройките."
           }
         },
         "cs" : {
@@ -2913,13 +3490,25 @@
         "fr-CH" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Insérer votre PosterBoard hash de l'app dans les paramètres."
+            "value" : "Insérer le hash de votre PosterBoard de l'app dans les paramètres."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez votre hash d'appli PosterBoard dans les réglages."
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Írd be a PosterBoard app hashedet a Beállításokban."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inserisci il tuo hash dell'app PosterBoard nelle impostazioni."
           }
         },
         "ja" : {
@@ -2970,10 +3559,16 @@
             "value" : "Nhập mã định danh của PosterBoard trong Cài đặt."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在设置中输入您的 PosterBoard App 的哈希值。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "在設定中輸入您的 PosterBoard 應用程式雜湊值。"
+            "value" : "在設定中輸入您的 PosterBoard 應用程式哈希值。"
           }
         }
       }
@@ -2996,6 +3591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خطأ"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Грешка"
           }
         },
         "cs" : {
@@ -3046,10 +3647,22 @@
             "value" : "Erreur"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erreur"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hiba"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Errore"
           }
         },
         "ja" : {
@@ -3100,6 +3713,12 @@
             "value" : "Lỗi"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "错误"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3128,6 +3747,12 @@
             "value" : "مؤسس الثغرة"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Експлойт"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3137,7 +3762,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ausnutzen"
+            "value" : "Exploit"
           }
         },
         "es" : {
@@ -3176,16 +3801,28 @@
             "value" : "Exploit"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exploit"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exploit"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vunnerabilità"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Exploit"
+            "value" : "エクスプロイト"
           }
         },
         "ko" : {
@@ -3230,6 +3867,12 @@
             "value" : "Khai thác"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "漏洞利用者"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3257,6 +3900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جارٍ استخراج tendies..."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Извличане на tendies..."
           }
         },
         "cs" : {
@@ -3307,16 +3956,28 @@
             "value" : "Excraction des tendies..."
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extraction des tendies..."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies kicsomagolása..."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estraendo tendie..."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tendiesを解凍中…"
+            "value" : "tendiesを解凍中…"
           }
         },
         "ko" : {
@@ -3361,6 +4022,12 @@
             "value" : "Đang giải nén tendies..."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提取 Tendies 文件中..."
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3389,6 +4056,12 @@
             "value" : "فشل"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неуспешно"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3398,7 +4071,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gescheitert"
+            "value" : "Fehlgeschlagen"
           }
         },
         "es" : {
@@ -3437,10 +4110,22 @@
             "value" : "Échué"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sikertelen"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Errore"
           }
         },
         "ja" : {
@@ -3452,7 +4137,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "실패함"
+            "value" : "실패"
           }
         },
         "nl" : {
@@ -3491,6 +4176,12 @@
             "value" : "Thất bại"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失败"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3519,6 +4210,12 @@
             "value" : "فشل في استيراد ملفات tendies"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неуспешен внос на tendies"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3528,7 +4225,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Die Einfuhr von Tendies ist fehlgeschlagen"
+            "value" : "Import von Tendies-Datei fehlgeschlagen"
           }
         },
         "es" : {
@@ -3567,16 +4264,28 @@
             "value" : "Échec de l'importation des tendies"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de l'importation des tendies"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A tendies importálása sikertelen"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile importare i tendie"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tendiesのインポートに失敗しました"
+            "value" : "tendiesのインポートに失敗しました"
           }
         },
         "ko" : {
@@ -3621,6 +4330,12 @@
             "value" : "Nhập tendies thất bại"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入 Tendies 文件失败"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3647,6 +4362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "فشل استيراد الفيديو"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неуспешен внос на видео"
           }
         },
         "cs" : {
@@ -3691,10 +4412,28 @@
             "value" : "Échec lors de l'importation de la vidéo."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de l'importation de la vidéo"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de l'importation de la vidéo"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Videó importálása sikertelen"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile importare il video"
           }
         },
         "ja" : {
@@ -3745,6 +4484,12 @@
             "value" : "Nhập Video bị lỗi"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入视频失败"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3771,6 +4516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "صانع اختصار Fallback"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Създател на резервен пряк път"
           }
         },
         "cs" : {
@@ -3821,10 +4572,22 @@
             "value" : "Créateur de raccourcis Fallback"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créateur de raccourci de secours"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tartalék parancs készítő"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creatore del comando rapido di riserva"
           }
         },
         "ja" : {
@@ -3836,7 +4599,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "예비 단축어 생성기"
+            "value" : "대체 단축어 생성기"
           }
         },
         "nl" : {
@@ -3875,6 +4638,12 @@
             "value" : "Bộ tạo Phím tắt dự phòng"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备用快捷指令创建者"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3901,6 +4670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يتم استخدام الاختصار"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Връщане към пряк път"
           }
         },
         "cs" : {
@@ -3951,10 +4726,22 @@
             "value" : "Revenir au raccourcis"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retour au raccourci"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Visszatérés a parancshoz"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provo ad usare il comando rapido di riserva"
           }
         },
         "ja" : {
@@ -3966,7 +4753,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "예비 단축어로 전환 중..."
+            "value" : "대체 단축어로 전환 중..."
           }
         },
         "nl" : {
@@ -4005,6 +4792,12 @@
             "value" : "Quay lại Phím tắt"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "返回“快捷指令”"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4031,6 +4824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ابحث عن الخلفيات"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Намерете тапети"
           }
         },
         "cs" : {
@@ -4075,10 +4874,28 @@
             "value" : "Trouver des fonds d'écran "
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trouver des Wallpapers"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trouver des fonds d'écran"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Háttérképek találása"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trova sfondi"
           }
         },
         "ja" : {
@@ -4129,6 +4946,12 @@
             "value" : "Tìm kiếm Hình nền"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查找墙纸"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4155,6 +4978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "أنهاء"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Край"
           }
         },
         "cs" : {
@@ -4205,10 +5034,22 @@
             "value" : "Terminer"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminer"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Befejezés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finisci"
           }
         },
         "ja" : {
@@ -4259,6 +5100,12 @@
             "value" : "Hoàn thành"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "结束"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4285,6 +5132,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جارٍ إنشاء الفيديو..."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Генериране на видео..."
           }
         },
         "cs" : {
@@ -4335,10 +5188,22 @@
             "value" : "Géneration de la vidéo..."
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Génération de la vidéo..."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Videó generálása..."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generando il video..."
           }
         },
         "ja" : {
@@ -4389,6 +5254,12 @@
             "value" : "Đang tạo video..."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生成视频中..."
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4415,6 +5286,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "احصل على الأختصار"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вземете пряк път"
           }
         },
         "cs" : {
@@ -4459,10 +5336,28 @@
             "value" : "Obtenir raccourci"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtenir le Raccourci"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtenir le raccourci"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shortcut letöltése"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottieni comando rapido"
           }
         },
         "ja" : {
@@ -4513,6 +5408,12 @@
             "value" : "Tải xuống Phím tắt"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "获取快捷指令"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4539,6 +5440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إليك دليل تعليمي لمساعدتك على البدء باستخدام التطبيق."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ето един урок, който да ви помогне да започнете с приложението."
           }
         },
         "cs" : {
@@ -4583,16 +5490,34 @@
             "value" : "Voici un tutoriel qui vous aidera à utiliser cette application"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voici un tutoriel pour vous aider à démarrer avec l'application."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voici un tutoriel pour vous aider à démarrer avec l'appli."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Íme egy oktatóanyag, amely segít az alkalmazás használatának megkezdésében."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ecco un tutorial per aiutarti a prendere mano con l'app."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "アプリの使い方を説明するチュートリアルはこちらです。"
+            "value" : "アプリを使い始める際に役立つチュートリアルをご紹介します。"
           }
         },
         "ko" : {
@@ -4637,6 +5562,12 @@
             "value" : "Đây là hướng dẫn trước khi bạn bắt đầu sử dụng ứng dụng này."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以下是帮助您快速开始使用本 App 的教程。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4663,6 +5594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الصفحة الرئيسية"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начало"
           }
         },
         "cs" : {
@@ -4713,10 +5650,22 @@
             "value" : "Acceuil"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accueil"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Főképernyő"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
           }
         },
         "ja" : {
@@ -4767,6 +5716,12 @@
             "value" : "Trang chủ"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主页"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4793,6 +5748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "نزل Nuggrt"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инсталиране на Nugget"
           }
         },
         "cs" : {
@@ -4837,10 +5798,28 @@
             "value" : "Installer Nugget"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer Nugget"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer Nugget"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget telepítése"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installa Nugget"
           }
         },
         "ja" : {
@@ -4891,6 +5870,12 @@
             "value" : "Tải xuống Nugget"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安装 Nugget"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4917,6 +5902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تثبيت اختصار fallback (اختياري)"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инсталирайте резервния пряк път (по избор)"
           }
         },
         "cs" : {
@@ -4961,16 +5952,34 @@
             "value" : "Installer le raccourci de secours (optionnel)"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer le raccourci de secours (Optionnel)"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer le raccourci de secours (facultatif)"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tartalék parancs telepítése (Opcionális)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installa il comando rapido di riserva (Opzionale)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "代替ショートカットをインストール（任意）"
+            "value" : "フォールバックショートカットをインストール（任意）"
           }
         },
         "ko" : {
@@ -4994,7 +6003,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Установите Fallback Shortcut (По желанию)"
+            "value" : "Установите Fallback Shortcut"
           }
         },
         "th" : {
@@ -5013,6 +6022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cài đặt Phím tắt Dự phòng (Thích thì tải)"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安装备用快捷指令（可选）"
           }
         },
         "zh-Hant" : {
@@ -5041,6 +6056,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "انضم الى الدسكورد"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Присъединете се към Discord"
           }
         },
         "cs" : {
@@ -5091,10 +6112,22 @@
             "value" : "Rejoigner le Discord"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rejoindre le Discord"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Csatlakozz a Discordhoz"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unisciti al Discord"
           }
         },
         "ja" : {
@@ -5145,6 +6178,12 @@
             "value" : "Tham gia Discord"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入 Discord"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5171,6 +6210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "روابط"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Връзки"
           }
         },
         "cs" : {
@@ -5221,10 +6266,22 @@
             "value" : "Liens"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liens"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Linkek"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collegamenti"
           }
         },
         "ja" : {
@@ -5275,6 +6332,12 @@
             "value" : "Liên kết"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "链接"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5302,6 +6365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "المطور الرئيسي"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основен разработчик"
           }
         },
         "cs" : {
@@ -5352,10 +6421,22 @@
             "value" : "Développeur principal"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Développeur principal"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Főfejlesztő"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sviluppatore principale"
           }
         },
         "ja" : {
@@ -5406,6 +6487,12 @@
             "value" : "Nhà phát triển chính"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主要开发者"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5432,6 +6519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الحد الاقصى لـtendies وصل"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Достигнат е максимум Tendies"
           }
         },
         "cs" : {
@@ -5482,10 +6575,22 @@
             "value" : "Tendies maximum atteint"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre maximal de Tendies atteint"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maximum Tendies elérve"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "È stato raggiunto il massimo di tendie"
           }
         },
         "ja" : {
@@ -5536,6 +6641,12 @@
             "value" : "Số lượng tendies đã đạt tối đa"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已达到 Tendies 最大数量限制"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5562,6 +6673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "التالي"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напред"
           }
         },
         "cs" : {
@@ -5612,10 +6729,22 @@
             "value" : "Suivant"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Következő"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
           }
         },
         "ja" : {
@@ -5666,6 +6795,12 @@
             "value" : "Tiếp theo"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一个"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5692,6 +6827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget Github"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
           }
         },
         "cs" : {
@@ -5742,10 +6883,22 @@
             "value" : "Nugget GitHub"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget GitHub"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub di Nugget"
           }
         },
         "ja" : {
@@ -5796,6 +6949,12 @@
             "value" : "Nugget GitHub"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget GitHub"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5822,6 +6981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "أوك"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ОК"
           }
         },
         "cs" : {
@@ -5872,7 +7037,19 @@
             "value" : "OK"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -5926,6 +7103,12 @@
             "value" : "OK"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5952,6 +7135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "قم بتنزيل Nugget على جهاز الكمبيوتر الخاص بك من GitHub."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На вашия компютър изтеглете Nugget от GitHub."
           }
         },
         "cs" : {
@@ -5996,10 +7185,28 @@
             "value" : "Sur votre ordinateur, téléchargez Nugget à partir du GitHub"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sur votre ordinateur, téléchargez Nugget depuis GitHub."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sur votre ordinateur, téléchargez Nugget depuis GitHub."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A számítógépeden, töltsd le a Nuggetet a GitHubról."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sul tuo computer, scarica Nugget da GitHub."
           }
         },
         "ja" : {
@@ -6029,7 +7236,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Установите Nugget из официального GitHub на ваш компьютер."
+            "value" : "Установите Nugget из официального репозитория GitHub на ваш компьютер."
           }
         },
         "th" : {
@@ -6048,6 +7255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tải về Nugget trên máy tính từ Github."
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请从 GitHub 下载 Nugget 至您的电脑。"
           }
         },
         "zh-Hant" : {
@@ -6076,6 +7289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "فقط ملفات .tendies يمكن تحميلها!"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Могат да се изтеглят само .tendies файлове!"
           }
         },
         "cs" : {
@@ -6126,10 +7345,22 @@
             "value" : "Seulement les fichiers .tendies peuvent être téléchargés!"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuls les fichiers .tendies peuvent être téléchargés !"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Csak .tendies fájlt lehet letölteni!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo i file .tendies possono essere scaricati!"
           }
         },
         "ja" : {
@@ -6159,7 +7390,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Только файлы .tendies могут быть загружены!"
+            "value" : "Только .tendies файлы могут быть загружены!"
           }
         },
         "th" : {
@@ -6178,6 +7409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chỉ có thể tải xuống các tập tin .tendies!"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅可下载 .tendies 文件！"
           }
         },
         "zh-Hant" : {
@@ -6206,6 +7443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "افتح على GitHub"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отворете GitHub"
           }
         },
         "cs" : {
@@ -6250,10 +7493,28 @@
             "value" : "Ouvrir GitHub"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir GitHub"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir GitHub"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "GitHub megnyitésa"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri GitHub"
           }
         },
         "ja" : {
@@ -6304,6 +7565,12 @@
             "value" : "Mở Github"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开 GitHub"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6330,6 +7597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يرجى الانتظار"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Моля, изчакайте"
           }
         },
         "cs" : {
@@ -6380,10 +7653,22 @@
             "value" : "Attendez s'il vous plait"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veuillez patienter"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kérlek várj"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attendi"
           }
         },
         "ja" : {
@@ -6434,6 +7719,12 @@
             "value" : "Vui lòng chờ"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请稍候"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6457,6 +7748,12 @@
           }
         },
         "ar-SA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "bg" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
@@ -6510,7 +7807,19 @@
             "value" : "Pocket Poster"
           }
         },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
@@ -6564,6 +7873,12 @@
             "value" : "Pocket Poster"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6573,7 +7888,39 @@
       }
     },
     "Pocket Poster %@ is available, do you want to visit releases page?" : {
-      "comment" : "app update available on GitHub"
+      "comment" : "app update available on GitHub",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster %@ je k dispozici, přejete si ho stáhnout z GitHubu?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster %@ esta disponible, ¿quieres visitar la pagina de lanzamientos?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster %@ est disponible, voulez-vous visiter la page des communiqués?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster %@ đã được phát hành, bạn có muốn đến trang tải xuống không?"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster %@ 已推出，您想访问发布页面吗？"
+          }
+        }
+      }
     },
     "PosterBoard failed to open directly. The fallback shortcut will now be opened." : {
       "localizations" : {
@@ -6593,6 +7940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "فشل فتح PosterBoard مباشرةً. سيتم الآن فتح الاختصار fallback."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard не успя да се отвори директно. Сега ще се отвори резервният пряк път."
           }
         },
         "cs" : {
@@ -6637,10 +7990,28 @@
             "value" : "PosterBoard a échoué d'ouvrir directement. Le raccourci de secours sera lancé."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'ouverture directe de PosterBoard a échoué. Le raccourci de secours va maintenant être ouvert."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'ouverture de PosterBoard a échoué directement. Le raccourci de secours va maintenant s'ouvrir."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A PosterBoard közvetlen megnyitása sikertelen. A tartalék parancs most elindul."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard non si è aperto direttamente. Il comando rapido di riserva verrà ora aperto."
           }
         },
         "ja" : {
@@ -6664,7 +8035,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nie udało sie otworzyć PosterBoard. Skrot fallback zostanie otwarty."
+            "value" : "Nie udało się otworzyć PosterBoard bezpośrednio. Otwieram zapasowy skrót."
           }
         },
         "ru" : {
@@ -6689,6 +8060,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "PosterBoard không thể mở trực tiếp. Phím tắt dự phòng bây giờ sẽ được mở."
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直接打开 PosterBoard 失败。现在将启动备用快捷指令。"
           }
         },
         "zh-Hant" : {
@@ -6717,6 +8094,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "التفضيلات"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предпочитания"
           }
         },
         "cs" : {
@@ -6761,10 +8144,28 @@
             "value" : "Préférences"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préférences"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Préférences"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beállítások"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preferenze"
           }
         },
         "ja" : {
@@ -6815,6 +8216,12 @@
             "value" : "Tùy chọn"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "偏好设置"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6841,6 +8248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الإصدار"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Издание"
           }
         },
         "cs" : {
@@ -6885,10 +8298,28 @@
             "value" : "Version"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kiadás"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rilascia"
           }
         },
         "ja" : {
@@ -6900,7 +8331,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "릴리스"
+            "value" : "릴리즈"
           }
         },
         "nl" : {
@@ -6939,6 +8370,12 @@
             "value" : "Phát hành"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发布"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6965,6 +8402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إعادة تشغيل الدليل التعليمي"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повторете урока"
           }
         },
         "cs" : {
@@ -7009,10 +8452,28 @@
             "value" : "Revoir le tutoriel"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revoir le Tutoriel"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revoir le tutoriel"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tutorial újrajátszása"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripeti il tutorial"
           }
         },
         "ja" : {
@@ -7042,7 +8503,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Воспроизвести иструкцию заново"
+            "value" : "Воспроизвести инструкцию заново"
           }
         },
         "th" : {
@@ -7061,6 +8522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xem lại Hướng dẫn"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再次查看教程"
           }
         },
         "zh-Hant" : {
@@ -7089,6 +8556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إعادة تعيين المجموعات"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нулиране на колекции"
           }
         },
         "cs" : {
@@ -7133,10 +8606,28 @@
             "value" : "Réinitialiser collections"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser les Collections"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser les collections"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gyűjetmények visszaállítása"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina le raccolte"
           }
         },
         "ja" : {
@@ -7187,6 +8678,12 @@
             "value" : "Đặt lại Bộ sưu tập"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置“收藏”"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7213,6 +8710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "اختار ملفات Tendies"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изберете Tendies"
           }
         },
         "cs" : {
@@ -7257,10 +8760,28 @@
             "value" : "Sélectionner Tendies"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner des Tendies"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sélectionner Tendies"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tendies kiválasztása"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleziona Tendie"
           }
         },
         "ja" : {
@@ -7311,6 +8832,12 @@
             "value" : "Chọn Tendies"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择 Tendies 文件"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7337,6 +8864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ملفات Tendies المختارة"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избрани Tendies"
           }
         },
         "cs" : {
@@ -7381,10 +8914,28 @@
             "value" : "Tendies sélectionnés"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies Sélectionnés"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendies sélectionnées"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kiválasztott Tendies"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tendie Selezionato"
           }
         },
         "ja" : {
@@ -7435,6 +8986,12 @@
             "value" : "Đã chọn Tendies"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已选择的 Tendies 文件"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7461,6 +9018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تخطي"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропусни"
           }
         },
         "cs" : {
@@ -7505,10 +9068,28 @@
             "value" : "Passer"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passer"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passer"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kihagyás"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salta"
           }
         },
         "ja" : {
@@ -7559,6 +9140,12 @@
             "value" : "Bỏ qua"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳过"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7585,6 +9172,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "روابط"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Социални мрежи"
           }
         },
         "cs" : {
@@ -7629,10 +9222,28 @@
             "value" : "Médias sociaux"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réseaux Sociaux"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réseaux sociaux"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Közösségi profilok"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Social"
           }
         },
         "ja" : {
@@ -7662,7 +9273,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Социальные сети"
+            "value" : "Соцсети"
           }
         },
         "th" : {
@@ -7681,6 +9292,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mạng Xã hội"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "社交媒体"
           }
         },
         "zh-Hant" : {
@@ -7709,6 +9326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "نجاح!"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Успех!"
           }
         },
         "cs" : {
@@ -7753,10 +9376,28 @@
             "value" : "Succès!"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succès !"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succès !"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siker!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Successo!"
           }
         },
         "ja" : {
@@ -7807,6 +9448,12 @@
             "value" : "Thành công!"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功！"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7833,6 +9480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تم استيراد %@"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Успешно импортиран %@"
           }
         },
         "cs" : {
@@ -7877,10 +9530,28 @@
             "value" : "Importation de %@ succédée"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importation réussie de %@"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ importé avec succès"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sikeresen importáltuk a %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ importato con successo"
           }
         },
         "ja" : {
@@ -7931,6 +9602,12 @@
             "value" : "Nhập thành công %@"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功导入 %@"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7959,6 +9636,12 @@
             "value" : "ادعمني في Ko-Fi"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подкрепете в Ko-Fi"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7968,7 +9651,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unterstütze bei Ko-Fi"
+            "value" : "Mit Ko-Fi unterstützen"
           }
         },
         "es" : {
@@ -8001,10 +9684,28 @@
             "value" : "Supporter sur Ko-Fi"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soutien sur Ko-Fi"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soutien sur Ko-Fi"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Támogass minket Ko-Fi-n"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporta su Ko-Fi"
           }
         },
         "ja" : {
@@ -8055,6 +9756,12 @@
             "value" : "Hỗ trợ trên Ko-Fi"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 Ko-fi 上支持我们"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8081,6 +9788,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "المجلد مُعد بشكل غير صحيح. يرجى الضغط على \"إعادة تعيين المجموعات\" وحاول مرة أخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Папката е неправилно настроена. Моля, докоснете „Нулиране на колекции“ и опитайте отново."
           }
         },
         "cs" : {
@@ -8125,10 +9838,28 @@
             "value" : "Le dossier est mal installé. Veuillez cliquer sur \"réinitialiser collections\" et réessayer."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le dossier est mal configuré. Veuillez appuyer sur \"Réinitialiser les Collections\" et réessayer."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le dossier est mal configuré. Veuillez appuyer sur \"Réinitialiser les collections\" et réessayer."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A mappa nincs megfelelően beállítva. Koppintson a \"Gyűjtemények visszaállítása\" gombra, és próbálja újra."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La cartella non è stata configurata correttamente. Tocca su \"Ripristina le raccolte\" e riprova."
           }
         },
         "ja" : {
@@ -8140,7 +9871,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "폴더 설정이 올바르지 않습니다. \"컬렉션 초기화\"를 누른 후 다시 시도해주세요."
+            "value" : "폴더 설정이 올바르지 않습니다. \"컬렉션 초기화\"를 누른 후 다시 시도해 주십시오."
           }
         },
         "nl" : {
@@ -8158,7 +9889,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ошибка. Нажмите \"Сбросить коллекции\" и попробуйте снова."
+            "value" : "Ошибка. Нажмите \"Сбросить коллекции\" и повторите попытку."
           }
         },
         "th" : {
@@ -8177,6 +9908,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thư mục được thiết lập không đúng cách. Nhấn vào \"Đặt lại Bộ sưu tập\" và thử lại."
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文件夹设置不正确。请点击“重置‘收藏’”并重试。"
           }
         },
         "zh-Hant" : {
@@ -8205,6 +9942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تطبيق PosterBoard بيفتح الان. قفله من السويتشر."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложението PosterBoard ще се отвори сега. Моля, затворете го от превключвателя на приложения."
           }
         },
         "cs" : {
@@ -8249,10 +9992,28 @@
             "value" : "L'appli PosterBoard sera maintenant lancé. Veuillez le fermer a partir du sélecteur d'applications."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'application PosterBoard va maintenant s'ouvrir. Veuillez la fermer depuis le switcher d'applications."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'appli PosterBoard va maintenant s'ouvrir. Veuillez la fermer depuis le sélecteur d'applis."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Megnyílik a PosterBoard alkalmazás. Kérjük, zárja be az alkalmazásváltóból."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'app PosterBoard ora si aprirà. Chiudila dallo switcher delle applicazioni"
           }
         },
         "ja" : {
@@ -8264,7 +10025,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "PosterBoard 앱이 열립니다. 앱 전환기에서 닫아주세요."
+            "value" : "곧 PosterBoard 앱이 열립니다. 앱 전환기에서 닫아주십시오."
           }
         },
         "nl" : {
@@ -8303,6 +10064,12 @@
             "value" : "Ứng dụng PosterBoard đã được mở. Hãy đóng nó trong đa nhiệm."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即将打开 PosterBoard App。请从 App 切换器将其关闭。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8329,6 +10096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الفيديو الذي استوردته طويل جدًا! يجب أن يكون طول الفيديو %@ ثانية أو أقل."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортираното от вас видео е твърде дълго! Вашето видео трябва да е %@ секунди или по-малко."
           }
         },
         "cs" : {
@@ -8373,10 +10146,28 @@
             "value" : "La vidéo que vous avez sélectionné est trop long! Votre vidéo doit être de %@ secondes ou moins."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La vidéo que vous avez importée est trop longue ! Votre vidéo doit durer %@ secondes ou moins."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La vidéo que vous avez importée est trop longue ! Votre vidéo doit durer %@ secondes ou moins."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Az importált videó túl hosszú! A videó hossza legfeljebb %@ másodperc lehet."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il video che hai importato è troppo lungo! Deve essere di %@ secondi o meno."
           }
         },
         "ja" : {
@@ -8427,6 +10218,12 @@
             "value" : "Bạn nhập video dài quá! Video của bạn cần phải ít hơn hoặc vừa đủ %@ giây."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您导入的视频太长了！视频长度不得超过 %@ 秒。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8453,6 +10250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "لتطبيق ذلك، سيحتاج PosterBoard إلى الفتح."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "За да се приложи, PosterBoard ще трябва да се отвори."
           }
         },
         "cs" : {
@@ -8497,10 +10300,28 @@
             "value" : "Pour appliquer, PosterBoard devra ouvrir."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour appliquer, PosterBoard devra s'ouvrir."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour postuler, PosterBoard devra s'ouvrir."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Az alkalmazáshoz a PosterBoardnak meg kell nyílnia."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per applicarlo, PosterBoard dovrà essere aperto."
           }
         },
         "ja" : {
@@ -8551,6 +10372,12 @@
             "value" : "Để áp dụng, PosterBoard sẽ cần phải được mở."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "若要应用，需打开 PosterBoard。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8577,6 +10404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "للحصول على معرف حزمة التطبيق، يلزم استخدام Nugget."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "За да получите ID на пакета на приложението, е необходим Nugget."
           }
         },
         "cs" : {
@@ -8621,10 +10454,28 @@
             "value" : "Pour récupérer le Bundle ID de l'application, Nugget est requis."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour obtenir l'app bundle id, Nugget est requis."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour obtenir l'app bundle id, Nugget est requis."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nuggetre van szükség az App Bundle id megszerzéséhez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per ottenere l'id pacchetto dell'app, Nugget è richiesto."
           }
         },
         "ja" : {
@@ -8675,6 +10526,12 @@
             "value" : "Để lấy ID gói của ứng dụng, bạn cần phải sử dụng Nugget."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "若要获取 App 的 Bundle ID，需要 Nugget。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8684,7 +10541,39 @@
       }
     },
     "Update Available" : {
-      "comment" : "app update available on GitHub"
+      "comment" : "app update available on GitHub",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je K Dispozici Aktualizace"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hay una actualización disponible"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour disponible"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã có bản cập nhật mới"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有更新可用"
+          }
+        }
+      }
     },
     "Version %@ (%@)" : {
       "localizations" : {
@@ -8704,6 +10593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الإصدار %1$@ (%2$@)"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия %1$@ (%2$@)"
           }
         },
         "cs" : {
@@ -8754,10 +10649,28 @@
             "value" : "Version %1$@ (%2$@)"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %1$@ (%2$@)"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %1$@ (%2$@)"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verzió %1$@ (%2$@)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versione %1$@ (%2$@)"
           }
         },
         "ja" : {
@@ -8808,6 +10721,12 @@
             "value" : "Phiên bản %1@ (%2$@)"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本 %1$@ (%2$@)"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8834,6 +10753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "فيديو"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видеоклипове"
           }
         },
         "cs" : {
@@ -8878,10 +10803,28 @@
             "value" : "Vidéos"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vidéos"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vidéos"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Videók"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video"
           }
         },
         "ja" : {
@@ -8932,6 +10875,12 @@
             "value" : "Videos"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "视频"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8958,6 +10907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "انظر على Github"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вижте в GitHub"
           }
         },
         "cs" : {
@@ -9002,10 +10957,28 @@
             "value" : "Voir sur GitHub"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voir sur GitHub"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voir sur GitHub"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Megtekintés a GitHubon"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vedi su GitHub"
           }
         },
         "ja" : {
@@ -9056,6 +11029,12 @@
             "value" : "Xem trên Github"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 GitHub 上查看"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9065,7 +11044,32 @@
       }
     },
     "Waiting for app hash..." : {
-
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esperando por el App Hash"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En attente de l’app hash..."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ mã định danh ứng dụng..."
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待 App 哈希值"
+          }
+        }
+      }
     },
     "Website Designer" : {
       "localizations" : {
@@ -9085,6 +11089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ديزانير الموقع"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уеб дизайнер"
           }
         },
         "cs" : {
@@ -9129,10 +11139,28 @@
             "value" : "Designer de site"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concepteur de Site Web"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concepteur de site web"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weboldal Designere"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sviluppatore sito web"
           }
         },
         "ja" : {
@@ -9183,6 +11211,12 @@
             "value" : "Nhà thiết kế Website"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网站设计者"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9209,6 +11243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "مرحبا الى Pocket Poster!"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добре дошли в Pocket Poster!"
           }
         },
         "cs" : {
@@ -9253,10 +11293,28 @@
             "value" : "Bienvenue à Pocket Poster"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue sur Pocket Poster !"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue sur Pocket Poster !"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Üdvözlünk a Pocket Poster-be!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benvenuto su Pocket Poster!"
           }
         },
         "ja" : {
@@ -9307,6 +11365,12 @@
             "value" : "Chào mừng đến với Pocket Poster!"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎来到 Pocket Poster！"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9333,6 +11397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "هل ترغب في تنزيل الملف %@؟"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Искате ли да изтеглите файла %@?"
           }
         },
         "cs" : {
@@ -9377,10 +11447,28 @@
             "value" : "Voulez-vous télécharger le fichier %@?"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souhaitez-vous télécharger le fichier %@ ?"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voulez-vous télécharger le fichier %@ ?"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Szeretnéd letölteni a(z) %@ fájlt?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorresti scaricare il file %@?"
           }
         },
         "ja" : {
@@ -9431,6 +11519,12 @@
             "value" : "Bạn có muốn tải xuống tệp %@ không?"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您想要下载文件 %@ 吗？"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9457,6 +11551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يمكنك العثور على الخلفيات على الموقع الرسمي Cowabun.ga."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можете да намерите тапети на официалния уебсайт Cowabun.ga."
           }
         },
         "cs" : {
@@ -9501,10 +11601,28 @@
             "value" : "Vous pouvez trouver des fonds d'écran sur le site officiel Cowabun.ga."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez trouver des wallpapers sur le site officiel Cowabun.ga."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez trouver des fonds d'écran sur le site web officiel de Cowabun.ga."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Háttérképeket a hivatalos Cowabun.ga weboldalon találhatsz."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi trovare sfondi sul sito ufficiale Cowabun.ga."
           }
         },
         "ja" : {
@@ -9555,6 +11673,12 @@
             "value" : "Bạn có thể tìm kiếm các hình nền trên trang web Cowabun.ga."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您可在官方网站 Cowabun.ga 上找到墙纸。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9581,6 +11705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يمكنك تثبيت اختصار اختياري إذا فشلت الطريقة الأصلية."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можете да инсталирате незадължителен пряк път, ако оригиналният метод се провали."
           }
         },
         "cs" : {
@@ -9625,16 +11755,34 @@
             "value" : "Vous pouvez installer un raccourci optionnel si la méthode originelle échoue."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez installer un raccourci optionnel si la méthode originale échoue."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez installer un shortcut optionnel si la méthode originale échoue."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Telepíthetsz egy opcionális parancsot, ha az eredeti módszer nem működik."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi installare un comando rapido opzionale se il metodo originale fallisce."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "　元の方法がうまくいかない場合は、オプションのショートカットをインストールできます。"
+            "value" : "元の方法がうまくいかない場合は、オプションのショートカットをインストールできます。"
           }
         },
         "ko" : {
@@ -9679,6 +11827,12 @@
             "value" : "Bạn có thể tải xuống Phím tắt Dự phòng nếu cách làm bình thường bị lỗi."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果初始方法失败，您可以安装备用的快捷指令。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9705,6 +11859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يمكنك تطبيق أوصاف %@ فقط."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Можете да приложите само %@ дескриптори."
           }
         },
         "cs" : {
@@ -9749,10 +11909,28 @@
             "value" : "Vous pouvez que appliquer des descripteurs %@."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous ne pouvez appliquer que des descripteurs %@"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous ne pouvez appliquer que %@ descripteurs."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Csak %@ descriptort alkalmazhatsz."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi solo applicare %@ descrittori."
           }
         },
         "ja" : {
@@ -9803,6 +11981,12 @@
             "value" : "Bạn chỉ có thể áp dụng %@ mô tả."
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您只能应用 %@ 描述符。"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9829,6 +12013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "هاش البرنامج غير صحيح. يرجى إعادة تعيينه."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вашият хеш на приложение е грешен. Моля, задайте го отново."
           }
         },
         "cs" : {
@@ -9873,10 +12063,28 @@
             "value" : "Votre hach d'application est incorrect. Veuillez le régler de nouveau."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre app hash est incorrect. Veuillez le définir à nouveau."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre hash d'appli est incorrect. Veuillez le définir à nouveau."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Az App hashed helytelen. Kérlek állítsd be újra."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tuo hash dell'app non è corretto. Inseriscilo di nuovo."
           }
         },
         "ja" : {
@@ -9888,7 +12096,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "앱 해시가 올바르지 않습니다. 다시 설정해주세요."
+            "value" : "앱 해시가 올바르지 않습니다. 다시 설정해 주십시오."
           }
         },
         "nl" : {
@@ -9906,7 +12114,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваш App hash неправильный. Впишите его заново."
+            "value" : "Указан некорректный App Hash. Повторите попытку."
           }
         },
         "th" : {
@@ -9925,6 +12133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mã định danh Ứng dụng chưa chính xác. Vui lòng đặt lại."
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您的 App 哈希值不正确。请重新设置。"
           }
         },
         "zh-Hant" : {
@@ -9953,6 +12167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "سيتم تحديث PosterBoard تلقائيًا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вашият PosterBoard ще се опресни автоматично."
           }
         },
         "cs" : {
@@ -9997,10 +12217,28 @@
             "value" : "Votre PosterBoard sera rafraîchi automatiquement."
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre PosterBoard va se rafraîchir automatiquement."
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre PosterBoard se rafraîchira automatiquement."
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "A PosterBoardod automatikusan újra fog tölteni."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tuo PosterBoard si ricaricherà in autormatico."
           }
         },
         "ja" : {
@@ -10049,6 +12287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "PosterBoard sẽ được tự động làm mới."
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您的 PosterBoard 将自动刷新。"
           }
         },
         "zh-Hant" : {
