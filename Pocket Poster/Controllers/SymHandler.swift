@@ -23,6 +23,13 @@ class SymHandler {
         return getDocumentsDirectory()
     }
     
+    static func getPosterBoardHashURL() -> URL {
+        return getLCDocumentsDirectory().appendingPathComponent("NuggetPosterBoardHash")
+    }
+    static func getCarPlayHashURL() -> URL {
+        return getLCDocumentsDirectory().appendingPathComponent("NuggetCarPlayWallpaperHash")
+    }
+    
     private static func getSymlinkURL() -> URL {
         return getLCDocumentsDirectory().appendingPathComponent(".Trash", conformingTo: .symbolicLink)
     }

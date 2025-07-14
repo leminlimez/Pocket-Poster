@@ -35,6 +35,7 @@ class PosterBoardManager: ObservableObject {
             guard let obj = objc_getClass("IPSettingsUtilities") as? NSObject else { return false }
             langManager = obj
         } else {
+            // TODO: Need to find the correct class for this on iOS 17
             guard let obj = objc_getClass("PSLanguageSelector") as? NSObject else { return false }
             langManager = obj
         }

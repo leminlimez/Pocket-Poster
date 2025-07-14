@@ -23,6 +23,12 @@
             "value" : "Pocket Poster"
           }
         },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -71,7 +77,25 @@
             "value" : "Pocket Poster"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster"
@@ -125,6 +149,12 @@
             "value" : "Pocket Poster"
           }
         },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster"
+          }
+        },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خلفيات Nugget"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Wallpaper"
           }
         },
         "cs" : {
@@ -195,10 +231,28 @@
             "value" : "Fond d'écran Nugget"
           }
         },
+        "fr-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Wallpaper"
+          }
+        },
+        "fr-LU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget Wallpaper"
+          }
+        },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nugget Háttérkép"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sfondo di Nugget"
           }
         },
         "ja" : {
@@ -247,6 +301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hình nền Nugget"
+          }
+        },
+        "zh-CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nugget 墙纸"
           }
         },
         "zh-Hant" : {

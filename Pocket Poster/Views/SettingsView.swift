@@ -26,30 +26,16 @@ struct SettingsView: View {
                     TextField("Enter CarPlayWallpaper App Hash", text: $cpHash)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .font(.system(.body, design: .monospaced))
-                        .onChange(of: pbHash) { _ in
-                            var separator: String? = nil
-                            if pbHash.contains(" ") {
-                                separator = " "
-                            } else if pbHash.contains("\n") {
-                                separator = "\n"
-                            }
-                            if let separator = separator {
-                                let items = pbHash.split(separator: separator)
-                                if let pb = items.first {
-                                    pbHash = String(pb)
-                                }
-                                if items.count >= 2 {
-                                    cpHash = String(items[1])
-                                }
-                            }
-                        }
                     HStack {
                         Spacer()
                         // Run task to check until file exists from Nugget pc over AFC
                         Button(action: {
-                            UIApplication.shared.confirmAlert(title: "Waiting for app hashes...", body: "Connect your device to Nugget and click the \"Pocket Poster Helper\" button.", confirmTitle: "Cancel", onOK: {
-                                cancelWaitForHash()
-                            }, noCancel: true)
+                            if !FileManager.default.fileExists(atPath: SymHandler.getPosterBoardHashURL().path()) {
+                                // don't show the alert because it is already there
+                                UIApplication.shared.confirmAlert(title: NSLocalizedString("Waiting for app hash...", comment: ""), body: NSLocalizedString("Connect your device to Nugget and click the \"Pocket Poster Helper\" button.", comment: ""), confirmTitle: NSLocalizedString("Cancel", comment: ""), onOK: {
+                                    cancelWaitForHash()
+                                }, noCancel: true)
+                            }
                             startWaitForHash()
                         }) {
                             Text("Detect")
@@ -165,7 +151,7 @@ struct SettingsView: View {
     func startWaitForHash() {
         checkingForHash = true
         hashCheckTask = Task {
-            let filePath = SymHandler.getLCDocumentsDirectory().appendingPathComponent("NuggetAppHash")
+            let filePath = SymHandler.getPosterBoardHashURL()
             while !FileManager.default.fileExists(atPath: filePath.path()) {
                 try? await Task.sleep(nanoseconds: 500_000_000) // Sleep 0.5s
                 try Task.checkCancellation()
@@ -175,16 +161,15 @@ struct SettingsView: View {
                 let contents = try String(contentsOf: filePath)
                 try? FileManager.default.removeItem(at: filePath)
                 await MainActor.run {
-                    var separator = " "
-                    if contents.contains("\n") {
-                        separator = "\n"
-                    }
-                    let items = contents.split(separator: separator)
-                    if let pb = items.first {
-                        pbHash = String(pb)
-                    }
-                    if items.count >= 2 {
-                        cpHash = String(items[1])
+                    pbHash = contents
+                }
+                // check for carplay hash
+                let carplayPath = SymHandler.getCarPlayHashURL()
+                if FileManager.default.fileExists(atPath: carplayPath.path()) {
+                    let carplayContents = try String(contentsOf: carplayPath)
+                    try? FileManager.default.removeItem(at: carplayPath)
+                    await MainActor.run {
+                        cpHash = carplayContents
                     }
                 }
             } catch {
