@@ -1401,6 +1401,18 @@
             "value" : "Connectez votre appareil à Nugget et cliquez sur le bouton \"Pocket Poster Helper\"."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เชื่อมต่อเครื่องกับ Nugget แล้วกดตัวช่วยเหลือ \"Pocket Poster Helper\""
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cihazınızı Nugget'a bağlayın ve \"Pocket Poster Helper\" tuşuna tıklayın."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7908,6 +7920,18 @@
             "value" : "Pocket Poster %@ est disponible, voulez-vous visiter la page des communiqués?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster %@ พร้อมใช้งาน ต้องการไปหน้าดาวน์โหลดหรือไป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster %@ kullanılabilir, yayınlamaları görmek ister misin?"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10561,6 +10585,18 @@
             "value" : "Mise à jour disponible"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีอัพเดทพร้อมใช้งาน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncelleme Kullanılabilir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11055,6 +11091,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En attente de l’app hash..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังรอแฮชแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama hash'i bekleniyor..."
           }
         },
         "vi" : {
