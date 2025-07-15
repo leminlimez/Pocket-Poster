@@ -10,6 +10,7 @@ import UIKit
 
 class DownloadManager: ObservableObject {
     static let shared = DownloadManager()
+    static let exploreLink = "https://cowabun.ga/wallpapers?pocketposter=true"
     
     @Published var downloadURL: String? = nil
     

@@ -13,6 +13,11 @@ struct SettingsView: View {
     @AppStorage("cpHash") var cpHash: String = "" // CarPlay hash
     @AppStorage("ignoreDurationLimit") var ignoreDurationLimit: Bool = false
     
+    // DEBUG
+#if DEBUG
+    @AppStorage("exploreLink") var exploreLink: String = DownloadManager.exploreLink
+#endif
+    
     @State var checkingForHash: Bool = false
     @State var hashCheckTask: Task<Void, any Error>? = nil
     
@@ -52,6 +57,19 @@ struct SettingsView: View {
             } header: {
                 Label("App Hash", systemImage: "lock.app.dashed")
             }
+            
+#if DEBUG
+            Section {
+                VStack {
+                    Text(String("Explore Page URL"))
+                    TextField(String("Enter Explore Page URL"), text: $exploreLink)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .font(.system(.body, design: .monospaced))
+                }
+            } header: {
+                Label(String("Debug"), systemImage: "ant")
+            }
+#endif
             
             Section {
                 Toggle(isOn: $ignoreDurationLimit, label: {
