@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CachedAsyncImage
+import Giffy
 
 let MIN_SIZE: CGFloat = 165
 
@@ -50,21 +51,40 @@ struct ExploreView: View {
                 } else {
                     LazyVGrid(columns: gridItemLayout) {
                         ForEach(wallpapers) { wallpaper in
-                            if searchTerm == "" || wallpaper.name.lowercased().contains(searchTerm.lowercased()) || wallpaper.authors.lowercased().contains(searchTerm.lowercased()) {
+                            if searchTerm == "" || wallpaper.name.lowercased().contains(searchTerm.lowercased()) || (wallpaper.authors ?? "").lowercased().contains(searchTerm.lowercased()) {
                                 Button(action: {
                                     DownloadManager.shared.startTendiesDownload(for: cowabungaAPI.getDownloadURLForWallpaper(wallpaper: wallpaper))
                                 }) {
                                     VStack(spacing: 0) {
-                                        CachedAsyncImage(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper), urlCache: .imageCache) { image in
-                                            image
-                                                .resizable()
-                                                .aspectRatio(contentMode: .fill)
-                                                .frame(maxWidth: .infinity)
-                                                .cornerRadius(10, corners: .topLeft)
-                                                .cornerRadius(10, corners: .topRight)
-                                        } placeholder: {
-                                            Color.gray
-                                                .frame(height: MIN_SIZE)
+                                        if wallpaper.previewIsGif() {
+                                            AsyncGiffy(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper)) { phase in
+                                                switch phase {
+                                                case .loading:
+                                                    Color.gray
+                                                        .frame(height: MIN_SIZE)
+                                                case .error:
+                                                    Color.red
+                                                        .frame(height: MIN_SIZE)
+                                                case .success(let giffy):
+                                                    giffy
+                                                        .aspectRatio(contentMode: .fill)
+                                                        .frame(maxWidth: .infinity)
+                                                        .cornerRadius(10, corners: .topLeft)
+                                                        .cornerRadius(10, corners: .topRight)
+                                                }
+                                            }
+                                        } else {
+                                            CachedAsyncImage(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper), urlCache: .imageCache) { image in
+                                                image
+                                                    .resizable()
+                                                    .aspectRatio(contentMode: .fill)
+                                                    .frame(maxWidth: .infinity)
+                                                    .cornerRadius(10, corners: .topLeft)
+                                                    .cornerRadius(10, corners: .topRight)
+                                            } placeholder: {
+                                                Color.gray
+                                                    .frame(height: MIN_SIZE)
+                                            }
                                         }
                                         HStack {
                                             VStack(spacing: 4) {
@@ -74,12 +94,14 @@ struct ExploreView: View {
                                                         .minimumScaleFactor(0.5)
                                                     Spacer()
                                                 }
-                                                HStack {
-                                                    Text(wallpaper.authors)
-                                                        .foregroundColor(.secondary)
-                                                        .font(.caption)
-                                                        .minimumScaleFactor(0.5)
-                                                    Spacer()
+                                                if let authors = wallpaper.authors {
+                                                    HStack {
+                                                        Text(authors)
+                                                            .foregroundColor(.secondary)
+                                                            .font(.caption)
+                                                            .minimumScaleFactor(0.5)
+                                                        Spacer()
+                                                    }
                                                 }
                                             }
                                             .lineLimit(1)

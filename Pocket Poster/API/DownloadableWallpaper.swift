@@ -7,13 +7,13 @@
 
 class DownloadableWallpaper: Identifiable, Codable {
     var name: String
-    var description: String
+    var description: String?
     var url: String
     var preview: String
-    var authors: String
+    var authors: String?
     var type: WallpaperType?
 
-    init(name: String, description: String, authors: String, preview: String, url: String, version: String) {
+    init(name: String, description: String?, authors: String?, preview: String, url: String, version: String) {
         self.name = name
         self.description = description
         self.authors = authors
@@ -23,5 +23,9 @@ class DownloadableWallpaper: Identifiable, Codable {
     
     enum WallpaperType: String, Codable {
         case custom, apple, template
+    }
+    
+    func previewIsGif() -> Bool {
+        return preview.hasSuffix(".gif")
     }
 }

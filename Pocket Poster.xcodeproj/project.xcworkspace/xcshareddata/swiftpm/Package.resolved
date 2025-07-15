@@ -1,5 +1,5 @@
 {
-  "originHash" : "73a600cf677d3bb2b929c60349923a2a4e20e6a9ef10509bf043d2ad2229ca95",
+  "originHash" : "9d3a39dff9bda7be6921bb553210388e3a68059324656c0ace5f2eb2378819b1",
   "pins" : [
     {
       "identity" : "dynamic",
@@ -8,6 +8,24 @@
       "state" : {
         "revision" : "ab9a2570862d54aed2663691bb767f881226a12f",
         "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "flanimatedimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Flipboard/FLAnimatedImage.git",
+      "state" : {
+        "revision" : "d4f07b6f164d53c1212c3e54d6460738b1981e9f",
+        "version" : "1.0.17"
+      }
+    },
+    {
+      "identity" : "giffy",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tfmart/Giffy.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "595bd0a0bc292d32da4b26b8bca4347235ab2556"
       }
     },
     {
