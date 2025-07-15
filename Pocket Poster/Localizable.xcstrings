@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "Actions" : {
       "localizations" : {
         "ar" : {
@@ -462,6 +465,9 @@
           }
         }
       }
+    },
+    "Apple" : {
+
     },
     "Apply" : {
       "localizations" : {
@@ -1439,6 +1445,9 @@
         }
       }
     },
+    "Could not connect to server" : {
+
+    },
     "Could not download wallpaper!" : {
       "localizations" : {
         "ar" : {
@@ -2210,6 +2219,9 @@
           }
         }
       }
+    },
+    "Custom" : {
+
     },
     "Detect" : {
       "localizations" : {
@@ -4230,6 +4242,9 @@
     "Failed to fetch CarPlay wallpapers" : {
 
     },
+    "Failed to fetch wallpapers" : {
+
+    },
     "Failed to import tendies" : {
       "localizations" : {
         "ar" : {
@@ -4538,9 +4553,6 @@
         }
       }
     },
-    "Failed to load explore page." : {
-
-    },
     "Fallback Shortcut Creator" : {
       "localizations" : {
         "ar" : {
@@ -4848,6 +4860,9 @@
           }
         }
       }
+    },
+    "Filter Wallpapers" : {
+
     },
     "Find Wallpapers" : {
       "localizations" : {
@@ -8750,9 +8765,6 @@
         }
       }
     },
-    "Retry" : {
-
-    },
     "Select Tendies" : {
       "localizations" : {
         "ar" : {
@@ -10603,6 +10615,9 @@
           }
         }
       }
+    },
+    "Unable to obtain repo hash. Maybe update to the latest version?" : {
+
     },
     "Update Available" : {
       "comment" : "app update available on GitHub",
