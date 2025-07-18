@@ -45,13 +45,17 @@ class DownloadManager: ObservableObject {
                     PosterBoardManager.shared.selectedTendies.append(newURL)
                     Haptic.shared.notify(.success)
                     UIApplication.shared.dismissAlert(animated: true)
-                    UIApplication.shared.alert(title: NSLocalizedString("Successfully downloaded wallpaper!", comment: ""), body: NSLocalizedString("Your downloaded .tendies will be on the Home page.", comment: "after successfully downloading tendies"))
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
+                        UIApplication.shared.alert(title: NSLocalizedString("Successfully downloaded wallpaper!", comment: ""), body: NSLocalizedString("Your downloaded .tendies will be on the Home page.", comment: "after successfully downloading tendies"))
+                    })
                 }
             } catch {
                 DispatchQueue.main.async {
                     Haptic.shared.notify(.error)
                     UIApplication.shared.dismissAlert(animated: true)
-                    UIApplication.shared.alert(title: NSLocalizedString("Could not download wallpaper!", comment: ""), body: error.localizedDescription)
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
+                        UIApplication.shared.alert(title: NSLocalizedString("Could not download wallpaper!", comment: ""), body: error.localizedDescription)
+                    })
                 }
             }
         }
