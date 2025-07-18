@@ -57,22 +57,33 @@ struct ExploreView: View {
                                 }) {
                                     VStack(spacing: 0) {
                                         if wallpaper.previewIsGif() {
-                                            AsyncGiffy(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper)) { phase in
-                                                switch phase {
-                                                case .loading:
-                                                    Color.gray
-                                                        .frame(height: MIN_SIZE)
-                                                case .error:
-                                                    Color.red
-                                                        .frame(height: MIN_SIZE)
-                                                case .success(let giffy):
-                                                    giffy
-                                                        .aspectRatio(contentMode: .fill)
-                                                        .frame(maxWidth: .infinity)
-                                                        .cornerRadius(10, corners: .topLeft)
-                                                        .cornerRadius(10, corners: .topRight)
-                                                }
+                                            CachedAsyncGiffy(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper), urlCache: .imageCache) { giffy in
+                                                giffy
+                                                    .aspectRatio(contentMode: .fill)
+                                                    .frame(maxWidth: .infinity)
+                                                    .cornerRadius(10, corners: .topLeft)
+                                                    .cornerRadius(10, corners: .topRight)
+                                            } placeholder: {
+                                                Color.gray
+                                                    .frame(height: MIN_SIZE)
                                             }
+                                            // Non-cached code:
+//                                            AsyncGiffy(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper)) { phase in
+//                                                switch phase {
+//                                                case .loading:
+//                                                    Color.gray
+//                                                        .frame(height: MIN_SIZE)
+//                                                case .error:
+//                                                    Color.red
+//                                                        .frame(height: MIN_SIZE)
+//                                                case .success(let giffy):
+//                                                    giffy
+//                                                        .aspectRatio(contentMode: .fill)
+//                                                        .frame(maxWidth: .infinity)
+//                                                        .cornerRadius(10, corners: .topLeft)
+//                                                        .cornerRadius(10, corners: .topRight)
+//                                                }
+//                                            }
                                         } else {
                                             CachedAsyncImage(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper), urlCache: .imageCache) { image in
                                                 image
