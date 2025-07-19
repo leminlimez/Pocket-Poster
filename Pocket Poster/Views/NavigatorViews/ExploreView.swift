@@ -9,6 +9,7 @@ import SwiftUI
 import CachedAsyncImage
 
 let MIN_SIZE: CGFloat = 165
+let CORNER_RADIUS: CGFloat = 12
 
 struct ExploreView: View {
     @ObservedObject var cowabungaAPI = CowabungaAPI.shared
@@ -55,25 +56,26 @@ struct ExploreView: View {
                                     DownloadManager.shared.startTendiesDownload(for: cowabungaAPI.getDownloadURLForWallpaper(wallpaper: wallpaper))
                                 }) {
                                     VStack(spacing: 0) {
-                                        if wallpaper.previewIsGif() {
-                                            GIFImage(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper), animate: true, loop: true)
-                                                .aspectRatio(contentMode: .fill)
-                                                .frame(maxWidth: .infinity)
-                                                .cornerRadius(10, corners: .topLeft)
-                                                .cornerRadius(10, corners: .topRight)
-                                        } else {
-                                            CachedAsyncImage(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper), urlCache: .imageCache) { image in
-                                                image
-                                                    .resizable()
-                                                    .aspectRatio(contentMode: .fill)
+                                        ZStack {
+                                            Color.gray.opacity(0.4)
+                                            if wallpaper.previewIsGif() {
+                                                GIFImage(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper), animate: true, loop: true)
+                                                    .aspectRatio(contentMode: .fit)
                                                     .frame(maxWidth: .infinity)
-                                                    .cornerRadius(10, corners: .topLeft)
-                                                    .cornerRadius(10, corners: .topRight)
-                                            } placeholder: {
-                                                Color.gray
-                                                    .frame(height: MIN_SIZE)
+                                            } else {
+                                                CachedAsyncImage(url: cowabungaAPI.getPreviewURLForWallpaper(wallpaper: wallpaper), urlCache: .imageCache) { image in
+                                                    image
+                                                        .resizable()
+                                                        .aspectRatio(contentMode: .fit)
+                                                        .frame(maxWidth: .infinity)
+                                                } placeholder: {
+                                                    Color.gray
+                                                        .frame(height: MIN_SIZE)
+                                                }
                                             }
                                         }
+                                        .cornerRadius(CORNER_RADIUS, corners: .topLeft)
+                                        .cornerRadius(CORNER_RADIUS, corners: .topRight)
                                         HStack {
                                             VStack(spacing: 4) {
                                                 HStack {
@@ -104,7 +106,7 @@ struct ExploreView: View {
                                 }
                                 .frame(minWidth: MIN_SIZE)
                                 .background(Color(uiColor: .secondarySystemBackground))
-                                .cornerRadius(10)
+                                .cornerRadius(CORNER_RADIUS)
                                 .padding(4)
                             }
                         }
