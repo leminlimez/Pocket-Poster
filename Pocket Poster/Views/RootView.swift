@@ -18,10 +18,12 @@ struct RootView: View {
                 .tabItem {
                     Label("Videos", systemImage: "camera")
                 }
-            CarPlayView()
-                .tabItem {
-                    Label("CarPlay", systemImage: "car")
-                }
+            if UIDevice.current.userInterfaceIdiom == .phone {
+                CarPlayView()
+                    .tabItem {
+                        Label("CarPlay", systemImage: "car")
+                    }
+            }
             ExploreView()
                 .tabItem {
                     Label("Explore", systemImage: "safari")

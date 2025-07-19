@@ -23,9 +23,11 @@ struct SettingsView: View {
                     TextField("Enter PosterBoard App Hash", text: $pbHash)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .font(.system(.body, design: .monospaced))
-                    TextField("Enter CarPlayWallpaper App Hash", text: $cpHash)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .font(.system(.body, design: .monospaced))
+                    if UIDevice.current.userInterfaceIdiom == .phone {
+                        TextField("Enter CarPlayWallpaper App Hash", text: $cpHash)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .font(.system(.body, design: .monospaced))
+                    }
                     HStack {
                         Spacer()
                         // Run task to check until file exists from Nugget pc over AFC
@@ -164,12 +166,14 @@ struct SettingsView: View {
                     pbHash = contents
                 }
                 // check for carplay hash
-                let carplayPath = SymHandler.getCarPlayHashURL()
-                if FileManager.default.fileExists(atPath: carplayPath.path()) {
-                    let carplayContents = try String(contentsOf: carplayPath)
-                    try? FileManager.default.removeItem(at: carplayPath)
-                    await MainActor.run {
-                        cpHash = carplayContents
+                if UIDevice.current.userInterfaceIdiom == .phone {
+                    let carplayPath = SymHandler.getCarPlayHashURL()
+                    if FileManager.default.fileExists(atPath: carplayPath.path()) {
+                        let carplayContents = try String(contentsOf: carplayPath)
+                        try? FileManager.default.removeItem(at: carplayPath)
+                        await MainActor.run {
+                            cpHash = carplayContents
+                        }
                     }
                 }
             } catch {
