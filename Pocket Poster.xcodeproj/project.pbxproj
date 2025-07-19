@@ -10,7 +10,6 @@
 		6F09B7BB2DEB873F00CDE89C /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 6F09B7BA2DEB873F00CDE89C /* ZIPFoundation */; };
 		6F09BA332E00808300CDE89C /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6F09BA322E00808300CDE89C /* Dynamic */; };
 		6FB105552E26D3EC00185A5C /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6FB105542E26D3EC00185A5C /* CachedAsyncImage */; };
-		6FB105602E26DD0A00185A5C /* Giffy in Frameworks */ = {isa = PBXBuildFile; productRef = 6FB1055F2E26DD0A00185A5C /* Giffy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,6 @@
 			files = (
 				6FB105552E26D3EC00185A5C /* CachedAsyncImage in Frameworks */,
 				6F09BA332E00808300CDE89C /* Dynamic in Frameworks */,
-				6FB105602E26DD0A00185A5C /* Giffy in Frameworks */,
 				6F09B7BB2DEB873F00CDE89C /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +80,6 @@
 				6F09B7BA2DEB873F00CDE89C /* ZIPFoundation */,
 				6F09BA322E00808300CDE89C /* Dynamic */,
 				6FB105542E26D3EC00185A5C /* CachedAsyncImage */,
-				6FB1055F2E26DD0A00185A5C /* Giffy */,
 			);
 			productName = "Pocket Poster";
 			productReference = 6F09B79D2DEB694B00CDE89C /* Pocket Poster.app */;
@@ -116,7 +113,6 @@
 				6F09B7B92DEB873F00CDE89C /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 				6F09BA312E00808300CDE89C /* XCRemoteSwiftPackageReference "Dynamic" */,
 				6FB105532E26D3EC00185A5C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
-				6FB1055E2E26DD0A00185A5C /* XCRemoteSwiftPackageReference "Giffy" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6F09B79E2DEB694B00CDE89C /* Products */;
@@ -276,7 +272,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Pocket Poster/Preview Content\"";
 				DEVELOPMENT_TEAM = 2P4CP47H76;
 				ENABLE_PREVIEWS = YES;
@@ -308,7 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Pocket Poster/Preview Content\"";
 				DEVELOPMENT_TEAM = 2P4CP47H76;
 				ENABLE_PREVIEWS = YES;
@@ -382,14 +378,6 @@
 				minimumVersion = 2.1.1;
 			};
 		};
-		6FB1055E2E26DD0A00185A5C /* XCRemoteSwiftPackageReference "Giffy" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/tfmart/Giffy.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -407,11 +395,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6FB105532E26D3EC00185A5C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
 			productName = CachedAsyncImage;
-		};
-		6FB1055F2E26DD0A00185A5C /* Giffy */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6FB1055E2E26DD0A00185A5C /* XCRemoteSwiftPackageReference "Giffy" */;
-			productName = Giffy;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
