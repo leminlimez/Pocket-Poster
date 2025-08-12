@@ -52,7 +52,7 @@ struct CarPlayView: View {
 
                             DispatchQueue.global(qos: .userInitiated).async {
                                 do {
-                                    try pbManager.applyCarPlay(appHash: cpHash, wallpapers: wallpapers)
+                                    try CarPlayManager.applyCarPlay(appHash: cpHash, wallpapers: wallpapers)
                                     SymHandler.cleanup() // just to be extra sure
                                     UIApplication.shared.dismissAlert(animated: false)
                                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.35, execute: {
@@ -103,7 +103,7 @@ struct CarPlayView: View {
                 // load active wallpapers from user defaults
                 activeWallpapers = UserDefaults.standard.array(forKey: "ActiveCarPlayWallpapers") as? [String] ?? []
                 // load the wallpapers
-                let cppURL = PosterBoardManager.shared.getCarPlayPhotosURL()
+                let cppURL = CarPlayManager.getCarPlayPhotosURL()
                 let frameworkPath = "/System/Library/PrivateFrameworks/CarPlayUIServices.framework"
                 do {
                     for file in try FileManager.default.contentsOfDirectory(at: URL(fileURLWithPath: frameworkPath), includingPropertiesForKeys: nil, options: .skipsHiddenFiles) {
@@ -127,7 +127,7 @@ struct CarPlayView: View {
                         }
                     }
                     // sort them
-                    if let sortedWallpapers = PosterBoardManager.shared.getCarPlayWallpaperNames() {
+                    if let sortedWallpapers = CarPlayManager.getCarPlayWallpaperNames() {
                         wallpapers = wallpapers.reorder(by: sortedWallpapers)
                     }
                 } catch {

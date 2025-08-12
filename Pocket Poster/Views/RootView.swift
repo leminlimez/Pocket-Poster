@@ -18,7 +18,7 @@ struct RootView: View {
                 .tabItem {
                     Label("Videos", systemImage: "camera")
                 }
-            if UIDevice.current.userInterfaceIdiom == .phone {
+            if CarPlayManager.supportsCarPlay() {
                 CarPlayView()
                     .tabItem {
                         Label("CarPlay", systemImage: "car")

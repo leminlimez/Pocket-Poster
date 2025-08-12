@@ -23,7 +23,7 @@ struct SettingsView: View {
                     TextField("Enter PosterBoard App Hash", text: $pbHash)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .font(.system(.body, design: .monospaced))
-                    if UIDevice.current.userInterfaceIdiom == .phone {
+                    if CarPlayManager.supportsCarPlay() {
                         TextField("Enter CarPlayWallpaper App Hash", text: $cpHash)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .font(.system(.body, design: .monospaced))
@@ -89,7 +89,7 @@ struct SettingsView: View {
                 Button(action: {
                     UIImpactFeedbackGenerator(style: .soft).impactOccurred()
                     UserDefaults.standard.set(nil, forKey: "ActiveCarPlayWallpapers")
-                    try? FileManager.default.removeItem(at: PosterBoardManager.shared.getCarPlayPhotosURL())
+                    try? FileManager.default.removeItem(at: CarPlayManager.getCarPlayPhotosURL())
                     Haptic.shared.notify(.success)
                     UIApplication.shared.alert(title: NSLocalizedString("CarPlay Applied Wallpapers Successfully Cleared!", comment: ""), body: "")
                 }) {
