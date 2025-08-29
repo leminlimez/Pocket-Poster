@@ -103,7 +103,6 @@ class PosterBoardManager: ObservableObject {
             if fileName.lowercased() == "container" {
                 // container support, find the extensions
                 let extDir = dir.appending(path: "Library/Application Support/PRBPosterExtensionDataStore/61/Extensions")
-                print(extDir.absoluteString)
                 var retList: [String: [URL]] = [:]
                 for ext in try FileManager.default.contentsOfDirectory(at: extDir, includingPropertiesForKeys: nil, options: .skipsHiddenFiles) {
                     let descrDir = ext.appendingPathComponent("descriptors")
@@ -240,7 +239,9 @@ class PosterBoardManager: ObservableObject {
         SymHandler.cleanup()
         let docDir = SymHandler.getDocumentsDirectory()
         for file in try FileManager.default.contentsOfDirectory(at: docDir, includingPropertiesForKeys: nil) {
-            try FileManager.default.removeItem(at: file)
+            if file.lastPathComponent != "CarPlayPhotos" {
+                try FileManager.default.removeItem(at: file)
+            }
         }
     }
 }

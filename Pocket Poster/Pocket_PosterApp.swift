@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct Pocket_PosterApp: App {
     // Prefs
+    @ObservedObject var dlManager = DownloadManager.shared
+    
     @AppStorage("finishedTutorial") var finishedTutorial: Bool = false
     @AppStorage("pbHash") var pbHash: String = ""
     
@@ -31,7 +33,7 @@ struct Pocket_PosterApp: App {
                 // check for update
                 if !checkedForUpdate {
                     checkedForUpdate = true
-                    if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String, let url = URL(string: "https://api.github.com/leminlimez/Pocket-Poster/releases/latest") {
+                    if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String, let url = URL(string: "https://api.github.com/repos/leminlimez/Pocket-Poster/releases/latest") {
                         let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
                             guard let data = data else { return }
                             
@@ -53,17 +55,7 @@ struct Pocket_PosterApp: App {
             .onOpenURL(perform: { url in
                 // Download URL
                 if url.absoluteString.starts(with: "pocketposter://download") {
-                    // prohibit to only tendies files
-                    if !url.absoluteString.hasSuffix(".tendies") {
-                        UIApplication.shared.alert(body: NSLocalizedString("Only .tendies files can be downloaded!", comment: ""))
-                    } else if PosterBoardManager.shared.selectedTendies.count >= PosterBoardManager.MaxTendies {
-                        UIApplication.shared.alert(title: NSLocalizedString("Max Tendies Reached", comment: ""), body: String(format: NSLocalizedString("You can only apply %@ descriptors.", comment: ""), "\(PosterBoardManager.MaxTendies)"))
-                    } else {
-                        downloadURL = url.absoluteString.replacingOccurrences(of: "pocketposter://download?url=", with: "")
-                        UIApplication.shared.confirmAlert(title: NSLocalizedString("Download Tendies File", comment: ""), body: String(format: NSLocalizedString("Would you like to download the file %@?", comment: ""), "\(DownloadManager.getWallpaperNameFromURL(string: downloadURL ?? "/Unknown"))"), onOK: {
-                            downloadWallpaper()
-                        }, noCancel: false)
-                    }
+                    dlManager.startTendiesDownload(for: url)
                 }
                 // App Hash URL
                 else if url.absoluteString.starts(with: "pocketposter://app-hash?uuid=") {
@@ -75,7 +67,7 @@ struct Pocket_PosterApp: App {
                     } else {
                         // copy it over to the KFC bucket
                         do {
-                            let newURL = try DownloadManager.copyTendies(from: url)
+                            let newURL = try DownloadManager.shared.copyTendies(from: url)
                             PosterBoardManager.shared.selectedTendies.append(newURL)
                             Haptic.shared.notify(.success)
                             UIApplication.shared.alert(title: String(format: NSLocalizedString("Successfully imported %@", comment: ""), "\(url.lastPathComponent)"), body: "")
@@ -86,24 +78,6 @@ struct Pocket_PosterApp: App {
                     }
                 }
             })
-        }
-    }
-    
-    func downloadWallpaper() {
-        UIImpactFeedbackGenerator(style: .soft).impactOccurred()
-        UIApplication.shared.alert(title: NSLocalizedString("Downloading", comment: "") + " \(DownloadManager.getWallpaperNameFromURL(string: downloadURL ?? "/Unknown"))...", body: NSLocalizedString("Please wait", comment: ""), animated: false, withButton: false)
-        
-        Task {
-            do {
-                let newURL = try await DownloadManager.downloadFromURL(string: downloadURL!)
-                PosterBoardManager.shared.selectedTendies.append(newURL)
-                Haptic.shared.notify(.success)
-                UIApplication.shared.dismissAlert(animated: true)
-            } catch {
-                Haptic.shared.notify(.error)
-                UIApplication.shared.dismissAlert(animated: true)
-                UIApplication.shared.alert(title: NSLocalizedString("Could not download wallpaper!", comment: ""), body: error.localizedDescription)
-            }
         }
     }
     

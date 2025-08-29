@@ -18,6 +18,16 @@ struct RootView: View {
                 .tabItem {
                     Label("Videos", systemImage: "camera")
                 }
+            if CarPlayManager.supportsCarPlay() {
+                CarPlayView()
+                    .tabItem {
+                        Label("CarPlay", systemImage: "car")
+                    }
+            }
+            ExploreView()
+                .tabItem {
+                    Label("Explore", systemImage: "safari")
+                }
         }
     }
 }

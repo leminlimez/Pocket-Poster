@@ -1,6 +1,24 @@
 {
-  "originHash" : "d0d4edfdf2bf3cd05b3ba2dec0af1a9c271c93f944cbba8677cc647f74a6b323",
+  "originHash" : "7f2d604f1affb7dc07ec1898cef3c0eaf130e2b55b5c441f445ab59c3285c1bb",
   "pins" : [
+    {
+      "identity" : "dynamic",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mhdhejazi/Dynamic",
+      "state" : {
+        "revision" : "ab9a2570862d54aed2663691bb767f881226a12f",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "swiftui-cached-async-image",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lorenzofiamingo/swiftui-cached-async-image",
+      "state" : {
+        "revision" : "467a3d17479887943ab917a379e62bbaff60ac8a",
+        "version" : "2.1.1"
+      }
+    },
     {
       "identity" : "zipfoundation",
       "kind" : "remoteSourceControl",

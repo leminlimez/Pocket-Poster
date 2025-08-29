@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6F09B7BB2DEB873F00CDE89C /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 6F09B7BA2DEB873F00CDE89C /* ZIPFoundation */; };
+		6F09BA332E00808300CDE89C /* Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6F09BA322E00808300CDE89C /* Dynamic */; };
+		6FB105552E26D3EC00185A5C /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6FB105542E26D3EC00185A5C /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB105552E26D3EC00185A5C /* CachedAsyncImage in Frameworks */,
+				6F09BA332E00808300CDE89C /* Dynamic in Frameworks */,
 				6F09B7BB2DEB873F00CDE89C /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +78,8 @@
 			name = "Pocket Poster";
 			packageProductDependencies = (
 				6F09B7BA2DEB873F00CDE89C /* ZIPFoundation */,
+				6F09BA322E00808300CDE89C /* Dynamic */,
+				6FB105542E26D3EC00185A5C /* CachedAsyncImage */,
 			);
 			productName = "Pocket Poster";
 			productReference = 6F09B79D2DEB694B00CDE89C /* Pocket Poster.app */;
@@ -105,6 +111,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				6F09B7B92DEB873F00CDE89C /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				6F09BA312E00808300CDE89C /* XCRemoteSwiftPackageReference "Dynamic" */,
+				6FB105532E26D3EC00185A5C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6F09B79E2DEB694B00CDE89C /* Products */;
@@ -276,12 +284,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.2;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lemin.Pocket-Poster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -308,12 +316,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.2;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lemin.Pocket-Poster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -354,6 +362,22 @@
 				minimumVersion = 0.9.19;
 			};
 		};
+		6F09BA312E00808300CDE89C /* XCRemoteSwiftPackageReference "Dynamic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mhdhejazi/Dynamic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		6FB105532E26D3EC00185A5C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -361,6 +385,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6F09B7B92DEB873F00CDE89C /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
 			productName = ZIPFoundation;
+		};
+		6F09BA322E00808300CDE89C /* Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F09BA312E00808300CDE89C /* XCRemoteSwiftPackageReference "Dynamic" */;
+			productName = Dynamic;
+		};
+		6FB105542E26D3EC00185A5C /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6FB105532E26D3EC00185A5C /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

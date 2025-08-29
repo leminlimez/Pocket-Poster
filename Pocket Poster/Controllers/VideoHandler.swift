@@ -102,7 +102,8 @@ class VideoHandler {
             print("Failed to get video track")
             throw AVError(.decodeFailed)
         }
-        let size = track.naturalSize.applying(track.preferredTransform)
+        let preferredTransform = track.preferredTransform
+        let size = track.naturalSize.applying(preferredTransform)
         let width = Int(abs(size.width))
         let height = Int(abs(size.height))
         let fps = track.nominalFrameRate
@@ -145,7 +146,7 @@ class VideoHandler {
                     let filePathName = "assets/\(name)"
                     UIApplication.shared.change(title: NSLocalizedString("Generating Video...", comment: ""), body: String(format: NSLocalizedString("Creating %@...", comment: "the message for the current image that is being generated"), filePathName))
                     
-                    let ciImage = CIImage(cvPixelBuffer: imageBuffer)
+                    let ciImage = CIImage(cvPixelBuffer: imageBuffer).transformed(by: preferredTransform)
                     let context = CIContext()
                     if let cgImage = context.createCGImage(ciImage, from: ciImage.extent) {
                         if let img = cgImage.jpg {

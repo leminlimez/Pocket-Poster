@@ -20,9 +20,14 @@ struct SettingsView: View {
         List {
             Section {
                 VStack {
-                    TextField("Enter App Hash", text: $pbHash)
+                    TextField("Enter PosterBoard App Hash", text: $pbHash)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .font(.system(.body, design: .monospaced))
+                    if CarPlayManager.supportsCarPlay() {
+                        TextField("Enter CarPlayWallpaper App Hash", text: $cpHash)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .font(.system(.body, design: .monospaced))
+                    }
                     HStack {
                         Spacer()
                         // Run task to check until file exists from Nugget pc over AFC
@@ -38,7 +43,7 @@ struct SettingsView: View {
                             Text("Detect")
                         }
                         .foregroundStyle(.green)
-                        .onChange(of: checkingForHash) {
+                        .onChange(of: checkingForHash) { _ in
                             if !checkingForHash {
                                 // hide ui alert
                                 UIApplication.shared.dismissAlert(animated: true)
@@ -78,6 +83,17 @@ struct SettingsView: View {
                     }
                 }) {
                     Label("Clear App Cache", systemImage: "trash.circle")
+                }
+                .foregroundStyle(.red)
+                
+                Button(action: {
+                    UIImpactFeedbackGenerator(style: .soft).impactOccurred()
+                    UserDefaults.standard.set(nil, forKey: "ActiveCarPlayWallpapers")
+                    try? FileManager.default.removeItem(at: CarPlayManager.getCarPlayPhotosURL())
+                    Haptic.shared.notify(.success)
+                    UIApplication.shared.alert(title: NSLocalizedString("CarPlay Applied Wallpapers Successfully Cleared!", comment: ""), body: "")
+                }) {
+                    Label("Reset CarPlay Applied Wallpapers", systemImage: "trash.circle")
                 }
                 .foregroundStyle(.red)
             } header: {
@@ -150,12 +166,14 @@ struct SettingsView: View {
                     pbHash = contents
                 }
                 // check for carplay hash
-                let carplayPath = SymHandler.getCarPlayHashURL()
-                if FileManager.default.fileExists(atPath: carplayPath.path()) {
-                    let carplayContents = try String(contentsOf: carplayPath)
-                    try? FileManager.default.removeItem(at: carplayPath)
-                    await MainActor.run {
-                        cpHash = carplayContents
+                if UIDevice.current.userInterfaceIdiom == .phone {
+                    let carplayPath = SymHandler.getCarPlayHashURL()
+                    if FileManager.default.fileExists(atPath: carplayPath.path()) {
+                        let carplayContents = try String(contentsOf: carplayPath)
+                        try? FileManager.default.removeItem(at: carplayPath)
+                        await MainActor.run {
+                            cpHash = carplayContents
+                        }
                     }
                 }
             } catch {
