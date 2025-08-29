@@ -467,7 +467,38 @@
       }
     },
     "Apple" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple"
+          }
+        }
+      }
     },
     "Apply" : {
       "localizations" : {
@@ -624,7 +655,38 @@
       }
     },
     "Apply CarPlay Wallpapers" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CarPlay Hintergrundbilder anwenden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fonds d'écran Apple CarPlay"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подтвердить обои CarPlay"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้งานวอลเปเปอร์ CarPlay"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Áp dụng hình nền CarPlay"
+          }
+        }
+      }
     },
     "Applying Wallpapers..." : {
       "localizations" : {
@@ -935,13 +997,106 @@
       }
     },
     "CarPlay" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CarPlay"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CarPlay"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CarPlay"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CarPlay"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CarPlay"
+          }
+        }
+      }
     },
     "CarPlay Applied Wallpapers Successfully Cleared!" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angewendete CarPlay Hintergrundbilder erfolgreich gelöscht!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les Fonds D'Écran Appliqués À CarPlay Ont Été Effacés Avec Succès!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обои для CarPlay успешно очищены!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เคลียร์วอลเปเปอร์ CarPlay ที่กำลังใช้งานสำเร็จ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã xóa hình nền CarPlay thành công!"
+          }
+        }
+      }
     },
     "CarPlay Wallpapers" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carplay Hintergrundbilder"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fond D'écran CarPlay"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обои CarPlay"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วอลเปเปอร์ CarPlay"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hình nền CarPlay"
+          }
+        }
+      }
     },
     "Clear App Cache" : {
       "localizations" : {
@@ -1407,6 +1562,12 @@
     },
     "Connect your device to Nugget and click the \"Pocket Poster Helper\" button." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinde dein Gerät zur Nugget und drücke den \"Pocket Poster Helper\" Knopf."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1417,6 +1578,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connectez votre appareil à Nugget et cliquez sur le bouton \"Pocket Poster Helper\"."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключите ваше устройство к ПК с Nugget и нажмите «Pocket Poster Helper»"
           }
         },
         "th" : {
@@ -1446,7 +1613,38 @@
       }
     },
     "Could not connect to server" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konnte nicht zum Server verbinden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne pouvais pas se connecter au la seurver"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Невозможно подключиться к серверу"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เชื่อมต่อกับซอเวอร์ไม่สำเร็จ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể kết nối đến máy chủ"
+          }
+        }
+      }
     },
     "Could not download wallpaper!" : {
       "localizations" : {
@@ -2221,7 +2419,32 @@
       }
     },
     "Custom" : {
-
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coutume"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кастом"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำหนดเอง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tùy chỉnh"
+          }
+        }
+      }
     },
     "Detect" : {
       "localizations" : {
@@ -2958,7 +3181,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Скачать Tendies файл"
+            "value" : "Скачать файл Tendies"
           }
         },
         "th" : {
@@ -3457,13 +3680,106 @@
       }
     },
     "Enter CarPlayWallpaper App Hash" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gib CarPlay-Hintergrund App Hash ein"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez le hachage de l'application de fond d'écran CarPlay"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите App Hash CarPlayWallpaper"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่แฮชแอป CarPlayWallpaper"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập mã định danh ứng dụng hình nền CarPlay"
+          }
+        }
+      }
     },
     "Enter PosterBoard App Hash" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PosterBoard App Hash eingeben"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez le hachage de l'application PosterBoard"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите App Hash PosterBoard"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่แฮชแอป PosterBoard"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập mã định danh ứng dụng Posterboard"
+          }
+        }
+      }
     },
     "Enter your CarPlayWallpaper app hash in Settings." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gib deine CarPlay-Hintergrund App Hash in den Einstellungen ein."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saisissez le hachage de votre application CarPlay Wallpaper dans Paramètres."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите свой App Hash для CarPlayWallpaper в Настройках"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรอกแฮชแอป CarPlayWallpaper ในการตั้งค่า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập mã định danh ứng dụng Hình nền CarPlay ở trong cài đặt."
+          }
+        }
+      }
     },
     "Enter your PosterBoard app hash in Settings." : {
       "localizations" : {
@@ -3928,7 +4244,38 @@
       }
     },
     "Explore" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erkunden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explorer"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исследуйте"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำรวจ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khám phá"
+          }
+        }
+      }
     },
     "Extracting tendies..." : {
       "comment" : "happens when unzipping the files",
@@ -4240,10 +4587,72 @@
       }
     },
     "Failed to fetch CarPlay wallpapers" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrufen der CarPlay-Hintergrundbilder fehlgeschlagen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de la récupération des fonds d'écran CarPlay"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка при извлечении обоев CarPlay"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดึงข้อมูลวอลเปเปอร์ CarPlay ไม่สำเร็จ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tải được hình nền CarPlay"
+          }
+        }
+      }
     },
     "Failed to fetch wallpapers" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrufen der Hintergrundbilder fehlgeschlagen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossible de récupérer des fonds d'écran"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка при извлечении обоев"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดึงข้อมูลวอลเปเปอร์ไม่สำเร็จ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tải được hình nền"
+          }
+        }
+      }
     },
     "Failed to import tendies" : {
       "localizations" : {
@@ -4862,7 +5271,38 @@
       }
     },
     "Filter Wallpapers" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hintergrundbilder filtern"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtrer les fonds d'écran"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фильтр обоев"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรองวอลเปเปอร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ lọc hình nền"
+          }
+        }
+      }
     },
     "Find Wallpapers" : {
       "localizations" : {
@@ -7448,7 +7888,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Только .tendies файлы могут быть загружены!"
+            "value" : "Только файлы .tendies могут быть загружены!"
           }
         },
         "th" : {
@@ -7954,6 +8394,12 @@
             "value" : "Pocket Poster %@ je k dispozici, přejete si ho stáhnout z GitHubu?"
           }
         },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pocket Poster %@ ist verfügbar, willst du die Releases-Seite besuchen?"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7964,6 +8410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pocket Poster %@ est disponible, voulez-vous visiter la page des communiqués?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступен Pocket Poster %@, хотите ли вы перейти на веб-сайт релизов?"
           }
         },
         "th" : {
@@ -8609,7 +9061,38 @@
       }
     },
     "Reset CarPlay Applied Wallpapers" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angewendete CarPlay Hintergrundbilder zurücksetzen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinitialiser les fonds d'écran appliqués par CarPlay"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить примененные обои CarPlay"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตวอลเปเปอร์ CarPlay ที่ใช้งาน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khôi phục lại các thay đổi hình nền CarPlay"
+          }
+        }
+      }
     },
     "Reset Collections" : {
       "localizations" : {
@@ -9536,7 +10019,38 @@
       }
     },
     "Successfully downloaded wallpaper!" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hintergrund erfolgreich heruntergeladen!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fond d'écran téléchargé avec succès !"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обои загружены успешно!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาวน์โหลดวอลเปเปอร์สำเร็จ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tải xuống hình nền thành công!"
+          }
+        }
+      }
     },
     "Successfully imported %@" : {
       "localizations" : {
@@ -10617,7 +11131,38 @@
       }
     },
     "Unable to obtain repo hash. Maybe update to the latest version?" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "könte keinen Repo-Hash abrufen. Aktualisiere vielleicht auf die neuste Version?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incapable d'obtenir le hachage repo. Peut-être mettre à jour vers la dernière version ?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка при получении хэша репозитория. Может обновить до последней версии?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่สามารถดึงแฮชรีโป้ข้อมูลได้ ลองอัพเดทแอปให้เป็นเวอร์ชั่นล่าสุด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không lấy được mã định danh của repo. Hay là cập nhật lên phiên bản mới nhất đi?"
+          }
+        }
+      }
     },
     "Update Available" : {
       "comment" : "app update available on GitHub",
@@ -10626,6 +11171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je K Dispozici Aktualizace"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update verfügbar"
           }
         },
         "es" : {
@@ -10638,6 +11189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mise à jour disponible"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно обновление"
           }
         },
         "th" : {
@@ -11136,6 +11693,12 @@
     },
     "Waiting for app hash..." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warte auf App hash..."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11146,6 +11709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En attente de l’app hash..."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ожидание App Hash…"
           }
         },
         "th" : {
@@ -11945,7 +12514,38 @@
       }
     },
     "You can now choose your wallpapers in the CarPlay settings in your car." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kannst jetzt deine Hintergründe in den CarPlay Einstellungen in deinem Auto auswählen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez maintenant choisir vos fonds d'écran dans les paramètres CarPlay de votre voiture."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Теперь Вы можете выбрать обои в настройках CarPlay в машине."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณสามารถเลือกวอลเปเปอร์ในการตั้งค่า CarPlay ได้แล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bây giờ bạn đã có thể chọn hình nền trong cài đặt CarPlay của xe."
+          }
+        }
+      }
     },
     "You can only apply %@ descriptors." : {
       "localizations" : {
@@ -12256,7 +12856,39 @@
       }
     },
     "Your downloaded .tendies will be on the Home page." : {
-      "comment" : "after successfully downloading tendies"
+      "comment" : "after successfully downloading tendies",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine heruntergeladenen .tendies wird auf der Startseite sein."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos .tendies téléchargés seront sur la page d'accueil."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш загруженный .tendies будет на домашнем экране."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไฟล์ .tendies ที่คุณดาวน์โหลดจะอยู่บนหน้าหลัก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tệp .tendies mà bạn đã tải xuống sẽ nằm ở Trang chủ."
+          }
+        }
+      }
     },
     "Your PosterBoard will refresh automatically." : {
       "localizations" : {
