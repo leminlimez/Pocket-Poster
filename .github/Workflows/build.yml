@@ -20,7 +20,7 @@ jobs:
     - name: Execute build script
       run: ./ipabuild.sh
 
-    - name: Upload IPA as an artifact
+    - name: Upload IPA as artifact
       uses: actions/upload-artifact@v4
       with:
         name: Pocket Poster IPA
