@@ -29,6 +29,7 @@ Community-made wallpapers can be found on the [official Cowabun.ga site][Cowabun
 - [PosterRestore][PosterRestoreDiscord] for their help with PosterBoard
 - [dootskyre][dootskyreX] for the fallback shortcut
 - [Nathan][NathanGitHub] and [DuyKhanhTran][DuyKhanhTranGitHub] for the exploit
+- [SerStars][SerStarsX] for creating the website
 
 [CowabungaWallpapersPage]: https://cowabun.ga/wallpapers
 [NuggetGitHub]: https://github.com/leminlimez/Nugget
@@ -39,3 +40,4 @@ Community-made wallpapers can be found on the [official Cowabun.ga site][Cowabun
 [dootskyreX]: https://x.com/dootskyre
 [NathanGitHub]: https://github.com/verygenericname
 [DuyKhanhTranGitHub]: https://github.com/khanhduytran0
+[SerStarsX]: https://x.com/SerStars
