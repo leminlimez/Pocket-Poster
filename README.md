@@ -1,5 +1,5 @@
 # Pocket Poster
-Custom PosterBoard animated wallpapers for iOS 17.0+
+Custom PosterBoard animated wallpapers for iOS 17.0 - 26.2 beta 2
 
 Community-made wallpapers can be found on the [official Cowabun.ga site](https://cowabun.ga/wallpapers). Join the [Cowabunga Discord Server](https://discord.gg/cowabunga) for additional help.
 
