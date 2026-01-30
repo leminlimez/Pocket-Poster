@@ -14,7 +14,7 @@
   </a>
 </div>
 
-## Getting started
+## Getting Started
 Since there is no way to read files currently, you will need a computer to get the App Hash/UUID.
 
 Download [Nugget][NuggetGitHub] on your computer and plug in your phone.
