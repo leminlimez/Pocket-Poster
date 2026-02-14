@@ -60,6 +60,8 @@ class PosterBoardManager: ObservableObject {
     
     private func unzipFile(at url: URL) throws -> URL {
         let fileName = url.deletingPathExtension().lastPathComponent
+        // Replace spaces and %20 with underscores
+        let normalizedFileName = fileName.replacingOccurrences(of: "[ \\%20]", with: "_", options: .regularExpression)
         let fileData = try Data(contentsOf: url)
         let fileManager = FileManager()
 
@@ -76,6 +78,7 @@ class PosterBoardManager: ObservableObject {
         {
             try FileManager.default.removeItem(at: fileUrl)
         }
+        let url = path.appending(path: normalizedFileName)
 
         // Save our Zip file
         try fileData.write(to: url, options: [.atomic])
