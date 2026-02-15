@@ -1,0 +1,27 @@
+name: Build Project
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: macos-15
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Make build script executable
+      run: chmod +x ./ipabuild.sh
+
+    - name: Execute build script
+      run: ./ipabuild.sh
+
+    - name: Upload IPA as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Pocket Poster IPA
+        path: build/Pocket Poster.ipaipa
